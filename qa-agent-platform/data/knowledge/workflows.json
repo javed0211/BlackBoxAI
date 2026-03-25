@@ -1,0 +1,296 @@
+[
+  {
+    "intent_match": "Navigate to https://pypi.org. Search for the 'google-adk' package. Open the official google-adk package page. Extract the 'Author' name and the 'Latest version' from the sidebar. Verify that the page contains a 'GitHub' link in the 'Project links' section.",
+    "start_url": "https://pypi.org",
+    "actions": [
+      {
+        "step_number": 1,
+        "action_type": "navigate",
+        "target_locator": "",
+        "input_value": "https://pypi.org",
+        "description": "Autonomously executed _open_url",
+        "success": true
+      },
+      {
+        "step_number": 2,
+        "action_type": "type",
+        "target_locator": "placeholder='Type '/' to search projects'",
+        "input_value": "google-adk",
+        "description": "Autonomously executed _type_text",
+        "success": true
+      },
+      {
+        "step_number": 3,
+        "action_type": "click",
+        "target_locator": "role='button'",
+        "input_value": "",
+        "description": "Autonomously executed _click_element",
+        "success": true
+      }
+    ]
+  },
+  {
+    "intent_match": "Head to https://www.amazon.co.uk. Search for 'MacBook Pro M4 Max'. Extract the price of the first non-sponsored result and name it targetPrice. Click on that result and navigate to its dedicated product page. Verify that the product title in the header contains 'Apple' and 'MacBook Pro'.",
+    "start_url": "https://www.amazon.co.uk",
+    "actions": [
+      {
+        "step_number": 1,
+        "action_type": "navigate",
+        "target_locator": "",
+        "input_value": "https://www.amazon.co.uk",
+        "description": "Autonomously executed _open_url",
+        "success": true
+      },
+      {
+        "step_number": 2,
+        "action_type": "click",
+        "target_locator": "label='Accept'",
+        "input_value": "",
+        "description": "Autonomously executed _click_element",
+        "success": true
+      },
+      {
+        "step_number": 3,
+        "action_type": "type",
+        "target_locator": "role='searchbox'",
+        "input_value": "MacBook Pro M4 Max",
+        "description": "Autonomously executed _type_text",
+        "success": true
+      },
+      {
+        "step_number": 4,
+        "action_type": "wait",
+        "target_locator": "",
+        "input_value": "",
+        "description": "Autonomously executed _press_key",
+        "success": true
+      },
+      {
+        "step_number": 5,
+        "action_type": "wait",
+        "target_locator": "",
+        "input_value": "",
+        "description": "Autonomously executed _scroll",
+        "success": true
+      },
+      {
+        "step_number": 6,
+        "action_type": "wait",
+        "target_locator": "",
+        "input_value": "",
+        "description": "Autonomously executed _scroll",
+        "success": true
+      },
+      {
+        "step_number": 7,
+        "action_type": "wait",
+        "target_locator": "",
+        "input_value": "",
+        "description": "Autonomously executed _scroll",
+        "success": true
+      },
+      {
+        "step_number": 8,
+        "action_type": "wait",
+        "target_locator": "",
+        "input_value": "",
+        "description": "Autonomously executed _scroll",
+        "success": true
+      },
+      {
+        "step_number": 9,
+        "action_type": "wait",
+        "target_locator": "",
+        "input_value": "",
+        "description": "Autonomously executed _scroll",
+        "success": true
+      }
+    ]
+  },
+  {
+    "intent_match": "Traverse to https://www.amazon.co.uk. Search for 'MacBook Pro M4 Max'. Extract the price of the first non-sponsored result and name it targetPrice. Click on that result and navigate to its dedicated product page. Verify that the product title in the header contains 'Apple' and 'MacBook Pro'.",
+    "start_url": "https://www.amazon.co.uk",
+    "actions": [
+      {
+        "step_number": 1,
+        "action_type": "navigate",
+        "target_locator": "",
+        "input_value": "https://www.amazon.co.uk",
+        "description": "Autonomously executed _open_url",
+        "success": true
+      },
+      {
+        "step_number": 2,
+        "action_type": "navigate",
+        "target_locator": "",
+        "input_value": "https://www.amazon.co.uk",
+        "description": "Autonomously executed _open_url",
+        "success": true
+      },
+      {
+        "step_number": 3,
+        "action_type": "click",
+        "target_locator": "label='Accept'",
+        "input_value": "",
+        "description": "Autonomously executed _click_element",
+        "success": true
+      },
+      {
+        "step_number": 4,
+        "action_type": "type",
+        "target_locator": "role='searchbox'",
+        "input_value": "MacBook Pro M4 Max",
+        "description": "Autonomously executed _type_text",
+        "success": true
+      },
+      {
+        "step_number": 5,
+        "action_type": "wait",
+        "target_locator": "",
+        "input_value": "",
+        "description": "Autonomously executed _press_key",
+        "success": true
+      },
+      {
+        "step_number": 6,
+        "action_type": "verify",
+        "target_locator": "text='Apple 2024 MacBook Pro Laptop with M4 Max chip with 14-core'",
+        "input_value": "",
+        "description": "Autonomously executed _assert_state",
+        "success": true
+      },
+      {
+        "step_number": 7,
+        "action_type": "verify",
+        "target_locator": "text='\u00a33,099.00'",
+        "input_value": "",
+        "description": "Autonomously executed _assert_state",
+        "success": true
+      },
+      {
+        "step_number": 8,
+        "action_type": "click",
+        "target_locator": "text='Apple 2024 MacBook Pro Laptop with M4 Max chip with 14-core'",
+        "input_value": "",
+        "description": "Autonomously executed _click_element",
+        "success": true
+      },
+      {
+        "step_number": 9,
+        "action_type": "verify",
+        "target_locator": "text='Apple 2024 MacBook Pro Laptop with M4 Max chip with 14-core'",
+        "input_value": "",
+        "description": "Autonomously executed _assert_state",
+        "success": true
+      },
+      {
+        "step_number": 10,
+        "action_type": "verify",
+        "target_locator": "text='Apple'",
+        "input_value": "",
+        "description": "Autonomously executed _assert_state",
+        "success": true
+      },
+      {
+        "step_number": 11,
+        "action_type": "verify",
+        "target_locator": "text='MacBook Pro'",
+        "input_value": "",
+        "description": "Autonomously executed _assert_state",
+        "success": true
+      }
+    ]
+  },
+  {
+    "intent_match": "Goto bupa.co.uk, Accept cookies, Click on get an insurance quote button, Check if page is navigated to Quote page, Fill details on form and click on next button, keep filing form until quote is generated",
+    "start_url": "https://www.bupa.co.uk",
+    "actions": [
+      {
+        "step_number": 1,
+        "action_type": "navigate",
+        "target_locator": "",
+        "input_value": "https://www.bupa.co.uk",
+        "description": "Autonomously executed _open_url",
+        "success": true
+      },
+      {
+        "step_number": 2,
+        "action_type": "click",
+        "target_locator": "role='button'",
+        "input_value": "",
+        "description": "Autonomously executed _click_element",
+        "success": true
+      },
+      {
+        "step_number": 3,
+        "action_type": "click",
+        "target_locator": "text='Get an insurance quote'",
+        "input_value": "",
+        "description": "Autonomously executed _click_element",
+        "success": true
+      },
+      {
+        "step_number": 4,
+        "action_type": "verify",
+        "target_locator": "text='quote'",
+        "input_value": "",
+        "description": "Autonomously executed _assert_state",
+        "success": true
+      },
+      {
+        "step_number": 5,
+        "action_type": "verify",
+        "target_locator": "text='insurance'",
+        "input_value": "",
+        "description": "Autonomously executed _assert_state",
+        "success": true
+      },
+      {
+        "step_number": 6,
+        "action_type": "verify",
+        "target_locator": "text='Bupa'",
+        "input_value": "",
+        "description": "Autonomously executed _assert_state",
+        "success": true
+      }
+    ]
+  },
+  {
+    "intent_match": "Goto bupa.co.uk, Accept cookies, Click on 'Get an insurance quote' button. If you see a loading screen or Cloudflare, wait for it to finish. Check if page is navigated to the Quote starting page. Fill details on form and click on next button, keep filing form until quote is generated.",
+    "start_url": "https://www.bupa.co.uk",
+    "actions": [
+      {
+        "step_number": 1,
+        "action_type": "navigate",
+        "target_locator": "",
+        "input_value": "https://www.bupa.co.uk",
+        "description": "Autonomously executed _open_url",
+        "success": true
+      },
+      {
+        "step_number": 2,
+        "action_type": "click",
+        "target_locator": "text='Accept cookies'",
+        "input_value": "",
+        "description": "Autonomously executed _click_element",
+        "success": true
+      },
+      {
+        "step_number": 3,
+        "action_type": "click",
+        "target_locator": "text='Get an insurance quote'",
+        "input_value": "",
+        "description": "Autonomously executed _click_element",
+        "success": true
+      },
+      {
+        "step_number": 4,
+        "action_type": "verify",
+        "target_locator": "text='Cloudflare'",
+        "input_value": "",
+        "description": "Autonomously executed _assert_state",
+        "success": true
+      }
+    ]
+  }
+]

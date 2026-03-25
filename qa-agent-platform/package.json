@@ -1,0 +1,13 @@
+{
+  "name": "qa-agent-platform-tests",
+  "version": "1.0.0",
+  "description": "Playwright tests for QA Agent Platform",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "latest",
+    "typescript": "latest"
+  }
+}

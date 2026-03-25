@@ -1,0 +1,13 @@
+qa-agent-platform/.venv/
+qa-agent-platform/*.log
+qa-agent-platform/data/artifacts/*.html
+qa-agent-platform/data/artifacts/*.spec.ts
+qa-agent-platform/data/artifacts/*.yml
+qa-agent-platform/data/artifacts/videos/*.webm
+qa-agent-platform/node_modules/
+qa-agent-platform/src/qa_agent/agents/orchestrator/__pycache__/
+qa-agent-platform/src/qa_agent/agents/qa/__pycache__/
+qa-agent-platform/src/qa_agent/cli/commands/__pycache__/
+qa-agent-platform/src/qa_agent/cli/commands/__pycache__/
+qa-agent-platform/src/qa_agent/graph/nodes/__pycache__/
+qa-agent-platform/src/qa_agent/tools/__pycache__/

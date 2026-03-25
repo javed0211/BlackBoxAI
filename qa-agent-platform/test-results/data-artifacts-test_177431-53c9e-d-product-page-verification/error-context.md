@@ -1,0 +1,2323 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - dialog "Select your cookie preferences" [ref=e3]:
+    - generic [ref=e4]:
+      - heading "Select your cookie preferences" [level=4] [ref=e5]
+      - paragraph [ref=e6]:
+        - text: We use cookies and similar tools that are necessary to enable you to make purchases, to enhance your shopping experiences and to provide our services, as detailed in our
+        - link "Cookie notice" [ref=e7] [cursor=pointer]:
+          - /url: /gp/help/customer/display.html/?nodeId=201890250
+        - text: . We also use these cookies to understand how customers use our services (for example, by measuring site visits) so we can make improvements.
+      - paragraph [ref=e8]:
+        - text: If you agree, we'll also use cookies to complement your shopping experience across the Amazon stores as described in our
+        - link "Cookie notice" [ref=e9] [cursor=pointer]:
+          - /url: /gp/help/customer/display.html/?nodeId=201890250
+        - text: . Your choice applies to using first-party and third-party advertising cookies on this service. Cookies store or access standard device information such as a unique identifier. The
+        - link "135 third parties" [ref=e10] [cursor=pointer]:
+          - /url: /privacyprefs/retail/partners
+        - text: who use cookies on this service do so for their purposes of displaying and measuring personalized ads, generating audience insights, and developing and improving products. Click "Decline" to reject, or "Customise" to make more detailed advertising choices, or learn more. You can change your choices at any time by visiting
+        - link "Cookie preferences" [ref=e11] [cursor=pointer]:
+          - /url: /cookieprefs?ref_=portal_banner_cpp
+        - text: ", as described in the Cookie notice. To learn more about how and for what purposes Amazon uses personal information (such as Amazon Store order history), please visit our"
+        - link "Privacy notice" [ref=e12] [cursor=pointer]:
+          - /url: /gp/help/customer/display.html?nodeId=201909010
+        - text: .
+    - generic [ref=e14]:
+      - generic [ref=e17] [cursor=pointer]:
+        - button "Accept" [ref=e18]
+        - generic [ref=e19]: Accept
+      - generic [ref=e22] [cursor=pointer]:
+        - button "Decline" [ref=e23]
+        - generic [ref=e24]: Decline
+      - link "Customise" [ref=e26] [cursor=pointer]:
+        - /url: /privacyprefs/retail?ref_=portal_banner_cpp
+  - navigation "Shortcuts menu" [ref=e27]:
+    - heading "Skip to" [level=2] [ref=e28]
+    - list "Skip to" [ref=e29]:
+      - listitem [ref=e30]:
+        - link "main content" [ref=e31] [cursor=pointer]:
+          - /url: "#skippedLink"
+          - text: Main content
+      - listitem [ref=e32]:
+        - link "Results" [ref=e33] [cursor=pointer]:
+          - /url: .s-asin a:has(h2)
+    - separator [ref=e34]
+    - heading "Keyboard shortcuts" [level=2] [ref=e35]
+    - list "Keyboard shortcuts" [ref=e36]:
+      - listitem [ref=e37]:
+        - link "Search, option, forward slash" [ref=e38] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e39]:
+            - generic [ref=e40]: Search
+            - generic [ref=e41]:
+              - generic [ref=e42]: opt
+              - generic [ref=e43]: +
+              - generic [ref=e44]: /
+      - listitem [ref=e45]:
+        - link "Basket shift, option, c" [ref=e46] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e47]:
+            - generic [ref=e48]: Basket
+            - generic [ref=e49]:
+              - generic [ref=e50]: shift
+              - generic [ref=e51]: +
+              - generic [ref=e52]: opt
+              - generic [ref=e53]: +
+              - generic [ref=e54]: C
+      - listitem [ref=e55]:
+        - link "Home, shift, option, h" [ref=e56] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e57]:
+            - generic [ref=e58]: Home
+            - generic [ref=e59]:
+              - generic [ref=e60]: shift
+              - generic [ref=e61]: +
+              - generic [ref=e62]: opt
+              - generic [ref=e63]: +
+              - generic [ref=e64]: H
+      - listitem [ref=e65]:
+        - link "Your orders, shift, option, o" [ref=e66] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e67]:
+            - generic [ref=e68]: Orders
+            - generic [ref=e69]:
+              - generic [ref=e70]: shift
+              - generic [ref=e71]: +
+              - generic [ref=e72]: opt
+              - generic [ref=e73]: +
+              - generic [ref=e74]: O
+      - listitem [ref=e75]:
+        - button "Show/hide shortcuts, shift, option, z" [ref=e76] [cursor=pointer]:
+          - generic [ref=e77]:
+            - generic [ref=e78]: Show/Hide shortcuts
+            - generic [ref=e79]:
+              - generic [ref=e80]: shift
+              - generic [ref=e81]: +
+              - generic [ref=e82]: opt
+              - generic [ref=e83]: +
+              - generic [ref=e84]: Z
+    - generic [ref=e90]: To move between items, use your keyboard's up or down arrows.
+  - banner [ref=e91]:
+    - navigation "Primary" [ref=e92]:
+      - generic [ref=e93]:
+        - generic [ref=e94]:
+          - link "Amazon.co.uk" [ref=e96] [cursor=pointer]:
+            - /url: /ref=nav_logo
+            - generic: .co.uk
+          - button "Delivering to Tower Ham... E14 Update location" [ref=e99] [cursor=pointer]:
+            - generic [ref=e101]:
+              - generic [ref=e102]: Delivering to Tower Ham... E14
+              - generic [ref=e103]: Update location
+        - search [ref=e106]:
+          - generic [ref=e109]:
+            - generic [ref=e111]: All
+            - combobox "Select the department you want to search in" [ref=e113] [cursor=pointer]:
+              - option "All Departments" [selected]
+              - option "Alexa Skills"
+              - option "Amazon Devices"
+              - option "Amazon Fresh"
+              - option "Amazon Global Store"
+              - option "Amazon Haul"
+              - option "Amazon Resale"
+              - option "Apps & Games"
+              - option "Audible Audiobooks"
+              - option "Baby"
+              - option "Beauty"
+              - option "Books"
+              - option "Car & Motorbike"
+              - option "CDs & Vinyl"
+              - option "Classical Music"
+              - option "Computers & Accessories"
+              - option "Deals"
+              - option "Digital Music"
+              - option "DIY & Tools"
+              - option "DVD & Blu-ray"
+              - option "Electronics & Photo"
+              - option "Fashion"
+              - option "Women's Clothing, Shoes and Jewellery"
+              - option "Men's Clothing, Shoes and Jewellery"
+              - option "Girl's Clothing, Shoes and Jewellery"
+              - option "Boy's Clothing, Shoes and Jewellery"
+              - option "Baby Clothing, Shoes & Jewellery"
+              - option "Garden & Outdoors"
+              - option "Gift Cards"
+              - option "Gopuff"
+              - option "Grocery"
+              - option "Handmade"
+              - option "Health & Personal Care"
+              - option "Home & Business Services"
+              - option "Home & Kitchen"
+              - option "Iceland"
+              - option "Industrial & Scientific"
+              - option "Kindle Store"
+              - option "Large Appliances"
+              - option "Lighting"
+              - option "Luggage and travel gear"
+              - option "Luxury Stores"
+              - option "Morrisons"
+              - option "Musical Instruments & DJ Equipment"
+              - option "PC & Video Games"
+              - option "Pet Supplies"
+              - option "Premium Beauty"
+              - option "Prime Video"
+              - option "Software"
+              - option "Sports & Outdoors"
+              - option "Stationery & Office Supplies"
+              - option "Subscribe & Save"
+              - option "Toys & Games"
+          - searchbox "Search Amazon.co.uk" [ref=e116]: MacBook Pro M4 Max
+          - generic "Go" [ref=e119] [cursor=pointer]:
+            - button "Go" [ref=e120]
+        - generic [ref=e122]:
+          - generic [ref=e123]:
+            - link "Choose a language for shopping in Amazon United Kingdom. The current selection is English (EN)." [ref=e124] [cursor=pointer]:
+              - /url: /customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=topnav_lang
+              - img "United Kingdom" [ref=e128]
+            - button "Expand to Change Language or Country" [ref=e129] [cursor=pointer]
+          - generic [ref=e130]:
+            - link "Hello, sign in Account & Lists" [ref=e131] [cursor=pointer]:
+              - /url: https://www.amazon.co.uk/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.co.uk%2Fs%3Fk%3DMacBook%2BPro%2BM4%2BMax%26ref%3Dnav_ya_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=gbflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+              - generic [ref=e133]: Hello, sign in
+              - generic [ref=e134]: Account & Lists
+            - button "Expand Account and Lists" [ref=e135] [cursor=pointer]
+          - link "Returns & Orders" [ref=e136] [cursor=pointer]:
+            - /url: /gp/css/order-history?ref_=nav_orders_first
+            - generic [ref=e137]: Returns
+            - generic [ref=e138]: "& Orders"
+          - link "0 items in shopping basket" [ref=e139] [cursor=pointer]:
+            - /url: /gp/cart/view.html?ref_=nav_cart
+            - generic [ref=e141]: "0"
+            - generic [ref=e144]: Basket
+      - generic [ref=e145]:
+        - button "Open All Categories Menu" [ref=e147] [cursor=pointer]:
+          - generic [ref=e149]: All
+        - list [ref=e153]:
+          - listitem [ref=e154]:
+            - link "Amazon Haul" [ref=e156] [cursor=pointer]:
+              - /url: /haul/store?ref_=nav_cs_hul_disb
+          - listitem [ref=e157]:
+            - generic [ref=e158]:
+              - link "Grocery" [ref=e159] [cursor=pointer]:
+                - /url: /fmc/learn-more?ref_=nav_cs_groceries
+              - button "Grocery Details" [ref=e160] [cursor=pointer]
+          - listitem [ref=e161]:
+            - link "Best Sellers" [ref=e163] [cursor=pointer]:
+              - /url: /gp/bestsellers/?ref_=nav_cs_bestsellers
+          - listitem [ref=e164]:
+            - link "New Releases" [ref=e166] [cursor=pointer]:
+              - /url: /gp/new-releases/?ref_=nav_cs_newreleases
+          - listitem [ref=e167]:
+            - link "Amazon Basics" [ref=e169] [cursor=pointer]:
+              - /url: /stores/page/5D96C4AA-F0F4-415F-90A4-B202C6B03A17?field-lbr_brands_browse-bin=AmazonBasics&ref_=nav_cs_amazonbasics
+          - listitem [ref=e170]:
+            - link "Today's Deals" [ref=e172] [cursor=pointer]:
+              - /url: /deals?ref_=nav_cs_gb
+          - listitem [ref=e173]:
+            - link "Fashion" [ref=e175] [cursor=pointer]:
+              - /url: /gp/browse.html?node=11961407031&ref_=nav_cs_fashion
+          - listitem [ref=e176]:
+            - link "Books" [ref=e178] [cursor=pointer]:
+              - /url: /books-used-books-textbooks/b/?ie=UTF8&node=266239&ref_=nav_cs_books
+          - listitem [ref=e179]:
+            - link "Home & Garden" [ref=e181] [cursor=pointer]:
+              - /url: /home-and-garden-store/b/?ie=UTF8&node=11052591&ref_=nav_cs_home_garden
+          - listitem [ref=e182]:
+            - generic [ref=e183]:
+              - link "Gift Cards & Top Up" [ref=e184] [cursor=pointer]:
+                - /url: /Amazon-Gift-Voucher-Greeting-Card-Birthday-Christmas-Top-Up/b/?ie=UTF8&node=1571304031&ref_=nav_cs_gc
+              - button "Gift Cards & Top Up Details" [ref=e185] [cursor=pointer]
+          - listitem [ref=e186]:
+            - link "Prime Video" [ref=e188] [cursor=pointer]:
+              - /url: /gp/video/storefront?ref_=nav_cs_prime_video
+          - listitem [ref=e189]:
+            - generic [ref=e190]:
+              - link "Prime" [ref=e191] [cursor=pointer]:
+                - /url: /prime?ref_=nav_cs_primelink_nonmember
+              - button "Prime Details" [ref=e192] [cursor=pointer]
+          - listitem [ref=e193]:
+            - link "Electronics" [ref=e195] [cursor=pointer]:
+              - /url: /electronics-camera-mp3-ipod-tv/b/?ie=UTF8&node=560798&ref_=nav_cs_electronics
+          - listitem [ref=e196]:
+            - link "Toys & Games" [ref=e198] [cursor=pointer]:
+              - /url: /toys/b/?ie=UTF8&node=468292&ref_=nav_cs_toys
+          - listitem [ref=e199]:
+            - link "Beauty" [ref=e201] [cursor=pointer]:
+              - /url: /beauty-cosmetics/b/?ie=UTF8&node=117332031&ref_=nav_cs_beauty
+          - listitem [ref=e202]:
+            - link "Sell on Amazon" [ref=e204] [cursor=pointer]:
+              - /url: /b/?_encoding=UTF8&ld=AZUKGNOSellC&node=2374298031&ref_=nav_cs_sell
+          - listitem [ref=e205]:
+            - link "Health & Personal Care" [ref=e207] [cursor=pointer]:
+              - /url: /health-beauty-haircare-wellbeing-dentalcare-shaving-hairremoval/b/?ie=UTF8&node=65801031&ref_=nav_cs_hpc
+          - listitem [ref=e208]:
+            - link "PC & Video Games" [ref=e210] [cursor=pointer]:
+              - /url: /PC-Video-Games-Consoles-Accessories/b/?ie=UTF8&node=300703&ref_=nav_cs_video_games
+          - listitem [ref=e211]:
+            - link "PC" [ref=e213] [cursor=pointer]:
+              - /url: /computers-accessories/b/?ie=UTF8&node=340831031&ref_=nav_cs_pc
+          - listitem [ref=e214]:
+            - link "Pet Supplies" [ref=e216] [cursor=pointer]:
+              - /url: /Pet-Supplies-Food-Animals/b/?ie=UTF8&node=340840031&ref_=nav_cs_pets
+          - listitem [ref=e217]:
+            - link "Shopper Toolkit" [ref=e219] [cursor=pointer]:
+              - /url: /b/?node=15418328031&ref_=nav_cs_shoppertoolkit
+          - listitem [ref=e220]:
+            - link "Car & Motorbike" [ref=e222] [cursor=pointer]:
+              - /url: /Car-Motorbike-Accessories-Parts/b/?ie=UTF8&node=248877031&ref_=nav_cs_automotive
+          - listitem [ref=e223]:
+            - link "Baby" [ref=e225] [cursor=pointer]:
+              - /url: /Baby-Car-Seats-Prams-Nursery/b/?ie=UTF8&node=59624031&ref_=nav_cs_baby
+          - listitem [ref=e226]:
+            - link "Subscribe & Save" [ref=e228] [cursor=pointer]:
+              - /url: /auto-deliveries/landing?ref_=nav_cs_sns
+          - listitem [ref=e229]:
+            - link "Music" [ref=e231] [cursor=pointer]:
+              - /url: /music/player?ref_=nav_cs_music
+          - listitem [ref=e232]:
+            - link "Kindle Books" [ref=e234] [cursor=pointer]:
+              - /url: /Kindle-eBooks-books/b/?ie=UTF8&node=341689031&ref_=nav_cs_kindle_books
+          - listitem [ref=e235]:
+            - link "Everyday" [ref=e237] [cursor=pointer]:
+              - /url: /fmc/everyday-essentials?ref_=nav_cs_ee
+          - listitem [ref=e238]:
+            - link "Custom Products" [ref=e240] [cursor=pointer]:
+              - /url: /Amazon-Custom/b/?ie=UTF8&node=14578036031&ref_=nav_cs_custom
+          - listitem [ref=e241]:
+            - link "Audible" [ref=e243] [cursor=pointer]:
+              - /url: /Audible-Books-and-Originals/b/?ie=UTF8&node=17941707031&ref_=nav_cs_audible
+          - listitem [ref=e244]:
+            - link "Sports & Outdoors" [ref=e246] [cursor=pointer]:
+              - /url: /gp/browse.html?node=84908660031&ref_=nav_cs_sports
+      - list [ref=e251]:
+        - listitem [ref=e252]:
+          - link "Amazon.co.uk" [ref=e254] [cursor=pointer]:
+            - /url: /b/?ie=UTF8&node=468294&ref_=topnav_storetab_uk
+        - listitem [ref=e255]:
+          - link "Today's Deals" [ref=e257] [cursor=pointer]:
+            - /url: /gp/deals/?ie=UTF8&ref_=sv_uk_1
+        - listitem [ref=e258]:
+          - link "Resale" [ref=e260] [cursor=pointer]:
+            - /url: /Warehouse-Deals/b/?ie=UTF8&node=304071031&ref_=sv_uk_2
+        - listitem [ref=e261]:
+          - link "Outlet" [ref=e263] [cursor=pointer]:
+            - /url: /Amazon-Outlet/b/?ie=UTF8&node=3012216031&ref_=sv_uk_3
+        - listitem [ref=e264]:
+          - link "Subscribe & Save" [ref=e266] [cursor=pointer]:
+            - /url: /Subscribe-Save-Health-Beauty-Grocery/b/?ie=UTF8&node=423139031&ref_=sv_uk_4
+        - listitem [ref=e267]:
+          - link "Vouchers" [ref=e269] [cursor=pointer]:
+            - /url: /b/?ie=UTF8&node=5522783031&ref_=sv_uk_5
+        - listitem [ref=e270]:
+          - link "Amazon Prime" [ref=e272] [cursor=pointer]:
+            - /url: /gp/subs/primeclub/signup/main.html/?ie=UTF8&ref_=sv_uk_6
+        - listitem [ref=e273]:
+          - link "Prime Video" [ref=e275] [cursor=pointer]:
+            - /url: /Amazon-Video/b/?ie=UTF8&node=3010085031&ref_=sv_uk_7
+        - listitem [ref=e276]:
+          - link "Prime Student" [ref=e278] [cursor=pointer]:
+            - /url: /gp/student/signup/info/?ie=UTF8&ref_=sv_uk_8
+        - listitem [ref=e279]:
+          - link "Mobile Apps" [ref=e281] [cursor=pointer]:
+            - /url: /Amazon-App/b/?ie=UTF8&node=4816518031&ref_=sv_uk_9
+        - listitem [ref=e282]:
+          - link "Amazon Pickup Locations" [ref=e284] [cursor=pointer]:
+            - /url: /b/?ie=UTF8&node=5394826031&ref_=sv_uk_10
+      - dialog [ref=e285]
+  - generic [ref=e287]:
+    - 'heading "1-16 of 384 results for \"MacBook Pro M4 Max\" Sort by: Featured" [level=1] [ref=e290]':
+      - generic [ref=e291]:
+        - heading "1-16 of 384 results for \"MacBook Pro M4 Max\"" [level=2] [ref=e296]
+        - generic [ref=e301]:
+          - generic [ref=e302]: "Sort by:"
+          - combobox "Sort by:" [ref=e303]:
+            - option "Featured" [selected]
+            - 'option "Price: Low to high"'
+            - 'option "Price: High to low"'
+            - option "Avg. Customer review"
+            - option "Newest arrivals"
+            - option "Best Sellers"
+          - generic [ref=e306] [cursor=pointer]: Sort by:Featured
+    - generic [ref=e308]:
+      - generic [ref=e310]:
+        - generic [ref=e312]:
+          - generic [ref=e314]:
+            - generic [ref=e317]:
+              - heading "Results" [level=2] [ref=e318]
+              - generic [ref=e319]: Check each product page for other buying options.
+            - generic:
+              - list:
+                - listitem [ref=e320]:
+                  - generic [ref=e326]:
+                    - generic [ref=e328]:
+                      - generic "Amazon's Choice" [ref=e331]:
+                        - group "Amazon's Choice for \"MacBook Pro M4 Max\"" [ref=e334]:
+                          - generic [ref=e336]: Amazon's Choice
+                      - link [ref=e340] [cursor=pointer]:
+                        - /url: /Apple-MacBook-Laptop-14-core-32-core/dp/B0DLHTJZ4X/ref=sr_1_1?dib=eyJ2IjoiMSJ9.EXkLxpKHofoNFP6YKBzRSLtwQagMuNSp34cAi0pCXT64hym4h9bIu6JASnB_H9FJ5uhm1UWAqyReRftpv69SpMY-iCyjbyrVVEn_Yxf2FE9HJg2Oi3xMTm-eB1KwjYogsoWEbhwLTiqxmMJkn1ZBSX3BdQwMjx5LJ64AM84JIm44iNYUwPbrubXCe6xBMeiBUOuLWY33Qnjitxp9S8LhdzG4AYxb8kH4H30SQ8ovu6k.hZ3gOfd12sq_8bRoTaPE5bUuT3cZg3RDblmLBGeegF8&dib_tag=se&keywords=MacBook+Pro+M4+Max&qid=1774391079&sr=8-1
+                        - img [ref=e342]
+                    - generic [ref=e345]:
+                      - 'link "Apple 2024 MacBook Pro Laptop with M4 Max chip with 14-core CPU and 32-core GPU: Built for Apple Intelligence, 14.2-inch Liquid Retina XDR Display, 36GB Unified Memory, 1TB SSD Storage; Space Black" [ref=e347] [cursor=pointer]':
+                        - /url: /Apple-MacBook-Laptop-14-core-32-core/dp/B0DLHTJZ4X/ref=sr_1_1?dib=eyJ2IjoiMSJ9.EXkLxpKHofoNFP6YKBzRSLtwQagMuNSp34cAi0pCXT64hym4h9bIu6JASnB_H9FJ5uhm1UWAqyReRftpv69SpMY-iCyjbyrVVEn_Yxf2FE9HJg2Oi3xMTm-eB1KwjYogsoWEbhwLTiqxmMJkn1ZBSX3BdQwMjx5LJ64AM84JIm44iNYUwPbrubXCe6xBMeiBUOuLWY33Qnjitxp9S8LhdzG4AYxb8kH4H30SQ8ovu6k.hZ3gOfd12sq_8bRoTaPE5bUuT3cZg3RDblmLBGeegF8&dib_tag=se&keywords=MacBook+Pro+M4+Max&qid=1774391079&sr=8-1
+                        - 'heading "Apple 2024 MacBook Pro Laptop with M4 Max chip with 14-core CPU and 32-core GPU: Built for Apple Intelligence, 14.2-inch Liquid Retina XDR Display, 36GB Unified Memory, 1TB SSD Storage; Space Black" [level=2] [ref=e348]'
+                      - generic [ref=e351]:
+                        - generic [ref=e352]: "Options:"
+                        - 'link "Options: 2 capacities" [ref=e353] [cursor=pointer]':
+                          - /url: /Apple-MacBook-Laptop-14-core-32-core/dp/B0DLHTJZ4X/ref=vo_sr_l_dp?dib=eyJ2IjoiMSJ9.EXkLxpKHofoNFP6YKBzRSLtwQagMuNSp34cAi0pCXT64hym4h9bIu6JASnB_H9FJ5uhm1UWAqyReRftpv69SpMY-iCyjbyrVVEn_Yxf2FE9HJg2Oi3xMTm-eB1KwjYogsoWEbhwLTiqxmMJkn1ZBSX3BdQwMjx5LJ64AM84JIm44iNYUwPbrubXCe6xBMeiBUOuLWY33Qnjitxp9S8LhdzG4AYxb8kH4H30SQ8ovu6k.hZ3gOfd12sq_8bRoTaPE5bUuT3cZg3RDblmLBGeegF8&dib_tag=se&keywords=MacBook+Pro+M4+Max&qid=1774391079&sr=8-1
+                          - generic [ref=e354]:
+                            - generic [ref=e355]: 2 capacities
+                            - generic [ref=e356]: 2 capacities
+                      - generic [ref=e358]:
+                        - text: "4.3"
+                        - button "4.3 out of 5 stars, rating details" [ref=e360] [cursor=pointer]:
+                          - generic [ref=e362]: 4.3 out of 5 stars
+                        - link "17 ratings" [ref=e364] [cursor=pointer]:
+                          - /url: /Apple-MacBook-Laptop-14-core-32-core/dp/B0DLHTJZ4X/ref=sr_1_1?dib=eyJ2IjoiMSJ9.EXkLxpKHofoNFP6YKBzRSLtwQagMuNSp34cAi0pCXT64hym4h9bIu6JASnB_H9FJ5uhm1UWAqyReRftpv69SpMY-iCyjbyrVVEn_Yxf2FE9HJg2Oi3xMTm-eB1KwjYogsoWEbhwLTiqxmMJkn1ZBSX3BdQwMjx5LJ64AM84JIm44iNYUwPbrubXCe6xBMeiBUOuLWY33Qnjitxp9S8LhdzG4AYxb8kH4H30SQ8ovu6k.hZ3gOfd12sq_8bRoTaPE5bUuT3cZg3RDblmLBGeegF8&dib_tag=se&keywords=MacBook+Pro+M4+Max&qid=1774391079&sr=8-1#customerReviews
+                          - text: (17)
+                      - generic [ref=e365]:
+                        - generic [ref=e367]:
+                          - generic [ref=e370]:
+                            - generic [ref=e371]: Price, product page
+                            - link "£3,099.00" [ref=e372] [cursor=pointer]:
+                              - /url: /Apple-MacBook-Laptop-14-core-32-core/dp/B0DLHTJZ4X/ref=sr_1_1?dib=eyJ2IjoiMSJ9.EXkLxpKHofoNFP6YKBzRSLtwQagMuNSp34cAi0pCXT64hym4h9bIu6JASnB_H9FJ5uhm1UWAqyReRftpv69SpMY-iCyjbyrVVEn_Yxf2FE9HJg2Oi3xMTm-eB1KwjYogsoWEbhwLTiqxmMJkn1ZBSX3BdQwMjx5LJ64AM84JIm44iNYUwPbrubXCe6xBMeiBUOuLWY33Qnjitxp9S8LhdzG4AYxb8kH4H30SQ8ovu6k.hZ3gOfd12sq_8bRoTaPE5bUuT3cZg3RDblmLBGeegF8&dib_tag=se&keywords=MacBook+Pro+M4+Max&qid=1774391079&sr=8-1
+                              - generic [ref=e373]:
+                                - generic [ref=e374]: £3,099.00
+                                - generic [ref=e375]:
+                                  - text: £
+                                  - generic [ref=e376]:
+                                    - text: 3,099
+                                    - generic [ref=e377]: .
+                                  - text: "00"
+                          - generic [ref=e378]:
+                            - generic [ref=e380]:
+                              - generic [ref=e384]: FREE delivery Sat 28 Mar
+                              - generic [ref=e386]: Or fastest delivery Thu 26 Mar
+                            - generic "Only 12 left in stock." [ref=e388]
+                          - button "Add to basket" [ref=e402] [cursor=pointer]
+                        - generic [ref=e406]:
+                          - generic [ref=e408]:
+                            - text: Display Size
+                            - text: 14.2 inches
+                          - generic [ref=e410]:
+                            - text: Hard disk description
+                            - text: SSD
+                          - generic [ref=e412]:
+                            - text: CPU Model Speed
+                            - text: "0.01"
+                          - generic [ref=e414]:
+                            - text: Memory Size
+                            - text: "-"
+                - listitem [ref=e415]:
+                  - generic [ref=e421]:
+                    - link [ref=e427] [cursor=pointer]:
+                      - /url: /Apple-MacBook-Laptop-14-core-32-core/dp/B0DLHQGS3R/ref=sr_1_2?dib=eyJ2IjoiMSJ9.EXkLxpKHofoNFP6YKBzRSLtwQagMuNSp34cAi0pCXT64hym4h9bIu6JASnB_H9FJ5uhm1UWAqyReRftpv69SpMY-iCyjbyrVVEn_Yxf2FE9HJg2Oi3xMTm-eB1KwjYogsoWEbhwLTiqxmMJkn1ZBSX3BdQwMjx5LJ64AM84JIm44iNYUwPbrubXCe6xBMeiBUOuLWY33Qnjitxp9S8LhdzG4AYxb8kH4H30SQ8ovu6k.hZ3gOfd12sq_8bRoTaPE5bUuT3cZg3RDblmLBGeegF8&dib_tag=se&keywords=MacBook+Pro+M4+Max&qid=1774391079&sr=8-2
+                      - img [ref=e429]
+                    - generic [ref=e432]:
+                      - 'link "Apple 2024 MacBook Pro Laptop with M4 Max chip with 14-core CPU and 32-core GPU: Built for Apple Intelligence, 16.2-inch Liquid Retina XDR Display, 36GB Unified Memory, 1TB SSD Storage; Space Black" [ref=e434] [cursor=pointer]':
+                        - /url: /Apple-MacBook-Laptop-14-core-32-core/dp/B0DLHQGS3R/ref=sr_1_2?dib=eyJ2IjoiMSJ9.EXkLxpKHofoNFP6YKBzRSLtwQagMuNSp34cAi0pCXT64hym4h9bIu6JASnB_H9FJ5uhm1UWAqyReRftpv69SpMY-iCyjbyrVVEn_Yxf2FE9HJg2Oi3xMTm-eB1KwjYogsoWEbhwLTiqxmMJkn1ZBSX3BdQwMjx5LJ64AM84JIm44iNYUwPbrubXCe6xBMeiBUOuLWY33Qnjitxp9S8LhdzG4AYxb8kH4H30SQ8ovu6k.hZ3gOfd12sq_8bRoTaPE5bUuT3cZg3RDblmLBGeegF8&dib_tag=se&keywords=MacBook+Pro+M4+Max&qid=1774391079&sr=8-2
+                        - 'heading "Apple 2024 MacBook Pro Laptop with M4 Max chip with 14-core CPU and 32-core GPU: Built for Apple Intelligence, 16.2-inch Liquid Retina XDR Display, 36GB Unified Memory, 1TB SSD Storage; Space Black" [level=2] [ref=e435]'
+                      - generic [ref=e438]:
+                        - generic [ref=e439]: "Options:"
+                        - 'link "Options: 3 capacities" [ref=e440] [cursor=pointer]':
+                          - /url: /Apple-MacBook-Laptop-14-core-32-core/dp/B0DLHQGS3R/ref=vo_sr_l_dp?dib=eyJ2IjoiMSJ9.EXkLxpKHofoNFP6YKBzRSLtwQagMuNSp34cAi0pCXT64hym4h9bIu6JASnB_H9FJ5uhm1UWAqyReRftpv69SpMY-iCyjbyrVVEn_Yxf2FE9HJg2Oi3xMTm-eB1KwjYogsoWEbhwLTiqxmMJkn1ZBSX3BdQwMjx5LJ64AM84JIm44iNYUwPbrubXCe6xBMeiBUOuLWY33Qnjitxp9S8LhdzG4AYxb8kH4H30SQ8ovu6k.hZ3gOfd12sq_8bRoTaPE5bUuT3cZg3RDblmLBGeegF8&dib_tag=se&keywords=MacBook+Pro+M4+Max&qid=1774391079&sr=8-2
+                          - generic [ref=e441]:
+                            - generic [ref=e442]: 3 capacities
+                            - generic [ref=e443]: 3 capacities
+                      - generic [ref=e445]:
+                        - text: "4.8"
+                        - button "4.8 out of 5 stars, rating details" [ref=e447] [cursor=pointer]:
+                          - generic [ref=e449]: 4.8 out of 5 stars
+                        - link "13 ratings" [ref=e451] [cursor=pointer]:
+                          - /url: /Apple-MacBook-Laptop-14-core-32-core/dp/B0DLHQGS3R/ref=sr_1_2?dib=eyJ2IjoiMSJ9.EXkLxpKHofoNFP6YKBzRSLtwQagMuNSp34cAi0pCXT64hym4h9bIu6JASnB_H9FJ5uhm1UWAqyReRftpv69SpMY-iCyjbyrVVEn_Yxf2FE9HJg2Oi3xMTm-eB1KwjYogsoWEbhwLTiqxmMJkn1ZBSX3BdQwMjx5LJ64AM84JIm44iNYUwPbrubXCe6xBMeiBUOuLWY33Qnjitxp9S8LhdzG4AYxb8kH4H30SQ8ovu6k.hZ3gOfd12sq_8bRoTaPE5bUuT3cZg3RDblmLBGeegF8&dib_tag=se&keywords=MacBook+Pro+M4+Max&qid=1774391079&sr=8-2#customerReviews
+                          - text: (13)
+                      - generic [ref=e452]:
+                        - generic [ref=e454]:
+                          - generic [ref=e457]:
+                            - generic [ref=e458]: Price, product page
+                            - link "£3,399.00" [ref=e459] [cursor=pointer]:
+                              - /url: /Apple-MacBook-Laptop-14-core-32-core/dp/B0DLHQGS3R/ref=sr_1_2?dib=eyJ2IjoiMSJ9.EXkLxpKHofoNFP6YKBzRSLtwQagMuNSp34cAi0pCXT64hym4h9bIu6JASnB_H9FJ5uhm1UWAqyReRftpv69SpMY-iCyjbyrVVEn_Yxf2FE9HJg2Oi3xMTm-eB1KwjYogsoWEbhwLTiqxmMJkn1ZBSX3BdQwMjx5LJ64AM84JIm44iNYUwPbrubXCe6xBMeiBUOuLWY33Qnjitxp9S8LhdzG4AYxb8kH4H30SQ8ovu6k.hZ3gOfd12sq_8bRoTaPE5bUuT3cZg3RDblmLBGeegF8&dib_tag=se&keywords=MacBook+Pro+M4+Max&qid=1774391079&sr=8-2
+                              - generic [ref=e460]:
+                                - generic [ref=e461]: £3,399.00
+                                - generic [ref=e462]:
+                                  - text: £
+                                  - generic [ref=e463]:
+                                    - text: 3,399
+                                    - generic [ref=e464]: .
+                                  - text: "00"
+                          - generic [ref=e465]:
+                            - generic [ref=e467]:
+                              - generic [ref=e471]: FREE delivery Sat 28 Mar
+                              - generic [ref=e473]: Or fastest delivery Fri 27 Mar
+                            - generic "Only 1 left in stock." [ref=e475]
+                          - link "See options" [ref=e481] [cursor=pointer]:
+                            - /url: /Apple-MacBook-Laptop-14-core-32-core/dp/B0DLHQGS3R/ref=sr_1_2_so_NOTEBOOK_COMPUTER?dib=eyJ2IjoiMSJ9.EXkLxpKHofoNFP6YKBzRSLtwQagMuNSp34cAi0pCXT64hym4h9bIu6JASnB_H9FJ5uhm1UWAqyReRftpv69SpMY-iCyjbyrVVEn_Yxf2FE9HJg2Oi3xMTm-eB1KwjYogsoWEbhwLTiqxmMJkn1ZBSX3BdQwMjx5LJ64AM84JIm44iNYUwPbrubXCe6xBMeiBUOuLWY33Qnjitxp9S8LhdzG4AYxb8kH4H30SQ8ovu6k.hZ3gOfd12sq_8bRoTaPE5bUuT3cZg3RDblmLBGeegF8&dib_tag=se&keywords=MacBook+Pro+M4+Max&qid=1774391079&sr=8-2
+                          - group "colours available" [ref=e483]:
+                            - list [ref=e484]:
+                              - generic [ref=e485]:
+                                - listitem:
+                                  - link "Space Black":
+                                    - /url: /Apple-MacBook-Laptop-14-core-32-core/dp/B0DLHQGS3R/ref=cs_sr_dp_1?dib=eyJ2IjoiMSJ9.EXkLxpKHofoNFP6YKBzRSLtwQagMuNSp34cAi0pCXT64hym4h9bIu6JASnB_H9FJ5uhm1UWAqyReRftpv69SpMY-iCyjbyrVVEn_Yxf2FE9HJg2Oi3xMTm-eB1KwjYogsoWEbhwLTiqxmMJkn1ZBSX3BdQwMjx5LJ64AM84JIm44iNYUwPbrubXCe6xBMeiBUOuLWY33Qnjitxp9S8LhdzG4AYxb8kH4H30SQ8ovu6k.hZ3gOfd12sq_8bRoTaPE5bUuT3cZg3RDblmLBGeegF8&dib_tag=se&keywords=MacBook+Pro+M4+Max&qid=1774391079&sr=8-2
+                              - generic [ref=e488]:
+                                - listitem:
+                                  - link "Silver":
+                                    - /url: /Apple-MacBook-Laptop-14-core-32-core/dp/B0DLHTJNHF/ref=cs_sr_dp_2?dib=eyJ2IjoiMSJ9.EXkLxpKHofoNFP6YKBzRSLtwQagMuNSp34cAi0pCXT64hym4h9bIu6JASnB_H9FJ5uhm1UWAqyReRftpv69SpMY-iCyjbyrVVEn_Yxf2FE9HJg2Oi3xMTm-eB1KwjYogsoWEbhwLTiqxmMJkn1ZBSX3BdQwMjx5LJ64AM84JIm44iNYUwPbrubXCe6xBMeiBUOuLWY33Qnjitxp9S8LhdzG4AYxb8kH4H30SQ8ovu6k.hZ3gOfd12sq_8bRoTaPE5bUuT3cZg3RDblmLBGeegF8&dib_tag=se&keywords=MacBook+Pro+M4+Max&qid=1774391079&sr=8-2
+                        - generic [ref=e494]:
+                          - generic [ref=e496]:
+                            - text: Display Size
+                            - text: 16.2 inches
+                          - generic [ref=e498]:
+                            - text: Hard disk description
+                            - text: SSD
+                          - generic [ref=e500]:
+                            - text: CPU Model Speed
+                            - text: "0.01"
+                          - generic [ref=e502]:
+                            - text: Memory Size
+                            - text: "-"
+                - listitem [ref=e503]:
+                  - generic [ref=e509]:
+                    - link [ref=e515] [cursor=pointer]:
+                      - /url: /Apple-MacBook-Laptop-12-core-16-core/dp/B0DLHWDGSR/ref=sr_1_3?dib=eyJ2IjoiMSJ9.EXkLxpKHofoNFP6YKBzRSLtwQagMuNSp34cAi0pCXT64hym4h9bIu6JASnB_H9FJ5uhm1UWAqyReRftpv69SpMY-iCyjbyrVVEn_Yxf2FE9HJg2Oi3xMTm-eB1KwjYogsoWEbhwLTiqxmMJkn1ZBSX3BdQwMjx5LJ64AM84JIm44iNYUwPbrubXCe6xBMeiBUOuLWY33Qnjitxp9S8LhdzG4AYxb8kH4H30SQ8ovu6k.hZ3gOfd12sq_8bRoTaPE5bUuT3cZg3RDblmLBGeegF8&dib_tag=se&keywords=MacBook+Pro+M4+Max&qid=1774391079&sr=8-3
+                      - img [ref=e517]
+                    - generic [ref=e520]:
+                      - 'link "Apple 2024 MacBook Pro Laptop with M4 Pro chip with 12-core CPU and 16-core GPU: Built for Apple Intelligence, 14.2-inch Liquid Retina XDR Display, 24GB Unified Memory; 512GB SSD Storage; Space Black" [ref=e522] [cursor=pointer]':
+                        - /url: /Apple-MacBook-Laptop-12-core-16-core/dp/B0DLHWDGSR/ref=sr_1_3?dib=eyJ2IjoiMSJ9.EXkLxpKHofoNFP6YKBzRSLtwQagMuNSp34cAi0pCXT64hym4h9bIu6JASnB_H9FJ5uhm1UWAqyReRftpv69SpMY-iCyjbyrVVEn_Yxf2FE9HJg2Oi3xMTm-eB1KwjYogsoWEbhwLTiqxmMJkn1ZBSX3BdQwMjx5LJ64AM84JIm44iNYUwPbrubXCe6xBMeiBUOuLWY33Qnjitxp9S8LhdzG4AYxb8kH4H30SQ8ovu6k.hZ3gOfd12sq_8bRoTaPE5bUuT3cZg3RDblmLBGeegF8&dib_tag=se&keywords=MacBook+Pro+M4+Max&qid=1774391079&sr=8-3
+                        - 'heading "Apple 2024 MacBook Pro Laptop with M4 Pro chip with 12-core CPU and 16-core GPU: Built for Apple Intelligence, 14.2-inch Liquid Retina XDR Display, 24GB Unified Memory; 512GB SSD Storage; Space Black" [level=2] [ref=e523]'
+                      - generic [ref=e526]:
+                        - generic [ref=e527]: "Options:"
+                        - 'link "Options: 2 capacities" [ref=e528] [cursor=pointer]':
+                          - /url: /Apple-MacBook-Laptop-12-core-16-core/dp/B0DLHWDGSR/ref=vo_sr_l_dp?dib=eyJ2IjoiMSJ9.EXkLxpKHofoNFP6YKBzRSLtwQagMuNSp34cAi0pCXT64hym4h9bIu6JASnB_H9FJ5uhm1UWAqyReRftpv69SpMY-iCyjbyrVVEn_Yxf2FE9HJg2Oi3xMTm-eB1KwjYogsoWEbhwLTiqxmMJkn1ZBSX3BdQwMjx5LJ64AM84JIm44iNYUwPbrubXCe6xBMeiBUOuLWY33Qnjitxp9S8LhdzG4AYxb8kH4H30SQ8ovu6k.hZ3gOfd12sq_8bRoTaPE5bUuT3cZg3RDblmLBGeegF8&dib_tag=se&keywords=MacBook+Pro+M4+Max&qid=1774391079&sr=8-3
+                          - generic [ref=e529]:
+                            - generic [ref=e530]: 2 capacities
+                            - generic [ref=e531]: 2 capacities
+                      - generic [ref=e532]:
+                        - generic [ref=e533]:
+                          - text: "4.6"
+                          - button "4.6 out of 5 stars, rating details" [ref=e535] [cursor=pointer]:
+                            - generic [ref=e537]: 4.6 out of 5 stars
+                          - link "140 ratings" [ref=e539] [cursor=pointer]:
+                            - /url: /Apple-MacBook-Laptop-12-core-16-core/dp/B0DLHWDGSR/ref=sr_1_3?dib=eyJ2IjoiMSJ9.EXkLxpKHofoNFP6YKBzRSLtwQagMuNSp34cAi0pCXT64hym4h9bIu6JASnB_H9FJ5uhm1UWAqyReRftpv69SpMY-iCyjbyrVVEn_Yxf2FE9HJg2Oi3xMTm-eB1KwjYogsoWEbhwLTiqxmMJkn1ZBSX3BdQwMjx5LJ64AM84JIm44iNYUwPbrubXCe6xBMeiBUOuLWY33Qnjitxp9S8LhdzG4AYxb8kH4H30SQ8ovu6k.hZ3gOfd12sq_8bRoTaPE5bUuT3cZg3RDblmLBGeegF8&dib_tag=se&keywords=MacBook+Pro+M4+Max&qid=1774391079&sr=8-3#customerReviews
+                            - text: (140)
+                        - generic [ref=e540]: 50+ bought in past month
+                      - generic [ref=e541]:
+                        - generic [ref=e543]:
+                          - generic [ref=e546]:
+                            - generic [ref=e547]: Price, product page
+                            - 'link "£1,899.00 RRP: £1,999.00 RRP: £1,999.00" [ref=e548] [cursor=pointer]':
+                              - /url: /Apple-MacBook-Laptop-12-core-16-core/dp/B0DLHWDGSR/ref=sr_1_3?dib=eyJ2IjoiMSJ9.EXkLxpKHofoNFP6YKBzRSLtwQagMuNSp34cAi0pCXT64hym4h9bIu6JASnB_H9FJ5uhm1UWAqyReRftpv69SpMY-iCyjbyrVVEn_Yxf2FE9HJg2Oi3xMTm-eB1KwjYogsoWEbhwLTiqxmMJkn1ZBSX3BdQwMjx5LJ64AM84JIm44iNYUwPbrubXCe6xBMeiBUOuLWY33Qnjitxp9S8LhdzG4AYxb8kH4H30SQ8ovu6k.hZ3gOfd12sq_8bRoTaPE5bUuT3cZg3RDblmLBGeegF8&dib_tag=se&keywords=MacBook+Pro+M4+Max&qid=1774391079&sr=8-3
+                              - generic [ref=e549]:
+                                - generic [ref=e550]: £1,899.00
+                                - generic [ref=e551]:
+                                  - text: £
+                                  - generic [ref=e552]:
+                                    - text: 1,899
+                                    - generic [ref=e553]: .
+                                  - text: "00"
+                              - generic [ref=e554]: "RRP: £1,999.00"
+                              - generic [ref=e555]:
+                                - text: "RRP:"
+                                - generic [ref=e556]:
+                                  - generic [ref=e557]: £1,999.00
+                                  - text: £1,999.00
+                          - generic [ref=e560]:
+                            - generic [ref=e564]: FREE delivery Sat 28 Mar
+                            - generic [ref=e566]: Or fastest delivery Thu 26 Mar
+                          - button "Add to basket" [ref=e580] [cursor=pointer]
+                          - generic [ref=e582]:
+                            - text: More buying choices
+                            - text: £1,349.95
+                            - link "(2 used & new offers)" [ref=e584] [cursor=pointer]:
+                              - /url: /gp/offer-listing/B0DLHWDGSR/ref=sr_1_3_olp?keywords=MacBook+Pro+M4+Max&dib_tag=se&dib=eyJ2IjoiMSJ9.EXkLxpKHofoNFP6YKBzRSLtwQagMuNSp34cAi0pCXT64hym4h9bIu6JASnB_H9FJ5uhm1UWAqyReRftpv69SpMY-iCyjbyrVVEn_Yxf2FE9HJg2Oi3xMTm-eB1KwjYogsoWEbhwLTiqxmMJkn1ZBSX3BdQwMjx5LJ64AM84JIm44iNYUwPbrubXCe6xBMeiBUOuLWY33Qnjitxp9S8LhdzG4AYxb8kH4H30SQ8ovu6k.hZ3gOfd12sq_8bRoTaPE5bUuT3cZg3RDblmLBGeegF8&qid=1774391079&sr=8-3
+                        - generic [ref=e588]:
+                          - generic [ref=e590]:
+                            - text: Display Size
+                            - text: 14.2 inches
+                          - generic [ref=e592]:
+                            - text: Hard disk description
+                            - text: SSD
+                          - generic [ref=e594]:
+                            - text: CPU Model Speed
+                            - text: "0.01"
+                          - generic [ref=e596]:
+                            - text: Memory Size
+                            - text: "-"
+                - listitem [ref=e597]:
+                  - generic [ref=e603]:
+                    - link [ref=e609] [cursor=pointer]:
+                      - /url: /Apple-MacBook-Laptop-14-core-20-core/dp/B0DLHD9115/ref=sr_1_4?dib=eyJ2IjoiMSJ9.EXkLxpKHofoNFP6YKBzRSLtwQagMuNSp34cAi0pCXT64hym4h9bIu6JASnB_H9FJ5uhm1UWAqyReRftpv69SpMY-iCyjbyrVVEn_Yxf2FE9HJg2Oi3xMTm-eB1KwjYogsoWEbhwLTiqxmMJkn1ZBSX3BdQwMjx5LJ64AM84JIm44iNYUwPbrubXCe6xBMeiBUOuLWY33Qnjitxp9S8LhdzG4AYxb8kH4H30SQ8ovu6k.hZ3gOfd12sq_8bRoTaPE5bUuT3cZg3RDblmLBGeegF8&dib_tag=se&keywords=MacBook+Pro+M4+Max&qid=1774391079&sr=8-4
+                      - img [ref=e611]
+                    - generic [ref=e614]:
+                      - 'link "Apple 2024 MacBook Pro Laptop with M4 Pro chip with 14-core CPU and 20-core GPU: Built for Apple Intelligence, 16.2-inch Liquid Retina XDR Display, 24GB Unified Memory; 512GB SSD Storage; Space Black" [ref=e616] [cursor=pointer]':
+                        - /url: /Apple-MacBook-Laptop-14-core-20-core/dp/B0DLHD9115/ref=sr_1_4?dib=eyJ2IjoiMSJ9.EXkLxpKHofoNFP6YKBzRSLtwQagMuNSp34cAi0pCXT64hym4h9bIu6JASnB_H9FJ5uhm1UWAqyReRftpv69SpMY-iCyjbyrVVEn_Yxf2FE9HJg2Oi3xMTm-eB1KwjYogsoWEbhwLTiqxmMJkn1ZBSX3BdQwMjx5LJ64AM84JIm44iNYUwPbrubXCe6xBMeiBUOuLWY33Qnjitxp9S8LhdzG4AYxb8kH4H30SQ8ovu6k.hZ3gOfd12sq_8bRoTaPE5bUuT3cZg3RDblmLBGeegF8&dib_tag=se&keywords=MacBook+Pro+M4+Max&qid=1774391079&sr=8-4
+                        - 'heading "Apple 2024 MacBook Pro Laptop with M4 Pro chip with 14-core CPU and 20-core GPU: Built for Apple Intelligence, 16.2-inch Liquid Retina XDR Display, 24GB Unified Memory; 512GB SSD Storage; Space Black" [level=2] [ref=e617]'
+                      - generic [ref=e620]:
+                        - generic [ref=e621]: "Options:"
+                        - 'link "Options: 3 capacities" [ref=e622] [cursor=pointer]':
+                          - /url: /Apple-MacBook-Laptop-14-core-20-core/dp/B0DLHD9115/ref=vo_sr_l_dp?dib=eyJ2IjoiMSJ9.EXkLxpKHofoNFP6YKBzRSLtwQagMuNSp34cAi0pCXT64hym4h9bIu6JASnB_H9FJ5uhm1UWAqyReRftpv69SpMY-iCyjbyrVVEn_Yxf2FE9HJg2Oi3xMTm-eB1KwjYogsoWEbhwLTiqxmMJkn1ZBSX3BdQwMjx5LJ64AM84JIm44iNYUwPbrubXCe6xBMeiBUOuLWY33Qnjitxp9S8LhdzG4AYxb8kH4H30SQ8ovu6k.hZ3gOfd12sq_8bRoTaPE5bUuT3cZg3RDblmLBGeegF8&dib_tag=se&keywords=MacBook+Pro+M4+Max&qid=1774391079&sr=8-4
+                          - generic [ref=e623]:
+                            - generic [ref=e624]: 3 capacities
+                            - generic [ref=e625]: 3 capacities
+                      - generic [ref=e627]:
+                        - text: "4.6"
+                        - button "4.6 out of 5 stars, rating details" [ref=e629] [cursor=pointer]:
+                          - generic [ref=e631]: 4.6 out of 5 stars
+                        - link "71 ratings" [ref=e633] [cursor=pointer]:
+                          - /url: /Apple-MacBook-Laptop-14-core-20-core/dp/B0DLHD9115/ref=sr_1_4?dib=eyJ2IjoiMSJ9.EXkLxpKHofoNFP6YKBzRSLtwQagMuNSp34cAi0pCXT64hym4h9bIu6JASnB_H9FJ5uhm1UWAqyReRftpv69SpMY-iCyjbyrVVEn_Yxf2FE9HJg2Oi3xMTm-eB1KwjYogsoWEbhwLTiqxmMJkn1ZBSX3BdQwMjx5LJ64AM84JIm44iNYUwPbrubXCe6xBMeiBUOuLWY33Qnjitxp9S8LhdzG4AYxb8kH4H30SQ8ovu6k.hZ3gOfd12sq_8bRoTaPE5bUuT3cZg3RDblmLBGeegF8&dib_tag=se&keywords=MacBook+Pro+M4+Max&qid=1774391079&sr=8-4#customerReviews
+                          - text: (71)
+                      - generic [ref=e634]:
+                        - generic [ref=e636]:
+                          - generic [ref=e639]:
+                            - generic [ref=e640]: Price, product page
+                            - 'link "£2,299.00 RRP: £2,499.00 RRP: £2,499.00" [ref=e641] [cursor=pointer]':
+                              - /url: /Apple-MacBook-Laptop-14-core-20-core/dp/B0DLHD9115/ref=sr_1_4?dib=eyJ2IjoiMSJ9.EXkLxpKHofoNFP6YKBzRSLtwQagMuNSp34cAi0pCXT64hym4h9bIu6JASnB_H9FJ5uhm1UWAqyReRftpv69SpMY-iCyjbyrVVEn_Yxf2FE9HJg2Oi3xMTm-eB1KwjYogsoWEbhwLTiqxmMJkn1ZBSX3BdQwMjx5LJ64AM84JIm44iNYUwPbrubXCe6xBMeiBUOuLWY33Qnjitxp9S8LhdzG4AYxb8kH4H30SQ8ovu6k.hZ3gOfd12sq_8bRoTaPE5bUuT3cZg3RDblmLBGeegF8&dib_tag=se&keywords=MacBook+Pro+M4+Max&qid=1774391079&sr=8-4
+                              - generic [ref=e642]:
+                                - generic [ref=e643]: £2,299.00
+                                - generic [ref=e644]:
+                                  - text: £
+                                  - generic [ref=e645]:
+                                    - text: 2,299
+                                    - generic [ref=e646]: .
+                                  - text: "00"
+                              - generic [ref=e647]: "RRP: £2,499.00"
+                              - generic [ref=e648]:
+                                - text: "RRP:"
+                                - generic [ref=e649]:
+                                  - generic [ref=e650]: £2,499.00
+                                  - text: £2,499.00
+                          - generic [ref=e653]:
+                            - generic [ref=e657]: FREE delivery Sat 28 Mar
+                            - generic [ref=e659]: Or fastest delivery Thu 26 Mar
+                          - button "Add to basket" [ref=e673] [cursor=pointer]
+                          - generic [ref=e675]:
+                            - text: More buying choices
+                            - text: £2,001.18
+                            - link "(2 used & new offers)" [ref=e677] [cursor=pointer]:
+                              - /url: /gp/offer-listing/B0DLHD9115/ref=sr_1_4_olp?keywords=MacBook+Pro+M4+Max&dib_tag=se&dib=eyJ2IjoiMSJ9.EXkLxpKHofoNFP6YKBzRSLtwQagMuNSp34cAi0pCXT64hym4h9bIu6JASnB_H9FJ5uhm1UWAqyReRftpv69SpMY-iCyjbyrVVEn_Yxf2FE9HJg2Oi3xMTm-eB1KwjYogsoWEbhwLTiqxmMJkn1ZBSX3BdQwMjx5LJ64AM84JIm44iNYUwPbrubXCe6xBMeiBUOuLWY33Qnjitxp9S8LhdzG4AYxb8kH4H30SQ8ovu6k.hZ3gOfd12sq_8bRoTaPE5bUuT3cZg3RDblmLBGeegF8&qid=1774391079&sr=8-4
+                          - group "colours available" [ref=e679]:
+                            - list [ref=e680]:
+                              - generic [ref=e681]:
+                                - listitem:
+                                  - link "Space Black":
+                                    - /url: /Apple-MacBook-Laptop-14-core-20-core/dp/B0DLHD9115/ref=cs_sr_dp_1?dib=eyJ2IjoiMSJ9.EXkLxpKHofoNFP6YKBzRSLtwQagMuNSp34cAi0pCXT64hym4h9bIu6JASnB_H9FJ5uhm1UWAqyReRftpv69SpMY-iCyjbyrVVEn_Yxf2FE9HJg2Oi3xMTm-eB1KwjYogsoWEbhwLTiqxmMJkn1ZBSX3BdQwMjx5LJ64AM84JIm44iNYUwPbrubXCe6xBMeiBUOuLWY33Qnjitxp9S8LhdzG4AYxb8kH4H30SQ8ovu6k.hZ3gOfd12sq_8bRoTaPE5bUuT3cZg3RDblmLBGeegF8&dib_tag=se&keywords=MacBook+Pro+M4+Max&qid=1774391079&sr=8-4
+                              - generic [ref=e684]:
+                                - listitem:
+                                  - link "Silver":
+                                    - /url: /Apple-MacBook-Laptop-14-core-20-core/dp/B0DLHTQ8QP/ref=cs_sr_dp_2?dib=eyJ2IjoiMSJ9.EXkLxpKHofoNFP6YKBzRSLtwQagMuNSp34cAi0pCXT64hym4h9bIu6JASnB_H9FJ5uhm1UWAqyReRftpv69SpMY-iCyjbyrVVEn_Yxf2FE9HJg2Oi3xMTm-eB1KwjYogsoWEbhwLTiqxmMJkn1ZBSX3BdQwMjx5LJ64AM84JIm44iNYUwPbrubXCe6xBMeiBUOuLWY33Qnjitxp9S8LhdzG4AYxb8kH4H30SQ8ovu6k.hZ3gOfd12sq_8bRoTaPE5bUuT3cZg3RDblmLBGeegF8&dib_tag=se&keywords=MacBook+Pro+M4+Max&qid=1774391079&sr=8-4
+                        - generic [ref=e690]:
+                          - generic [ref=e692]:
+                            - text: Display Size
+                            - text: 16.2 inches
+                          - generic [ref=e694]:
+                            - text: Hard disk description
+                            - text: SSD
+                          - generic [ref=e696]:
+                            - text: CPU Model Speed
+                            - text: "0.01"
+                          - generic [ref=e698]:
+                            - text: Memory Size
+                            - text: "-"
+                - listitem [ref=e699]:
+                  - generic [ref=e705]:
+                    - link [ref=e711] [cursor=pointer]:
+                      - /url: /Apple-MacBook-14-2-inch-Laptop-chip/dp/B0GR1K7LHC/ref=sr_1_5?dib=eyJ2IjoiMSJ9.EXkLxpKHofoNFP6YKBzRSLtwQagMuNSp34cAi0pCXT64hym4h9bIu6JASnB_H9FJ5uhm1UWAqyReRftpv69SpMY-iCyjbyrVVEn_Yxf2FE9HJg2Oi3xMTm-eB1KwjYogsoWEbhwLTiqxmMJkn1ZBSX3BdQwMjx5LJ64AM84JIm44iNYUwPbrubXCe6xBMeiBUOuLWY33Qnjitxp9S8LhdzG4AYxb8kH4H30SQ8ovu6k.hZ3gOfd12sq_8bRoTaPE5bUuT3cZg3RDblmLBGeegF8&dib_tag=se&keywords=MacBook+Pro+M4+Max&qid=1774391079&sr=8-5
+                      - img [ref=e713]
+                    - generic [ref=e716]:
+                      - 'link "Apple MacBook Pro 14.2-inch Laptop with M5 Max chip with 18 core CPU and 32 core GPU: Built for AI, Liquid Retina XDR Display, 36GB Unified Memory, 2TB SSD, Wi-Fi 7; Space Black" [ref=e718] [cursor=pointer]':
+                        - /url: /Apple-MacBook-14-2-inch-Laptop-chip/dp/B0GR1K7LHC/ref=sr_1_5?dib=eyJ2IjoiMSJ9.EXkLxpKHofoNFP6YKBzRSLtwQagMuNSp34cAi0pCXT64hym4h9bIu6JASnB_H9FJ5uhm1UWAqyReRftpv69SpMY-iCyjbyrVVEn_Yxf2FE9HJg2Oi3xMTm-eB1KwjYogsoWEbhwLTiqxmMJkn1ZBSX3BdQwMjx5LJ64AM84JIm44iNYUwPbrubXCe6xBMeiBUOuLWY33Qnjitxp9S8LhdzG4AYxb8kH4H30SQ8ovu6k.hZ3gOfd12sq_8bRoTaPE5bUuT3cZg3RDblmLBGeegF8&dib_tag=se&keywords=MacBook+Pro+M4+Max&qid=1774391079&sr=8-5
+                        - 'heading "Apple MacBook Pro 14.2-inch Laptop with M5 Max chip with 18 core CPU and 32 core GPU: Built for AI, Liquid Retina XDR Display, 36GB Unified Memory, 2TB SSD, Wi-Fi 7; Space Black" [level=2] [ref=e719]'
+                      - generic [ref=e722]:
+                        - generic [ref=e723]: "Options:"
+                        - 'link "Options: 2 capacities" [ref=e724] [cursor=pointer]':
+                          - /url: /Apple-MacBook-14-2-inch-Laptop-chip/dp/B0GR1K7LHC/ref=vo_sr_l_dp?dib=eyJ2IjoiMSJ9.EXkLxpKHofoNFP6YKBzRSLtwQagMuNSp34cAi0pCXT64hym4h9bIu6JASnB_H9FJ5uhm1UWAqyReRftpv69SpMY-iCyjbyrVVEn_Yxf2FE9HJg2Oi3xMTm-eB1KwjYogsoWEbhwLTiqxmMJkn1ZBSX3BdQwMjx5LJ64AM84JIm44iNYUwPbrubXCe6xBMeiBUOuLWY33Qnjitxp9S8LhdzG4AYxb8kH4H30SQ8ovu6k.hZ3gOfd12sq_8bRoTaPE5bUuT3cZg3RDblmLBGeegF8&dib_tag=se&keywords=MacBook+Pro+M4+Max&qid=1774391079&sr=8-5
+                          - generic [ref=e725]:
+                            - generic [ref=e726]: 2 capacities
+                            - generic [ref=e727]: 2 capacities
+                      - generic [ref=e728]:
+                        - generic [ref=e729]:
+                          - text: "5.0"
+                          - button "5.0 out of 5 stars, rating details" [ref=e731] [cursor=pointer]:
+                            - generic [ref=e733]: 5.0 out of 5 stars
+                          - link "2 ratings" [ref=e735] [cursor=pointer]:
+                            - /url: /Apple-MacBook-14-2-inch-Laptop-chip/dp/B0GR1K7LHC/ref=sr_1_5?dib=eyJ2IjoiMSJ9.EXkLxpKHofoNFP6YKBzRSLtwQagMuNSp34cAi0pCXT64hym4h9bIu6JASnB_H9FJ5uhm1UWAqyReRftpv69SpMY-iCyjbyrVVEn_Yxf2FE9HJg2Oi3xMTm-eB1KwjYogsoWEbhwLTiqxmMJkn1ZBSX3BdQwMjx5LJ64AM84JIm44iNYUwPbrubXCe6xBMeiBUOuLWY33Qnjitxp9S8LhdzG4AYxb8kH4H30SQ8ovu6k.hZ3gOfd12sq_8bRoTaPE5bUuT3cZg3RDblmLBGeegF8&dib_tag=se&keywords=MacBook+Pro+M4+Max&qid=1774391079&sr=8-5#customerReviews
+                            - text: (2)
+                        - generic [ref=e736]: New on Amazon in past month
+                      - generic [ref=e737]:
+                        - generic [ref=e739]:
+                          - generic [ref=e742]:
+                            - generic [ref=e743]: Price, product page
+                            - 'link "£3,275.97 RRP: £3,599.00 RRP: £3,599.00" [ref=e744] [cursor=pointer]':
+                              - /url: /Apple-MacBook-14-2-inch-Laptop-chip/dp/B0GR1K7LHC/ref=sr_1_5?dib=eyJ2IjoiMSJ9.EXkLxpKHofoNFP6YKBzRSLtwQagMuNSp34cAi0pCXT64hym4h9bIu6JASnB_H9FJ5uhm1UWAqyReRftpv69SpMY-iCyjbyrVVEn_Yxf2FE9HJg2Oi3xMTm-eB1KwjYogsoWEbhwLTiqxmMJkn1ZBSX3BdQwMjx5LJ64AM84JIm44iNYUwPbrubXCe6xBMeiBUOuLWY33Qnjitxp9S8LhdzG4AYxb8kH4H30SQ8ovu6k.hZ3gOfd12sq_8bRoTaPE5bUuT3cZg3RDblmLBGeegF8&dib_tag=se&keywords=MacBook+Pro+M4+Max&qid=1774391079&sr=8-5
+                              - generic [ref=e745]:
+                                - generic [ref=e746]: £3,275.97
+                                - generic [ref=e747]:
+                                  - text: £
+                                  - generic [ref=e748]:
+                                    - text: 3,275
+                                    - generic [ref=e749]: .
+                                  - text: "97"
+                              - generic [ref=e750]: "RRP: £3,599.00"
+                              - generic [ref=e751]:
+                                - text: "RRP:"
+                                - generic [ref=e752]:
+                                  - generic [ref=e753]: £3,599.00
+                                  - text: £3,599.00
+                          - generic [ref=e756]:
+                            - generic [ref=e760]: FREE delivery Sat 28 Mar
+                            - generic [ref=e762]: Or fastest delivery Thu 26 Mar
+                          - button "Add to basket" [ref=e776] [cursor=pointer]
+                        - generic [ref=e780]:
+                          - generic [ref=e782]:
+                            - text: Display Size
+                            - text: 14 inches
+                          - generic [ref=e784]:
+                            - text: Hard disk description
+                            - text: SSD
+                          - generic [ref=e786]:
+                            - text: CPU Model Speed
+                            - text: 0.01 GHz
+                          - generic [ref=e788]:
+                            - text: Memory Size
+                            - text: "-"
+                - listitem [ref=e789]:
+                  - generic [ref=e795]:
+                    - link [ref=e801] [cursor=pointer]:
+                      - /url: /Apple-MacBook-16-inch-Storage-English/dp/B0DT26DZQB/ref=sr_1_6?dib=eyJ2IjoiMSJ9.EXkLxpKHofoNFP6YKBzRSLtwQagMuNSp34cAi0pCXT64hym4h9bIu6JASnB_H9FJ5uhm1UWAqyReRftpv69SpMY-iCyjbyrVVEn_Yxf2FE9HJg2Oi3xMTm-eB1KwjYogsoWEbhwLTiqxmMJkn1ZBSX3BdQwMjx5LJ64AM84JIm44iNYUwPbrubXCe6xBMeiBUOuLWY33Qnjitxp9S8LhdzG4AYxb8kH4H30SQ8ovu6k.hZ3gOfd12sq_8bRoTaPE5bUuT3cZg3RDblmLBGeegF8&dib_tag=se&keywords=MacBook+Pro+M4+Max&qid=1774391079&sr=8-6
+                      - img [ref=e803]
+                    - generic [ref=e806]:
+                      - link "2024 Apple MacBook Pro with Apple M4 Max Chip with 16CPU & 40GPU (16-inch, 48GB RAM, 1TB SSD Storage) (QWERTY English) Space Black (Renewed)" [ref=e808] [cursor=pointer]:
+                        - /url: /Apple-MacBook-16-inch-Storage-English/dp/B0DT26DZQB/ref=sr_1_6?dib=eyJ2IjoiMSJ9.EXkLxpKHofoNFP6YKBzRSLtwQagMuNSp34cAi0pCXT64hym4h9bIu6JASnB_H9FJ5uhm1UWAqyReRftpv69SpMY-iCyjbyrVVEn_Yxf2FE9HJg2Oi3xMTm-eB1KwjYogsoWEbhwLTiqxmMJkn1ZBSX3BdQwMjx5LJ64AM84JIm44iNYUwPbrubXCe6xBMeiBUOuLWY33Qnjitxp9S8LhdzG4AYxb8kH4H30SQ8ovu6k.hZ3gOfd12sq_8bRoTaPE5bUuT3cZg3RDblmLBGeegF8&dib_tag=se&keywords=MacBook+Pro+M4+Max&qid=1774391079&sr=8-6
+                        - heading "2024 Apple MacBook Pro with Apple M4 Max Chip with 16CPU & 40GPU (16-inch, 48GB RAM, 1TB SSD Storage) (QWERTY English) Space Black (Renewed)" [level=2] [ref=e809]
+                      - generic [ref=e812]:
+                        - generic [ref=e813]: "Options:"
+                        - 'link "Options: 7 capacities" [ref=e814] [cursor=pointer]':
+                          - /url: /Apple-MacBook-16-inch-Storage-English/dp/B0DT26DZQB/ref=vo_sr_l_dp?dib=eyJ2IjoiMSJ9.EXkLxpKHofoNFP6YKBzRSLtwQagMuNSp34cAi0pCXT64hym4h9bIu6JASnB_H9FJ5uhm1UWAqyReRftpv69SpMY-iCyjbyrVVEn_Yxf2FE9HJg2Oi3xMTm-eB1KwjYogsoWEbhwLTiqxmMJkn1ZBSX3BdQwMjx5LJ64AM84JIm44iNYUwPbrubXCe6xBMeiBUOuLWY33Qnjitxp9S8LhdzG4AYxb8kH4H30SQ8ovu6k.hZ3gOfd12sq_8bRoTaPE5bUuT3cZg3RDblmLBGeegF8&dib_tag=se&keywords=MacBook+Pro+M4+Max&qid=1774391079&sr=8-6
+                          - generic [ref=e815]:
+                            - generic [ref=e816]: 7 capacities
+                            - generic [ref=e817]: 7 capacities
+                      - generic [ref=e819]:
+                        - text: "1.0"
+                        - button "1.0 out of 5 stars, rating details" [ref=e821] [cursor=pointer]:
+                          - generic [ref=e823]: 1.0 out of 5 stars
+                        - link "1 ratings" [ref=e825] [cursor=pointer]:
+                          - /url: /Apple-MacBook-16-inch-Storage-English/dp/B0DT26DZQB/ref=sr_1_6?dib=eyJ2IjoiMSJ9.EXkLxpKHofoNFP6YKBzRSLtwQagMuNSp34cAi0pCXT64hym4h9bIu6JASnB_H9FJ5uhm1UWAqyReRftpv69SpMY-iCyjbyrVVEn_Yxf2FE9HJg2Oi3xMTm-eB1KwjYogsoWEbhwLTiqxmMJkn1ZBSX3BdQwMjx5LJ64AM84JIm44iNYUwPbrubXCe6xBMeiBUOuLWY33Qnjitxp9S8LhdzG4AYxb8kH4H30SQ8ovu6k.hZ3gOfd12sq_8bRoTaPE5bUuT3cZg3RDblmLBGeegF8&dib_tag=se&keywords=MacBook+Pro+M4+Max&qid=1774391079&sr=8-6#customerReviews
+                          - text: (1)
+                      - generic [ref=e826]:
+                        - generic [ref=e828]:
+                          - generic [ref=e831]:
+                            - generic [ref=e832]: Price, product page
+                            - link "£3,299.00" [ref=e833] [cursor=pointer]:
+                              - /url: /Apple-MacBook-16-inch-Storage-English/dp/B0DT26DZQB/ref=sr_1_6?dib=eyJ2IjoiMSJ9.EXkLxpKHofoNFP6YKBzRSLtwQagMuNSp34cAi0pCXT64hym4h9bIu6JASnB_H9FJ5uhm1UWAqyReRftpv69SpMY-iCyjbyrVVEn_Yxf2FE9HJg2Oi3xMTm-eB1KwjYogsoWEbhwLTiqxmMJkn1ZBSX3BdQwMjx5LJ64AM84JIm44iNYUwPbrubXCe6xBMeiBUOuLWY33Qnjitxp9S8LhdzG4AYxb8kH4H30SQ8ovu6k.hZ3gOfd12sq_8bRoTaPE5bUuT3cZg3RDblmLBGeegF8&dib_tag=se&keywords=MacBook+Pro+M4+Max&qid=1774391079&sr=8-6
+                              - generic [ref=e834]:
+                                - generic [ref=e835]: £3,299.00
+                                - generic [ref=e836]:
+                                  - text: £
+                                  - generic [ref=e837]:
+                                    - text: 3,299
+                                    - generic [ref=e838]: .
+                                  - text: "00"
+                          - generic [ref=e839]:
+                            - generic [ref=e845]: FREE delivery Thu 26 Mar
+                            - generic "Only 3 left in stock." [ref=e847]
+                          - link "See options" [ref=e853] [cursor=pointer]:
+                            - /url: /Apple-MacBook-16-inch-Storage-English/dp/B0DT26DZQB/ref=sr_1_6_so_NOTEBOOK_COMPUTER?dib=eyJ2IjoiMSJ9.EXkLxpKHofoNFP6YKBzRSLtwQagMuNSp34cAi0pCXT64hym4h9bIu6JASnB_H9FJ5uhm1UWAqyReRftpv69SpMY-iCyjbyrVVEn_Yxf2FE9HJg2Oi3xMTm-eB1KwjYogsoWEbhwLTiqxmMJkn1ZBSX3BdQwMjx5LJ64AM84JIm44iNYUwPbrubXCe6xBMeiBUOuLWY33Qnjitxp9S8LhdzG4AYxb8kH4H30SQ8ovu6k.hZ3gOfd12sq_8bRoTaPE5bUuT3cZg3RDblmLBGeegF8&dib_tag=se&keywords=MacBook+Pro+M4+Max&qid=1774391079&sr=8-6
+                          - group "colours available" [ref=e855]:
+                            - list [ref=e856]:
+                              - generic [ref=e857]:
+                                - listitem:
+                                  - link "Space Black":
+                                    - /url: /Apple-MacBook-16-inch-Storage-English/dp/B0DT26DZQB/ref=cs_sr_dp_1?dib=eyJ2IjoiMSJ9.EXkLxpKHofoNFP6YKBzRSLtwQagMuNSp34cAi0pCXT64hym4h9bIu6JASnB_H9FJ5uhm1UWAqyReRftpv69SpMY-iCyjbyrVVEn_Yxf2FE9HJg2Oi3xMTm-eB1KwjYogsoWEbhwLTiqxmMJkn1ZBSX3BdQwMjx5LJ64AM84JIm44iNYUwPbrubXCe6xBMeiBUOuLWY33Qnjitxp9S8LhdzG4AYxb8kH4H30SQ8ovu6k.hZ3gOfd12sq_8bRoTaPE5bUuT3cZg3RDblmLBGeegF8&dib_tag=se&keywords=MacBook+Pro+M4+Max&qid=1774391079&sr=8-6
+                              - generic [ref=e860]:
+                                - listitem:
+                                  - link "Silver":
+                                    - /url: /Apple-MacBook-16-inch-Storage-English/dp/B0DT1YQ1D1/ref=cs_sr_dp_2?dib=eyJ2IjoiMSJ9.EXkLxpKHofoNFP6YKBzRSLtwQagMuNSp34cAi0pCXT64hym4h9bIu6JASnB_H9FJ5uhm1UWAqyReRftpv69SpMY-iCyjbyrVVEn_Yxf2FE9HJg2Oi3xMTm-eB1KwjYogsoWEbhwLTiqxmMJkn1ZBSX3BdQwMjx5LJ64AM84JIm44iNYUwPbrubXCe6xBMeiBUOuLWY33Qnjitxp9S8LhdzG4AYxb8kH4H30SQ8ovu6k.hZ3gOfd12sq_8bRoTaPE5bUuT3cZg3RDblmLBGeegF8&dib_tag=se&keywords=MacBook+Pro+M4+Max&qid=1774391079&sr=8-6
+                        - generic [ref=e866]:
+                          - generic [ref=e868]:
+                            - text: Display Size
+                            - text: 16 inches
+                          - generic [ref=e870]:
+                            - text: Hard disk description
+                            - text: SSD
+                          - generic [ref=e872]:
+                            - text: CPU Model Speed
+                            - text: 4.5 GHz
+                          - generic [ref=e874]:
+                            - text: Memory Size
+                            - text: "-"
+                - listitem [ref=e875]:
+                  - generic [ref=e881]:
+                    - link [ref=e887] [cursor=pointer]:
+                      - /url: /Apple-MacBook-14-2-inch-Laptop-chip/dp/B0FWD6KXHB/ref=sr_1_7?dib=eyJ2IjoiMSJ9.EXkLxpKHofoNFP6YKBzRSLtwQagMuNSp34cAi0pCXT64hym4h9bIu6JASnB_H9FJ5uhm1UWAqyReRftpv69SpMY-iCyjbyrVVEn_Yxf2FE9HJg2Oi3xMTm-eB1KwjYogsoWEbhwLTiqxmMJkn1ZBSX3BdQwMjx5LJ64AM84JIm44iNYUwPbrubXCe6xBMeiBUOuLWY33Qnjitxp9S8LhdzG4AYxb8kH4H30SQ8ovu6k.hZ3gOfd12sq_8bRoTaPE5bUuT3cZg3RDblmLBGeegF8&dib_tag=se&keywords=MacBook+Pro+M4+Max&qid=1774391079&sr=8-7
+                      - img [ref=e889]
+                    - generic [ref=e892]:
+                      - 'link "Apple MacBook Pro 14.2-inch Laptop with M5 chip with 10 core CPU and 10 core GPU: Built for Apple Intelligence, Liquid Retina XDR Display, 16GB Unified Memory, 512GB SSD Storage; Space Black" [ref=e894] [cursor=pointer]':
+                        - /url: /Apple-MacBook-14-2-inch-Laptop-chip/dp/B0FWD6KXHB/ref=sr_1_7?dib=eyJ2IjoiMSJ9.EXkLxpKHofoNFP6YKBzRSLtwQagMuNSp34cAi0pCXT64hym4h9bIu6JASnB_H9FJ5uhm1UWAqyReRftpv69SpMY-iCyjbyrVVEn_Yxf2FE9HJg2Oi3xMTm-eB1KwjYogsoWEbhwLTiqxmMJkn1ZBSX3BdQwMjx5LJ64AM84JIm44iNYUwPbrubXCe6xBMeiBUOuLWY33Qnjitxp9S8LhdzG4AYxb8kH4H30SQ8ovu6k.hZ3gOfd12sq_8bRoTaPE5bUuT3cZg3RDblmLBGeegF8&dib_tag=se&keywords=MacBook+Pro+M4+Max&qid=1774391079&sr=8-7
+                        - 'heading "Apple MacBook Pro 14.2-inch Laptop with M5 chip with 10 core CPU and 10 core GPU: Built for Apple Intelligence, Liquid Retina XDR Display, 16GB Unified Memory, 512GB SSD Storage; Space Black" [level=2] [ref=e895]'
+                      - generic [ref=e898]:
+                        - generic [ref=e899]: "Options:"
+                        - 'link "Options: 2 capacities" [ref=e900] [cursor=pointer]':
+                          - /url: /Apple-MacBook-14-2-inch-Laptop-chip/dp/B0FWD6KXHB/ref=vo_sr_l_dp?dib=eyJ2IjoiMSJ9.EXkLxpKHofoNFP6YKBzRSLtwQagMuNSp34cAi0pCXT64hym4h9bIu6JASnB_H9FJ5uhm1UWAqyReRftpv69SpMY-iCyjbyrVVEn_Yxf2FE9HJg2Oi3xMTm-eB1KwjYogsoWEbhwLTiqxmMJkn1ZBSX3BdQwMjx5LJ64AM84JIm44iNYUwPbrubXCe6xBMeiBUOuLWY33Qnjitxp9S8LhdzG4AYxb8kH4H30SQ8ovu6k.hZ3gOfd12sq_8bRoTaPE5bUuT3cZg3RDblmLBGeegF8&dib_tag=se&keywords=MacBook+Pro+M4+Max&qid=1774391079&sr=8-7
+                          - generic [ref=e901]:
+                            - generic [ref=e902]: 2 capacities
+                            - generic [ref=e903]: 2 capacities
+                      - generic [ref=e904]:
+                        - generic [ref=e905]:
+                          - text: "4.5"
+                          - button "4.5 out of 5 stars, rating details" [ref=e907] [cursor=pointer]:
+                            - generic [ref=e909]: 4.5 out of 5 stars
+                          - link "40 ratings" [ref=e911] [cursor=pointer]:
+                            - /url: /Apple-MacBook-14-2-inch-Laptop-chip/dp/B0FWD6KXHB/ref=sr_1_7?dib=eyJ2IjoiMSJ9.EXkLxpKHofoNFP6YKBzRSLtwQagMuNSp34cAi0pCXT64hym4h9bIu6JASnB_H9FJ5uhm1UWAqyReRftpv69SpMY-iCyjbyrVVEn_Yxf2FE9HJg2Oi3xMTm-eB1KwjYogsoWEbhwLTiqxmMJkn1ZBSX3BdQwMjx5LJ64AM84JIm44iNYUwPbrubXCe6xBMeiBUOuLWY33Qnjitxp9S8LhdzG4AYxb8kH4H30SQ8ovu6k.hZ3gOfd12sq_8bRoTaPE5bUuT3cZg3RDblmLBGeegF8&dib_tag=se&keywords=MacBook+Pro+M4+Max&qid=1774391079&sr=8-7#customerReviews
+                            - text: (40)
+                        - generic [ref=e912]: 100+ bought in past month
+                      - generic [ref=e913]:
+                        - generic [ref=e915]:
+                          - generic [ref=e918]:
+                            - generic [ref=e919]: Price, product page
+                            - 'link "£1,447.97 RRP: £1,599.00 RRP: £1,599.00" [ref=e920] [cursor=pointer]':
+                              - /url: /Apple-MacBook-14-2-inch-Laptop-chip/dp/B0FWD6KXHB/ref=sr_1_7?dib=eyJ2IjoiMSJ9.EXkLxpKHofoNFP6YKBzRSLtwQagMuNSp34cAi0pCXT64hym4h9bIu6JASnB_H9FJ5uhm1UWAqyReRftpv69SpMY-iCyjbyrVVEn_Yxf2FE9HJg2Oi3xMTm-eB1KwjYogsoWEbhwLTiqxmMJkn1ZBSX3BdQwMjx5LJ64AM84JIm44iNYUwPbrubXCe6xBMeiBUOuLWY33Qnjitxp9S8LhdzG4AYxb8kH4H30SQ8ovu6k.hZ3gOfd12sq_8bRoTaPE5bUuT3cZg3RDblmLBGeegF8&dib_tag=se&keywords=MacBook+Pro+M4+Max&qid=1774391079&sr=8-7
+                              - generic [ref=e921]:
+                                - generic [ref=e922]: £1,447.97
+                                - generic [ref=e923]:
+                                  - text: £
+                                  - generic [ref=e924]:
+                                    - text: 1,447
+                                    - generic [ref=e925]: .
+                                  - text: "97"
+                              - generic [ref=e926]: "RRP: £1,599.00"
+                              - generic [ref=e927]:
+                                - text: "RRP:"
+                                - generic [ref=e928]:
+                                  - generic [ref=e929]: £1,599.00
+                                  - text: £1,599.00
+                          - generic [ref=e930]:
+                            - generic [ref=e932]:
+                              - generic [ref=e936]: FREE delivery Sat 28 Mar
+                              - generic [ref=e938]: Or fastest delivery Fri 27 Mar
+                            - generic "Only 1 left in stock." [ref=e940]
+                          - button "Add to basket" [ref=e954] [cursor=pointer]
+                          - generic [ref=e956]:
+                            - text: More buying choices
+                            - text: £1,443.18
+                            - link "(2 used & new offers)" [ref=e958] [cursor=pointer]:
+                              - /url: /gp/offer-listing/B0FWD6KXHB/ref=sr_1_7_olp?keywords=MacBook+Pro+M4+Max&dib_tag=se&dib=eyJ2IjoiMSJ9.EXkLxpKHofoNFP6YKBzRSLtwQagMuNSp34cAi0pCXT64hym4h9bIu6JASnB_H9FJ5uhm1UWAqyReRftpv69SpMY-iCyjbyrVVEn_Yxf2FE9HJg2Oi3xMTm-eB1KwjYogsoWEbhwLTiqxmMJkn1ZBSX3BdQwMjx5LJ64AM84JIm44iNYUwPbrubXCe6xBMeiBUOuLWY33Qnjitxp9S8LhdzG4AYxb8kH4H30SQ8ovu6k.hZ3gOfd12sq_8bRoTaPE5bUuT3cZg3RDblmLBGeegF8&qid=1774391079&sr=8-7
+                        - generic [ref=e962]:
+                          - generic [ref=e964]:
+                            - text: Display Size
+                            - text: 14 inches
+                          - generic [ref=e966]:
+                            - text: Hard disk description
+                            - text: SSD
+                          - generic [ref=e968]:
+                            - text: CPU Model Speed
+                            - text: "-"
+                          - generic [ref=e970]:
+                            - text: Memory Size
+                            - text: "-"
+                - listitem [ref=e971]:
+                  - generic [ref=e977]:
+                    - link [ref=e983] [cursor=pointer]:
+                      - /url: /Apple-MacBook-16-2-inch-Laptop-chip/dp/B0GR18F25C/ref=sr_1_8?dib=eyJ2IjoiMSJ9.EXkLxpKHofoNFP6YKBzRSLtwQagMuNSp34cAi0pCXT64hym4h9bIu6JASnB_H9FJ5uhm1UWAqyReRftpv69SpMY-iCyjbyrVVEn_Yxf2FE9HJg2Oi3xMTm-eB1KwjYogsoWEbhwLTiqxmMJkn1ZBSX3BdQwMjx5LJ64AM84JIm44iNYUwPbrubXCe6xBMeiBUOuLWY33Qnjitxp9S8LhdzG4AYxb8kH4H30SQ8ovu6k.hZ3gOfd12sq_8bRoTaPE5bUuT3cZg3RDblmLBGeegF8&dib_tag=se&keywords=MacBook+Pro+M4+Max&qid=1774391079&sr=8-8
+                      - img [ref=e985]
+                    - generic [ref=e988]:
+                      - 'link "Apple MacBook Pro 16.2-inch Laptop with M5 Max chip with 18 core CPU and 40 core GPU: Built for AI, Liquid Retina XDR Display, 48GB Unified Memory, 2TB SSD, Wi-Fi 7; Space Black" [ref=e990] [cursor=pointer]':
+                        - /url: /Apple-MacBook-16-2-inch-Laptop-chip/dp/B0GR18F25C/ref=sr_1_8?dib=eyJ2IjoiMSJ9.EXkLxpKHofoNFP6YKBzRSLtwQagMuNSp34cAi0pCXT64hym4h9bIu6JASnB_H9FJ5uhm1UWAqyReRftpv69SpMY-iCyjbyrVVEn_Yxf2FE9HJg2Oi3xMTm-eB1KwjYogsoWEbhwLTiqxmMJkn1ZBSX3BdQwMjx5LJ64AM84JIm44iNYUwPbrubXCe6xBMeiBUOuLWY33Qnjitxp9S8LhdzG4AYxb8kH4H30SQ8ovu6k.hZ3gOfd12sq_8bRoTaPE5bUuT3cZg3RDblmLBGeegF8&dib_tag=se&keywords=MacBook+Pro+M4+Max&qid=1774391079&sr=8-8
+                        - 'heading "Apple MacBook Pro 16.2-inch Laptop with M5 Max chip with 18 core CPU and 40 core GPU: Built for AI, Liquid Retina XDR Display, 48GB Unified Memory, 2TB SSD, Wi-Fi 7; Space Black" [level=2] [ref=e991]'
+                      - generic [ref=e994]:
+                        - generic [ref=e995]: "Options:"
+                        - 'link "Options: 2 capacities" [ref=e996] [cursor=pointer]':
+                          - /url: /Apple-MacBook-16-2-inch-Laptop-chip/dp/B0GR18F25C/ref=vo_sr_l_dp?dib=eyJ2IjoiMSJ9.EXkLxpKHofoNFP6YKBzRSLtwQagMuNSp34cAi0pCXT64hym4h9bIu6JASnB_H9FJ5uhm1UWAqyReRftpv69SpMY-iCyjbyrVVEn_Yxf2FE9HJg2Oi3xMTm-eB1KwjYogsoWEbhwLTiqxmMJkn1ZBSX3BdQwMjx5LJ64AM84JIm44iNYUwPbrubXCe6xBMeiBUOuLWY33Qnjitxp9S8LhdzG4AYxb8kH4H30SQ8ovu6k.hZ3gOfd12sq_8bRoTaPE5bUuT3cZg3RDblmLBGeegF8&dib_tag=se&keywords=MacBook+Pro+M4+Max&qid=1774391079&sr=8-8
+                          - generic [ref=e997]:
+                            - generic [ref=e998]: 2 capacities
+                            - generic [ref=e999]: 2 capacities
+                      - generic [ref=e1000]:
+                        - generic [ref=e1001]:
+                          - text: "5.0"
+                          - button "5.0 out of 5 stars, rating details" [ref=e1003] [cursor=pointer]:
+                            - generic [ref=e1005]: 5.0 out of 5 stars
+                          - link "1 ratings" [ref=e1007] [cursor=pointer]:
+                            - /url: /Apple-MacBook-16-2-inch-Laptop-chip/dp/B0GR18F25C/ref=sr_1_8?dib=eyJ2IjoiMSJ9.EXkLxpKHofoNFP6YKBzRSLtwQagMuNSp34cAi0pCXT64hym4h9bIu6JASnB_H9FJ5uhm1UWAqyReRftpv69SpMY-iCyjbyrVVEn_Yxf2FE9HJg2Oi3xMTm-eB1KwjYogsoWEbhwLTiqxmMJkn1ZBSX3BdQwMjx5LJ64AM84JIm44iNYUwPbrubXCe6xBMeiBUOuLWY33Qnjitxp9S8LhdzG4AYxb8kH4H30SQ8ovu6k.hZ3gOfd12sq_8bRoTaPE5bUuT3cZg3RDblmLBGeegF8&dib_tag=se&keywords=MacBook+Pro+M4+Max&qid=1774391079&sr=8-8#customerReviews
+                            - text: (1)
+                        - generic [ref=e1008]: New on Amazon in past month
+                      - generic [ref=e1009]:
+                        - generic [ref=e1011]:
+                          - generic [ref=e1014]:
+                            - generic [ref=e1015]: Price, product page
+                            - 'link "£4,027.97 RRP: £4,399.00 RRP: £4,399.00" [ref=e1016] [cursor=pointer]':
+                              - /url: /Apple-MacBook-16-2-inch-Laptop-chip/dp/B0GR18F25C/ref=sr_1_8?dib=eyJ2IjoiMSJ9.EXkLxpKHofoNFP6YKBzRSLtwQagMuNSp34cAi0pCXT64hym4h9bIu6JASnB_H9FJ5uhm1UWAqyReRftpv69SpMY-iCyjbyrVVEn_Yxf2FE9HJg2Oi3xMTm-eB1KwjYogsoWEbhwLTiqxmMJkn1ZBSX3BdQwMjx5LJ64AM84JIm44iNYUwPbrubXCe6xBMeiBUOuLWY33Qnjitxp9S8LhdzG4AYxb8kH4H30SQ8ovu6k.hZ3gOfd12sq_8bRoTaPE5bUuT3cZg3RDblmLBGeegF8&dib_tag=se&keywords=MacBook+Pro+M4+Max&qid=1774391079&sr=8-8
+                              - generic [ref=e1017]:
+                                - generic [ref=e1018]: £4,027.97
+                                - generic [ref=e1019]:
+                                  - text: £
+                                  - generic [ref=e1020]:
+                                    - text: 4,027
+                                    - generic [ref=e1021]: .
+                                  - text: "97"
+                              - generic [ref=e1022]: "RRP: £4,399.00"
+                              - generic [ref=e1023]:
+                                - text: "RRP:"
+                                - generic [ref=e1024]:
+                                  - generic [ref=e1025]: £4,399.00
+                                  - text: £4,399.00
+                          - generic [ref=e1026]:
+                            - generic [ref=e1028]:
+                              - generic [ref=e1032]: FREE delivery Sat 28 Mar
+                              - generic [ref=e1034]: Or fastest delivery Thu 26 Mar
+                            - generic "Only 7 left in stock (more on the way)." [ref=e1036]
+                          - button "Add to basket" [ref=e1050] [cursor=pointer]
+                        - generic [ref=e1054]:
+                          - generic [ref=e1056]:
+                            - text: Display Size
+                            - text: 16 inches
+                          - generic [ref=e1058]:
+                            - text: Hard disk description
+                            - text: SSD
+                          - generic [ref=e1060]:
+                            - text: CPU Model Speed
+                            - text: 0.01 GHz
+                          - generic [ref=e1062]:
+                            - text: Memory Size
+                            - text: "-"
+                - listitem [ref=e1063]:
+                  - generic [ref=e1069]:
+                    - link [ref=e1075] [cursor=pointer]:
+                      - /url: /Apple-MacBook-16-2-inch-Laptop-chip/dp/B0GR1PWCYH/ref=sr_1_9?dib=eyJ2IjoiMSJ9.EXkLxpKHofoNFP6YKBzRSLtwQagMuNSp34cAi0pCXT64hym4h9bIu6JASnB_H9FJ5uhm1UWAqyReRftpv69SpMY-iCyjbyrVVEn_Yxf2FE9HJg2Oi3xMTm-eB1KwjYogsoWEbhwLTiqxmMJkn1ZBSX3BdQwMjx5LJ64AM84JIm44iNYUwPbrubXCe6xBMeiBUOuLWY33Qnjitxp9S8LhdzG4AYxb8kH4H30SQ8ovu6k.hZ3gOfd12sq_8bRoTaPE5bUuT3cZg3RDblmLBGeegF8&dib_tag=se&keywords=MacBook+Pro+M4+Max&qid=1774391079&sr=8-9
+                      - img [ref=e1077]
+                    - generic [ref=e1080]:
+                      - 'link "Apple MacBook Pro 16.2-inch Laptop with M5 Pro chip with 18 core CPU and 20 core GPU: Built for AI, Liquid Retina XDR Display, 48GB Unified Memory, 1TB SSD, Wi-Fi 7; Space Black" [ref=e1082] [cursor=pointer]':
+                        - /url: /Apple-MacBook-16-2-inch-Laptop-chip/dp/B0GR1PWCYH/ref=sr_1_9?dib=eyJ2IjoiMSJ9.EXkLxpKHofoNFP6YKBzRSLtwQagMuNSp34cAi0pCXT64hym4h9bIu6JASnB_H9FJ5uhm1UWAqyReRftpv69SpMY-iCyjbyrVVEn_Yxf2FE9HJg2Oi3xMTm-eB1KwjYogsoWEbhwLTiqxmMJkn1ZBSX3BdQwMjx5LJ64AM84JIm44iNYUwPbrubXCe6xBMeiBUOuLWY33Qnjitxp9S8LhdzG4AYxb8kH4H30SQ8ovu6k.hZ3gOfd12sq_8bRoTaPE5bUuT3cZg3RDblmLBGeegF8&dib_tag=se&keywords=MacBook+Pro+M4+Max&qid=1774391079&sr=8-9
+                        - 'heading "Apple MacBook Pro 16.2-inch Laptop with M5 Pro chip with 18 core CPU and 20 core GPU: Built for AI, Liquid Retina XDR Display, 48GB Unified Memory, 1TB SSD, Wi-Fi 7; Space Black" [level=2] [ref=e1083]'
+                      - generic [ref=e1086]:
+                        - generic [ref=e1087]: "Options:"
+                        - 'link "Options: 2 capacities" [ref=e1088] [cursor=pointer]':
+                          - /url: /Apple-MacBook-16-2-inch-Laptop-chip/dp/B0GR1PWCYH/ref=vo_sr_l_dp?dib=eyJ2IjoiMSJ9.EXkLxpKHofoNFP6YKBzRSLtwQagMuNSp34cAi0pCXT64hym4h9bIu6JASnB_H9FJ5uhm1UWAqyReRftpv69SpMY-iCyjbyrVVEn_Yxf2FE9HJg2Oi3xMTm-eB1KwjYogsoWEbhwLTiqxmMJkn1ZBSX3BdQwMjx5LJ64AM84JIm44iNYUwPbrubXCe6xBMeiBUOuLWY33Qnjitxp9S8LhdzG4AYxb8kH4H30SQ8ovu6k.hZ3gOfd12sq_8bRoTaPE5bUuT3cZg3RDblmLBGeegF8&dib_tag=se&keywords=MacBook+Pro+M4+Max&qid=1774391079&sr=8-9
+                          - generic [ref=e1089]:
+                            - generic [ref=e1090]: 2 capacities
+                            - generic [ref=e1091]: 2 capacities
+                      - generic [ref=e1092]:
+                        - generic [ref=e1093]:
+                          - text: "5.0"
+                          - button "5.0 out of 5 stars, rating details" [ref=e1095] [cursor=pointer]:
+                            - generic [ref=e1097]: 5.0 out of 5 stars
+                          - link "1 ratings" [ref=e1099] [cursor=pointer]:
+                            - /url: /Apple-MacBook-16-2-inch-Laptop-chip/dp/B0GR1PWCYH/ref=sr_1_9?dib=eyJ2IjoiMSJ9.EXkLxpKHofoNFP6YKBzRSLtwQagMuNSp34cAi0pCXT64hym4h9bIu6JASnB_H9FJ5uhm1UWAqyReRftpv69SpMY-iCyjbyrVVEn_Yxf2FE9HJg2Oi3xMTm-eB1KwjYogsoWEbhwLTiqxmMJkn1ZBSX3BdQwMjx5LJ64AM84JIm44iNYUwPbrubXCe6xBMeiBUOuLWY33Qnjitxp9S8LhdzG4AYxb8kH4H30SQ8ovu6k.hZ3gOfd12sq_8bRoTaPE5bUuT3cZg3RDblmLBGeegF8&dib_tag=se&keywords=MacBook+Pro+M4+Max&qid=1774391079&sr=8-9#customerReviews
+                            - text: (1)
+                        - generic [ref=e1100]: New on Amazon in past month
+                      - generic [ref=e1101]:
+                        - generic [ref=e1103]:
+                          - generic [ref=e1106]:
+                            - generic [ref=e1107]: Price, product page
+                            - 'link "£2,949.97 RRP: £3,099.00 RRP: £3,099.00" [ref=e1108] [cursor=pointer]':
+                              - /url: /Apple-MacBook-16-2-inch-Laptop-chip/dp/B0GR1PWCYH/ref=sr_1_9?dib=eyJ2IjoiMSJ9.EXkLxpKHofoNFP6YKBzRSLtwQagMuNSp34cAi0pCXT64hym4h9bIu6JASnB_H9FJ5uhm1UWAqyReRftpv69SpMY-iCyjbyrVVEn_Yxf2FE9HJg2Oi3xMTm-eB1KwjYogsoWEbhwLTiqxmMJkn1ZBSX3BdQwMjx5LJ64AM84JIm44iNYUwPbrubXCe6xBMeiBUOuLWY33Qnjitxp9S8LhdzG4AYxb8kH4H30SQ8ovu6k.hZ3gOfd12sq_8bRoTaPE5bUuT3cZg3RDblmLBGeegF8&dib_tag=se&keywords=MacBook+Pro+M4+Max&qid=1774391079&sr=8-9
+                              - generic [ref=e1109]:
+                                - generic [ref=e1110]: £2,949.97
+                                - generic [ref=e1111]:
+                                  - text: £
+                                  - generic [ref=e1112]:
+                                    - text: 2,949
+                                    - generic [ref=e1113]: .
+                                  - text: "97"
+                              - generic [ref=e1114]: "RRP: £3,099.00"
+                              - generic [ref=e1115]:
+                                - text: "RRP:"
+                                - generic [ref=e1116]:
+                                  - generic [ref=e1117]: £3,099.00
+                                  - text: £3,099.00
+                          - generic [ref=e1120]:
+                            - generic [ref=e1124]: FREE delivery Sat 28 Mar
+                            - generic [ref=e1126]: Or fastest delivery Thu 26 Mar
+                          - button "Add to basket" [ref=e1140] [cursor=pointer]
+                        - generic [ref=e1144]:
+                          - generic [ref=e1146]:
+                            - text: Display Size
+                            - text: 16 inches
+                          - generic [ref=e1148]:
+                            - text: Hard disk description
+                            - text: SSD
+                          - generic [ref=e1150]:
+                            - text: CPU Model Speed
+                            - text: 0.01 GHz
+                          - generic [ref=e1152]:
+                            - text: Memory Size
+                            - text: "-"
+                - listitem [ref=e1153]:
+                  - generic [ref=e1159]:
+                    - link [ref=e1165] [cursor=pointer]:
+                      - /url: /Apple-MacBook-14-2-inch-Laptop-chip/dp/B0GR1JVT2J/ref=sr_1_10?dib=eyJ2IjoiMSJ9.EXkLxpKHofoNFP6YKBzRSLtwQagMuNSp34cAi0pCXT64hym4h9bIu6JASnB_H9FJ5uhm1UWAqyReRftpv69SpMY-iCyjbyrVVEn_Yxf2FE9HJg2Oi3xMTm-eB1KwjYogsoWEbhwLTiqxmMJkn1ZBSX3BdQwMjx5LJ64AM84JIm44iNYUwPbrubXCe6xBMeiBUOuLWY33Qnjitxp9S8LhdzG4AYxb8kH4H30SQ8ovu6k.hZ3gOfd12sq_8bRoTaPE5bUuT3cZg3RDblmLBGeegF8&dib_tag=se&keywords=MacBook+Pro+M4+Max&qid=1774391079&sr=8-10
+                      - img [ref=e1167]
+                    - generic [ref=e1170]:
+                      - 'link "Apple MacBook Pro 14.2-inch Laptop with M5 Max chip with 18 core CPU and 32 core GPU: Built for AI, Liquid Retina XDR Display, 36GB Unified Memory, 2TB SSD, Wi-Fi 7; Silver" [ref=e1172] [cursor=pointer]':
+                        - /url: /Apple-MacBook-14-2-inch-Laptop-chip/dp/B0GR1JVT2J/ref=sr_1_10?dib=eyJ2IjoiMSJ9.EXkLxpKHofoNFP6YKBzRSLtwQagMuNSp34cAi0pCXT64hym4h9bIu6JASnB_H9FJ5uhm1UWAqyReRftpv69SpMY-iCyjbyrVVEn_Yxf2FE9HJg2Oi3xMTm-eB1KwjYogsoWEbhwLTiqxmMJkn1ZBSX3BdQwMjx5LJ64AM84JIm44iNYUwPbrubXCe6xBMeiBUOuLWY33Qnjitxp9S8LhdzG4AYxb8kH4H30SQ8ovu6k.hZ3gOfd12sq_8bRoTaPE5bUuT3cZg3RDblmLBGeegF8&dib_tag=se&keywords=MacBook+Pro+M4+Max&qid=1774391079&sr=8-10
+                        - 'heading "Apple MacBook Pro 14.2-inch Laptop with M5 Max chip with 18 core CPU and 32 core GPU: Built for AI, Liquid Retina XDR Display, 36GB Unified Memory, 2TB SSD, Wi-Fi 7; Silver" [level=2] [ref=e1173]'
+                      - generic [ref=e1176]:
+                        - generic [ref=e1177]: "Options:"
+                        - 'link "Options: 2 capacities" [ref=e1178] [cursor=pointer]':
+                          - /url: /Apple-MacBook-14-2-inch-Laptop-chip/dp/B0GR1JVT2J/ref=vo_sr_l_dp?dib=eyJ2IjoiMSJ9.EXkLxpKHofoNFP6YKBzRSLtwQagMuNSp34cAi0pCXT64hym4h9bIu6JASnB_H9FJ5uhm1UWAqyReRftpv69SpMY-iCyjbyrVVEn_Yxf2FE9HJg2Oi3xMTm-eB1KwjYogsoWEbhwLTiqxmMJkn1ZBSX3BdQwMjx5LJ64AM84JIm44iNYUwPbrubXCe6xBMeiBUOuLWY33Qnjitxp9S8LhdzG4AYxb8kH4H30SQ8ovu6k.hZ3gOfd12sq_8bRoTaPE5bUuT3cZg3RDblmLBGeegF8&dib_tag=se&keywords=MacBook+Pro+M4+Max&qid=1774391079&sr=8-10
+                          - generic [ref=e1179]:
+                            - generic [ref=e1180]: 2 capacities
+                            - generic [ref=e1181]: 2 capacities
+                      - generic [ref=e1182]:
+                        - generic [ref=e1183]:
+                          - text: "5.0"
+                          - button "5.0 out of 5 stars, rating details" [ref=e1185] [cursor=pointer]:
+                            - generic [ref=e1187]: 5.0 out of 5 stars
+                          - link "2 ratings" [ref=e1189] [cursor=pointer]:
+                            - /url: /Apple-MacBook-14-2-inch-Laptop-chip/dp/B0GR1JVT2J/ref=sr_1_10?dib=eyJ2IjoiMSJ9.EXkLxpKHofoNFP6YKBzRSLtwQagMuNSp34cAi0pCXT64hym4h9bIu6JASnB_H9FJ5uhm1UWAqyReRftpv69SpMY-iCyjbyrVVEn_Yxf2FE9HJg2Oi3xMTm-eB1KwjYogsoWEbhwLTiqxmMJkn1ZBSX3BdQwMjx5LJ64AM84JIm44iNYUwPbrubXCe6xBMeiBUOuLWY33Qnjitxp9S8LhdzG4AYxb8kH4H30SQ8ovu6k.hZ3gOfd12sq_8bRoTaPE5bUuT3cZg3RDblmLBGeegF8&dib_tag=se&keywords=MacBook+Pro+M4+Max&qid=1774391079&sr=8-10#customerReviews
+                            - text: (2)
+                        - generic [ref=e1190]: New on Amazon in past month
+                      - generic [ref=e1191]:
+                        - generic [ref=e1193]:
+                          - generic [ref=e1196]:
+                            - generic [ref=e1197]: Price, product page
+                            - link "£3,278.97" [ref=e1198] [cursor=pointer]:
+                              - /url: /Apple-MacBook-14-2-inch-Laptop-chip/dp/B0GR1JVT2J/ref=sr_1_10?dib=eyJ2IjoiMSJ9.EXkLxpKHofoNFP6YKBzRSLtwQagMuNSp34cAi0pCXT64hym4h9bIu6JASnB_H9FJ5uhm1UWAqyReRftpv69SpMY-iCyjbyrVVEn_Yxf2FE9HJg2Oi3xMTm-eB1KwjYogsoWEbhwLTiqxmMJkn1ZBSX3BdQwMjx5LJ64AM84JIm44iNYUwPbrubXCe6xBMeiBUOuLWY33Qnjitxp9S8LhdzG4AYxb8kH4H30SQ8ovu6k.hZ3gOfd12sq_8bRoTaPE5bUuT3cZg3RDblmLBGeegF8&dib_tag=se&keywords=MacBook+Pro+M4+Max&qid=1774391079&sr=8-10
+                              - generic [ref=e1199]:
+                                - generic [ref=e1200]: £3,278.97
+                                - generic [ref=e1201]:
+                                  - text: £
+                                  - generic [ref=e1202]:
+                                    - text: 3,278
+                                    - generic [ref=e1203]: .
+                                  - text: "97"
+                          - generic [ref=e1206]:
+                            - generic [ref=e1210]: FREE delivery Sat 28 Mar
+                            - generic [ref=e1212]: Or fastest delivery Thu 26 Mar
+                          - button "Add to basket" [ref=e1226] [cursor=pointer]
+                        - generic [ref=e1230]:
+                          - generic [ref=e1232]:
+                            - text: Display Size
+                            - text: 14 inches
+                          - generic [ref=e1234]:
+                            - text: Hard disk description
+                            - text: SSD
+                          - generic [ref=e1236]:
+                            - text: CPU Model Speed
+                            - text: 0.01 GHz
+                          - generic [ref=e1238]:
+                            - text: Memory Size
+                            - text: "-"
+                - listitem [ref=e1239]:
+                  - generic [ref=e1245]:
+                    - link [ref=e1251] [cursor=pointer]:
+                      - /url: /Apple-2025-MacBook-13-inch-Laptop/dp/B0DZDD9XH3/ref=sr_1_11?dib=eyJ2IjoiMSJ9.EXkLxpKHofoNFP6YKBzRSLtwQagMuNSp34cAi0pCXT64hym4h9bIu6JASnB_H9FJ5uhm1UWAqyReRftpv69SpMY-iCyjbyrVVEn_Yxf2FE9HJg2Oi3xMTm-eB1KwjYogsoWEbhwLTiqxmMJkn1ZBSX3BdQwMjx5LJ64AM84JIm44iNYUwPbrubXCe6xBMeiBUOuLWY33Qnjitxp9S8LhdzG4AYxb8kH4H30SQ8ovu6k.hZ3gOfd12sq_8bRoTaPE5bUuT3cZg3RDblmLBGeegF8&dib_tag=se&keywords=MacBook+Pro+M4+Max&qid=1774391079&sr=8-11
+                      - img [ref=e1253]
+                    - generic [ref=e1256]:
+                      - 'link "Apple 2025 MacBook Air 13-inch Laptop with M4 chip: Built for Apple Intelligence, 13.6-inch Liquid Retina Display, 24GB Unified Memory, 512GB SSD Storage, 12MP Center Stage Camera, Touch ID; Midnight" [ref=e1258] [cursor=pointer]':
+                        - /url: /Apple-2025-MacBook-13-inch-Laptop/dp/B0DZDD9XH3/ref=sr_1_11?dib=eyJ2IjoiMSJ9.EXkLxpKHofoNFP6YKBzRSLtwQagMuNSp34cAi0pCXT64hym4h9bIu6JASnB_H9FJ5uhm1UWAqyReRftpv69SpMY-iCyjbyrVVEn_Yxf2FE9HJg2Oi3xMTm-eB1KwjYogsoWEbhwLTiqxmMJkn1ZBSX3BdQwMjx5LJ64AM84JIm44iNYUwPbrubXCe6xBMeiBUOuLWY33Qnjitxp9S8LhdzG4AYxb8kH4H30SQ8ovu6k.hZ3gOfd12sq_8bRoTaPE5bUuT3cZg3RDblmLBGeegF8&dib_tag=se&keywords=MacBook+Pro+M4+Max&qid=1774391079&sr=8-11
+                        - 'heading "Apple 2025 MacBook Air 13-inch Laptop with M4 chip: Built for Apple Intelligence, 13.6-inch Liquid Retina Display, 24GB Unified Memory, 512GB SSD Storage, 12MP Center Stage Camera, Touch ID; Midnight" [level=2] [ref=e1259]'
+                      - generic [ref=e1262]:
+                        - generic [ref=e1263]: "Options:"
+                        - 'link "Options: 2 capacities" [ref=e1264] [cursor=pointer]':
+                          - /url: /Apple-2025-MacBook-13-inch-Laptop/dp/B0DZDD9XH3/ref=vo_sr_l_dp?dib=eyJ2IjoiMSJ9.EXkLxpKHofoNFP6YKBzRSLtwQagMuNSp34cAi0pCXT64hym4h9bIu6JASnB_H9FJ5uhm1UWAqyReRftpv69SpMY-iCyjbyrVVEn_Yxf2FE9HJg2Oi3xMTm-eB1KwjYogsoWEbhwLTiqxmMJkn1ZBSX3BdQwMjx5LJ64AM84JIm44iNYUwPbrubXCe6xBMeiBUOuLWY33Qnjitxp9S8LhdzG4AYxb8kH4H30SQ8ovu6k.hZ3gOfd12sq_8bRoTaPE5bUuT3cZg3RDblmLBGeegF8&dib_tag=se&keywords=MacBook+Pro+M4+Max&qid=1774391079&sr=8-11
+                          - generic [ref=e1265]:
+                            - generic [ref=e1266]: 2 capacities
+                            - generic [ref=e1267]: 2 capacities
+                      - generic [ref=e1268]:
+                        - generic [ref=e1269]:
+                          - text: "4.7"
+                          - button "4.7 out of 5 stars, rating details" [ref=e1271] [cursor=pointer]:
+                            - generic [ref=e1273]: 4.7 out of 5 stars
+                          - link "660 ratings" [ref=e1275] [cursor=pointer]:
+                            - /url: /Apple-2025-MacBook-13-inch-Laptop/dp/B0DZDD9XH3/ref=sr_1_11?dib=eyJ2IjoiMSJ9.EXkLxpKHofoNFP6YKBzRSLtwQagMuNSp34cAi0pCXT64hym4h9bIu6JASnB_H9FJ5uhm1UWAqyReRftpv69SpMY-iCyjbyrVVEn_Yxf2FE9HJg2Oi3xMTm-eB1KwjYogsoWEbhwLTiqxmMJkn1ZBSX3BdQwMjx5LJ64AM84JIm44iNYUwPbrubXCe6xBMeiBUOuLWY33Qnjitxp9S8LhdzG4AYxb8kH4H30SQ8ovu6k.hZ3gOfd12sq_8bRoTaPE5bUuT3cZg3RDblmLBGeegF8&dib_tag=se&keywords=MacBook+Pro+M4+Max&qid=1774391079&sr=8-11#customerReviews
+                            - text: (660)
+                        - generic [ref=e1276]: 50+ bought in past month
+                      - generic [ref=e1277]:
+                        - generic [ref=e1279]:
+                          - generic [ref=e1282]:
+                            - generic [ref=e1283]: Price, product page
+                            - 'link "£1,199.00 Was: £1,249.97 Was: £1,249.97" [ref=e1284] [cursor=pointer]':
+                              - /url: /Apple-2025-MacBook-13-inch-Laptop/dp/B0DZDD9XH3/ref=sr_1_11?dib=eyJ2IjoiMSJ9.EXkLxpKHofoNFP6YKBzRSLtwQagMuNSp34cAi0pCXT64hym4h9bIu6JASnB_H9FJ5uhm1UWAqyReRftpv69SpMY-iCyjbyrVVEn_Yxf2FE9HJg2Oi3xMTm-eB1KwjYogsoWEbhwLTiqxmMJkn1ZBSX3BdQwMjx5LJ64AM84JIm44iNYUwPbrubXCe6xBMeiBUOuLWY33Qnjitxp9S8LhdzG4AYxb8kH4H30SQ8ovu6k.hZ3gOfd12sq_8bRoTaPE5bUuT3cZg3RDblmLBGeegF8&dib_tag=se&keywords=MacBook+Pro+M4+Max&qid=1774391079&sr=8-11
+                              - generic [ref=e1285]:
+                                - generic [ref=e1286]: £1,199.00
+                                - generic [ref=e1287]:
+                                  - text: £
+                                  - generic [ref=e1288]:
+                                    - text: 1,199
+                                    - generic [ref=e1289]: .
+                                  - text: "00"
+                              - generic [ref=e1290]: "Was: £1,249.97"
+                              - generic [ref=e1291]:
+                                - text: "Was:"
+                                - generic [ref=e1292]:
+                                  - generic [ref=e1293]: £1,249.97
+                                  - text: £1,249.97
+                          - generic [ref=e1296]:
+                            - generic [ref=e1300]: FREE delivery Sat 28 Mar
+                            - generic [ref=e1302]: Or fastest delivery Thu 26 Mar
+                          - button "Add to basket" [ref=e1316] [cursor=pointer]
+                          - generic [ref=e1318]:
+                            - text: More buying choices
+                            - text: £1,152.64
+                            - link "(2+ used & new offers)" [ref=e1320] [cursor=pointer]:
+                              - /url: /gp/offer-listing/B0DZDD9XH3/ref=sr_1_11_olp?keywords=MacBook+Pro+M4+Max&dib_tag=se&dib=eyJ2IjoiMSJ9.EXkLxpKHofoNFP6YKBzRSLtwQagMuNSp34cAi0pCXT64hym4h9bIu6JASnB_H9FJ5uhm1UWAqyReRftpv69SpMY-iCyjbyrVVEn_Yxf2FE9HJg2Oi3xMTm-eB1KwjYogsoWEbhwLTiqxmMJkn1ZBSX3BdQwMjx5LJ64AM84JIm44iNYUwPbrubXCe6xBMeiBUOuLWY33Qnjitxp9S8LhdzG4AYxb8kH4H30SQ8ovu6k.hZ3gOfd12sq_8bRoTaPE5bUuT3cZg3RDblmLBGeegF8&qid=1774391079&sr=8-11
+                        - generic [ref=e1324]:
+                          - generic [ref=e1326]:
+                            - text: Display Size
+                            - text: 13.6 inches
+                          - generic [ref=e1328]:
+                            - text: Hard disk description
+                            - text: SSD
+                          - generic [ref=e1330]:
+                            - text: CPU Model Speed
+                            - text: "0.01"
+                          - generic [ref=e1332]:
+                            - text: Memory Size
+                            - text: "-"
+                - listitem [ref=e1333]:
+                  - generic [ref=e1339]:
+                    - link [ref=e1345] [cursor=pointer]:
+                      - /url: /Apple-MacBook-12-Core-38-Core-14-inch/dp/B0G7MK81H4/ref=sr_1_12?dib=eyJ2IjoiMSJ9.EXkLxpKHofoNFP6YKBzRSLtwQagMuNSp34cAi0pCXT64hym4h9bIu6JASnB_H9FJ5uhm1UWAqyReRftpv69SpMY-iCyjbyrVVEn_Yxf2FE9HJg2Oi3xMTm-eB1KwjYogsoWEbhwLTiqxmMJkn1ZBSX3BdQwMjx5LJ64AM84JIm44iNYUwPbrubXCe6xBMeiBUOuLWY33Qnjitxp9S8LhdzG4AYxb8kH4H30SQ8ovu6k.hZ3gOfd12sq_8bRoTaPE5bUuT3cZg3RDblmLBGeegF8&dib_tag=se&keywords=MacBook+Pro+M4+Max&qid=1774391079&sr=8-12
+                      - img [ref=e1347]
+                    - generic [ref=e1350]:
+                      - link "2023 Apple MacBook Pro with M2 Max Chip 12-Core CPU/38-Core GPU (14-inch, 64GB RAM, 8TB SSD) Space Gray (Renewed)" [ref=e1352] [cursor=pointer]:
+                        - /url: /Apple-MacBook-12-Core-38-Core-14-inch/dp/B0G7MK81H4/ref=sr_1_12?dib=eyJ2IjoiMSJ9.EXkLxpKHofoNFP6YKBzRSLtwQagMuNSp34cAi0pCXT64hym4h9bIu6JASnB_H9FJ5uhm1UWAqyReRftpv69SpMY-iCyjbyrVVEn_Yxf2FE9HJg2Oi3xMTm-eB1KwjYogsoWEbhwLTiqxmMJkn1ZBSX3BdQwMjx5LJ64AM84JIm44iNYUwPbrubXCe6xBMeiBUOuLWY33Qnjitxp9S8LhdzG4AYxb8kH4H30SQ8ovu6k.hZ3gOfd12sq_8bRoTaPE5bUuT3cZg3RDblmLBGeegF8&dib_tag=se&keywords=MacBook+Pro+M4+Max&qid=1774391079&sr=8-12
+                        - heading "2023 Apple MacBook Pro with M2 Max Chip 12-Core CPU/38-Core GPU (14-inch, 64GB RAM, 8TB SSD) Space Gray (Renewed)" [level=2] [ref=e1353]
+                      - generic [ref=e1355]:
+                        - text: "4.0"
+                        - button "4.0 out of 5 stars, rating details" [ref=e1357] [cursor=pointer]:
+                          - generic [ref=e1359]: 4.0 out of 5 stars
+                        - link "1 ratings" [ref=e1361] [cursor=pointer]:
+                          - /url: /Apple-MacBook-12-Core-38-Core-14-inch/dp/B0G7MK81H4/ref=sr_1_12?dib=eyJ2IjoiMSJ9.EXkLxpKHofoNFP6YKBzRSLtwQagMuNSp34cAi0pCXT64hym4h9bIu6JASnB_H9FJ5uhm1UWAqyReRftpv69SpMY-iCyjbyrVVEn_Yxf2FE9HJg2Oi3xMTm-eB1KwjYogsoWEbhwLTiqxmMJkn1ZBSX3BdQwMjx5LJ64AM84JIm44iNYUwPbrubXCe6xBMeiBUOuLWY33Qnjitxp9S8LhdzG4AYxb8kH4H30SQ8ovu6k.hZ3gOfd12sq_8bRoTaPE5bUuT3cZg3RDblmLBGeegF8&dib_tag=se&keywords=MacBook+Pro+M4+Max&qid=1774391079&sr=8-12#customerReviews
+                          - text: (1)
+                      - generic [ref=e1362]:
+                        - generic [ref=e1364]:
+                          - generic [ref=e1367]:
+                            - generic [ref=e1368]: Price, product page
+                            - link "£2,399.00" [ref=e1369] [cursor=pointer]:
+                              - /url: /Apple-MacBook-12-Core-38-Core-14-inch/dp/B0G7MK81H4/ref=sr_1_12?dib=eyJ2IjoiMSJ9.EXkLxpKHofoNFP6YKBzRSLtwQagMuNSp34cAi0pCXT64hym4h9bIu6JASnB_H9FJ5uhm1UWAqyReRftpv69SpMY-iCyjbyrVVEn_Yxf2FE9HJg2Oi3xMTm-eB1KwjYogsoWEbhwLTiqxmMJkn1ZBSX3BdQwMjx5LJ64AM84JIm44iNYUwPbrubXCe6xBMeiBUOuLWY33Qnjitxp9S8LhdzG4AYxb8kH4H30SQ8ovu6k.hZ3gOfd12sq_8bRoTaPE5bUuT3cZg3RDblmLBGeegF8&dib_tag=se&keywords=MacBook+Pro+M4+Max&qid=1774391079&sr=8-12
+                              - generic [ref=e1370]:
+                                - generic [ref=e1371]: £2,399.00
+                                - generic [ref=e1372]:
+                                  - text: £
+                                  - generic [ref=e1373]:
+                                    - text: 2,399
+                                    - generic [ref=e1374]: .
+                                  - text: "00"
+                          - generic [ref=e1375]:
+                            - generic [ref=e1381]: FREE delivery Thu 26 Mar
+                            - generic "Only 1 left in stock." [ref=e1383]
+                          - link "See options" [ref=e1389] [cursor=pointer]:
+                            - /url: /Apple-MacBook-12-Core-38-Core-14-inch/dp/B0G7MK81H4/ref=sr_1_12_so_NOTEBOOK_COMPUTER?dib=eyJ2IjoiMSJ9.EXkLxpKHofoNFP6YKBzRSLtwQagMuNSp34cAi0pCXT64hym4h9bIu6JASnB_H9FJ5uhm1UWAqyReRftpv69SpMY-iCyjbyrVVEn_Yxf2FE9HJg2Oi3xMTm-eB1KwjYogsoWEbhwLTiqxmMJkn1ZBSX3BdQwMjx5LJ64AM84JIm44iNYUwPbrubXCe6xBMeiBUOuLWY33Qnjitxp9S8LhdzG4AYxb8kH4H30SQ8ovu6k.hZ3gOfd12sq_8bRoTaPE5bUuT3cZg3RDblmLBGeegF8&dib_tag=se&keywords=MacBook+Pro+M4+Max&qid=1774391079&sr=8-12
+                        - generic [ref=e1393]:
+                          - generic [ref=e1395]:
+                            - text: Display Size
+                            - text: 14 inches
+                          - generic [ref=e1397]:
+                            - text: Hard disk description
+                            - text: SSD
+                          - generic [ref=e1399]:
+                            - text: CPU Model Speed
+                            - text: 3.68 GHz
+                          - generic [ref=e1401]:
+                            - text: Memory Size
+                            - text: "-"
+                - listitem [ref=e1402]:
+                  - generic [ref=e1408]:
+                    - link [ref=e1414] [cursor=pointer]:
+                      - /url: /Apple-2025-MacBook-15-inch-Laptop/dp/B0DZDDFBTX/ref=sr_1_13?dib=eyJ2IjoiMSJ9.EXkLxpKHofoNFP6YKBzRSLtwQagMuNSp34cAi0pCXT64hym4h9bIu6JASnB_H9FJ5uhm1UWAqyReRftpv69SpMY-iCyjbyrVVEn_Yxf2FE9HJg2Oi3xMTm-eB1KwjYogsoWEbhwLTiqxmMJkn1ZBSX3BdQwMjx5LJ64AM84JIm44iNYUwPbrubXCe6xBMeiBUOuLWY33Qnjitxp9S8LhdzG4AYxb8kH4H30SQ8ovu6k.hZ3gOfd12sq_8bRoTaPE5bUuT3cZg3RDblmLBGeegF8&dib_tag=se&keywords=MacBook+Pro+M4+Max&qid=1774391079&sr=8-13
+                      - img [ref=e1416]
+                    - generic [ref=e1419]:
+                      - 'link "Apple 2025 MacBook Air 15-inch Laptop with M4 chip: Built for Apple Intelligence, 15.3-inch Liquid Retina Display, 24GB Unified Memory, 512GB SSD Storage, 12MP Center Stage Camera, Touch ID; Midnight" [ref=e1421] [cursor=pointer]':
+                        - /url: /Apple-2025-MacBook-15-inch-Laptop/dp/B0DZDDFBTX/ref=sr_1_13?dib=eyJ2IjoiMSJ9.EXkLxpKHofoNFP6YKBzRSLtwQagMuNSp34cAi0pCXT64hym4h9bIu6JASnB_H9FJ5uhm1UWAqyReRftpv69SpMY-iCyjbyrVVEn_Yxf2FE9HJg2Oi3xMTm-eB1KwjYogsoWEbhwLTiqxmMJkn1ZBSX3BdQwMjx5LJ64AM84JIm44iNYUwPbrubXCe6xBMeiBUOuLWY33Qnjitxp9S8LhdzG4AYxb8kH4H30SQ8ovu6k.hZ3gOfd12sq_8bRoTaPE5bUuT3cZg3RDblmLBGeegF8&dib_tag=se&keywords=MacBook+Pro+M4+Max&qid=1774391079&sr=8-13
+                        - 'heading "Apple 2025 MacBook Air 15-inch Laptop with M4 chip: Built for Apple Intelligence, 15.3-inch Liquid Retina Display, 24GB Unified Memory, 512GB SSD Storage, 12MP Center Stage Camera, Touch ID; Midnight" [level=2] [ref=e1422]'
+                      - generic [ref=e1425]:
+                        - generic [ref=e1426]: "Options:"
+                        - 'link "Options: 2 capacities" [ref=e1427] [cursor=pointer]':
+                          - /url: /Apple-2025-MacBook-15-inch-Laptop/dp/B0DZDDFBTX/ref=vo_sr_l_dp?dib=eyJ2IjoiMSJ9.EXkLxpKHofoNFP6YKBzRSLtwQagMuNSp34cAi0pCXT64hym4h9bIu6JASnB_H9FJ5uhm1UWAqyReRftpv69SpMY-iCyjbyrVVEn_Yxf2FE9HJg2Oi3xMTm-eB1KwjYogsoWEbhwLTiqxmMJkn1ZBSX3BdQwMjx5LJ64AM84JIm44iNYUwPbrubXCe6xBMeiBUOuLWY33Qnjitxp9S8LhdzG4AYxb8kH4H30SQ8ovu6k.hZ3gOfd12sq_8bRoTaPE5bUuT3cZg3RDblmLBGeegF8&dib_tag=se&keywords=MacBook+Pro+M4+Max&qid=1774391079&sr=8-13
+                          - generic [ref=e1428]:
+                            - generic [ref=e1429]: 2 capacities
+                            - generic [ref=e1430]: 2 capacities
+                      - generic [ref=e1432]:
+                        - text: "4.7"
+                        - button "4.7 out of 5 stars, rating details" [ref=e1434] [cursor=pointer]:
+                          - generic [ref=e1436]: 4.7 out of 5 stars
+                        - link "307 ratings" [ref=e1438] [cursor=pointer]:
+                          - /url: /Apple-2025-MacBook-15-inch-Laptop/dp/B0DZDDFBTX/ref=sr_1_13?dib=eyJ2IjoiMSJ9.EXkLxpKHofoNFP6YKBzRSLtwQagMuNSp34cAi0pCXT64hym4h9bIu6JASnB_H9FJ5uhm1UWAqyReRftpv69SpMY-iCyjbyrVVEn_Yxf2FE9HJg2Oi3xMTm-eB1KwjYogsoWEbhwLTiqxmMJkn1ZBSX3BdQwMjx5LJ64AM84JIm44iNYUwPbrubXCe6xBMeiBUOuLWY33Qnjitxp9S8LhdzG4AYxb8kH4H30SQ8ovu6k.hZ3gOfd12sq_8bRoTaPE5bUuT3cZg3RDblmLBGeegF8&dib_tag=se&keywords=MacBook+Pro+M4+Max&qid=1774391079&sr=8-13#customerReviews
+                          - text: (307)
+                      - generic [ref=e1439]:
+                        - generic [ref=e1441]:
+                          - generic [ref=e1444]:
+                            - generic [ref=e1445]: Price, product page
+                            - 'link "£1,399.00 Was: £1,479.97 Was: £1,479.97" [ref=e1446] [cursor=pointer]':
+                              - /url: /Apple-2025-MacBook-15-inch-Laptop/dp/B0DZDDFBTX/ref=sr_1_13?dib=eyJ2IjoiMSJ9.EXkLxpKHofoNFP6YKBzRSLtwQagMuNSp34cAi0pCXT64hym4h9bIu6JASnB_H9FJ5uhm1UWAqyReRftpv69SpMY-iCyjbyrVVEn_Yxf2FE9HJg2Oi3xMTm-eB1KwjYogsoWEbhwLTiqxmMJkn1ZBSX3BdQwMjx5LJ64AM84JIm44iNYUwPbrubXCe6xBMeiBUOuLWY33Qnjitxp9S8LhdzG4AYxb8kH4H30SQ8ovu6k.hZ3gOfd12sq_8bRoTaPE5bUuT3cZg3RDblmLBGeegF8&dib_tag=se&keywords=MacBook+Pro+M4+Max&qid=1774391079&sr=8-13
+                              - generic [ref=e1447]:
+                                - generic [ref=e1448]: £1,399.00
+                                - generic [ref=e1449]:
+                                  - text: £
+                                  - generic [ref=e1450]:
+                                    - text: 1,399
+                                    - generic [ref=e1451]: .
+                                  - text: "00"
+                              - generic [ref=e1452]: "Was: £1,479.97"
+                              - generic [ref=e1453]:
+                                - text: "Was:"
+                                - generic [ref=e1454]:
+                                  - generic [ref=e1455]: £1,479.97
+                                  - text: £1,479.97
+                          - generic [ref=e1458]:
+                            - generic [ref=e1462]: FREE delivery Sat 28 Mar
+                            - generic [ref=e1464]: Or fastest delivery Thu 26 Mar
+                          - button "Add to basket" [ref=e1478] [cursor=pointer]
+                          - generic [ref=e1480]:
+                            - text: More buying choices
+                            - text: £1,318.06
+                            - link "(2 used & new offers)" [ref=e1482] [cursor=pointer]:
+                              - /url: /gp/offer-listing/B0DZDDFBTX/ref=sr_1_13_olp?keywords=MacBook+Pro+M4+Max&dib_tag=se&dib=eyJ2IjoiMSJ9.EXkLxpKHofoNFP6YKBzRSLtwQagMuNSp34cAi0pCXT64hym4h9bIu6JASnB_H9FJ5uhm1UWAqyReRftpv69SpMY-iCyjbyrVVEn_Yxf2FE9HJg2Oi3xMTm-eB1KwjYogsoWEbhwLTiqxmMJkn1ZBSX3BdQwMjx5LJ64AM84JIm44iNYUwPbrubXCe6xBMeiBUOuLWY33Qnjitxp9S8LhdzG4AYxb8kH4H30SQ8ovu6k.hZ3gOfd12sq_8bRoTaPE5bUuT3cZg3RDblmLBGeegF8&qid=1774391079&sr=8-13
+                        - generic [ref=e1486]:
+                          - generic [ref=e1488]:
+                            - text: Display Size
+                            - text: 15.3 inches
+                          - generic [ref=e1490]:
+                            - text: Hard disk description
+                            - text: SSD
+                          - generic [ref=e1492]:
+                            - text: CPU Model Speed
+                            - text: "0.01"
+                          - generic [ref=e1494]:
+                            - text: Memory Size
+                            - text: "-"
+                - listitem [ref=e1495]:
+                  - generic [ref=e1501]:
+                    - link [ref=e1507] [cursor=pointer]:
+                      - /url: /Apple-MacBook-16-inch-Storage-English/dp/B0CXJNHTXW/ref=sr_1_14?dib=eyJ2IjoiMSJ9.EXkLxpKHofoNFP6YKBzRSLtwQagMuNSp34cAi0pCXT64hym4h9bIu6JASnB_H9FJ5uhm1UWAqyReRftpv69SpMY-iCyjbyrVVEn_Yxf2FE9HJg2Oi3xMTm-eB1KwjYogsoWEbhwLTiqxmMJkn1ZBSX3BdQwMjx5LJ64AM84JIm44iNYUwPbrubXCe6xBMeiBUOuLWY33Qnjitxp9S8LhdzG4AYxb8kH4H30SQ8ovu6k.hZ3gOfd12sq_8bRoTaPE5bUuT3cZg3RDblmLBGeegF8&dib_tag=se&keywords=MacBook+Pro+M4+Max&qid=1774391079&sr=8-14
+                      - img [ref=e1509]
+                    - generic [ref=e1512]:
+                      - link "2021 Apple MacBook Pro with Apple M1 Max Chip (16-inch, 32GB RAM, 512GB SSD Storage) (QWERTY English) Silver (Renewed)" [ref=e1514] [cursor=pointer]:
+                        - /url: /Apple-MacBook-16-inch-Storage-English/dp/B0CXJNHTXW/ref=sr_1_14?dib=eyJ2IjoiMSJ9.EXkLxpKHofoNFP6YKBzRSLtwQagMuNSp34cAi0pCXT64hym4h9bIu6JASnB_H9FJ5uhm1UWAqyReRftpv69SpMY-iCyjbyrVVEn_Yxf2FE9HJg2Oi3xMTm-eB1KwjYogsoWEbhwLTiqxmMJkn1ZBSX3BdQwMjx5LJ64AM84JIm44iNYUwPbrubXCe6xBMeiBUOuLWY33Qnjitxp9S8LhdzG4AYxb8kH4H30SQ8ovu6k.hZ3gOfd12sq_8bRoTaPE5bUuT3cZg3RDblmLBGeegF8&dib_tag=se&keywords=MacBook+Pro+M4+Max&qid=1774391079&sr=8-14
+                        - heading "2021 Apple MacBook Pro with Apple M1 Max Chip (16-inch, 32GB RAM, 512GB SSD Storage) (QWERTY English) Silver (Renewed)" [level=2] [ref=e1515]
+                      - generic [ref=e1517]:
+                        - text: "5.0"
+                        - button "5.0 out of 5 stars, rating details" [ref=e1519] [cursor=pointer]:
+                          - generic [ref=e1521]: 5.0 out of 5 stars
+                        - link "4 ratings" [ref=e1523] [cursor=pointer]:
+                          - /url: /Apple-MacBook-16-inch-Storage-English/dp/B0CXJNHTXW/ref=sr_1_14?dib=eyJ2IjoiMSJ9.EXkLxpKHofoNFP6YKBzRSLtwQagMuNSp34cAi0pCXT64hym4h9bIu6JASnB_H9FJ5uhm1UWAqyReRftpv69SpMY-iCyjbyrVVEn_Yxf2FE9HJg2Oi3xMTm-eB1KwjYogsoWEbhwLTiqxmMJkn1ZBSX3BdQwMjx5LJ64AM84JIm44iNYUwPbrubXCe6xBMeiBUOuLWY33Qnjitxp9S8LhdzG4AYxb8kH4H30SQ8ovu6k.hZ3gOfd12sq_8bRoTaPE5bUuT3cZg3RDblmLBGeegF8&dib_tag=se&keywords=MacBook+Pro+M4+Max&qid=1774391079&sr=8-14#customerReviews
+                          - text: (4)
+                      - generic [ref=e1524]:
+                        - generic [ref=e1526]:
+                          - generic [ref=e1529]:
+                            - generic [ref=e1530]: Price, product page
+                            - link "£979.00" [ref=e1531] [cursor=pointer]:
+                              - /url: /Apple-MacBook-16-inch-Storage-English/dp/B0CXJNHTXW/ref=sr_1_14?dib=eyJ2IjoiMSJ9.EXkLxpKHofoNFP6YKBzRSLtwQagMuNSp34cAi0pCXT64hym4h9bIu6JASnB_H9FJ5uhm1UWAqyReRftpv69SpMY-iCyjbyrVVEn_Yxf2FE9HJg2Oi3xMTm-eB1KwjYogsoWEbhwLTiqxmMJkn1ZBSX3BdQwMjx5LJ64AM84JIm44iNYUwPbrubXCe6xBMeiBUOuLWY33Qnjitxp9S8LhdzG4AYxb8kH4H30SQ8ovu6k.hZ3gOfd12sq_8bRoTaPE5bUuT3cZg3RDblmLBGeegF8&dib_tag=se&keywords=MacBook+Pro+M4+Max&qid=1774391079&sr=8-14
+                              - generic [ref=e1532]:
+                                - generic [ref=e1533]: £979.00
+                                - generic [ref=e1534]:
+                                  - text: £
+                                  - generic [ref=e1535]:
+                                    - text: "979"
+                                    - generic [ref=e1536]: .
+                                  - text: "00"
+                          - generic [ref=e1537]:
+                            - generic [ref=e1543]: FREE delivery Thu 26 Mar
+                            - generic "Only 8 left in stock." [ref=e1545]
+                          - link "See options" [ref=e1551] [cursor=pointer]:
+                            - /url: /Apple-MacBook-16-inch-Storage-English/dp/B0CXJNHTXW/ref=sr_1_14_so_NOTEBOOK_COMPUTER?dib=eyJ2IjoiMSJ9.EXkLxpKHofoNFP6YKBzRSLtwQagMuNSp34cAi0pCXT64hym4h9bIu6JASnB_H9FJ5uhm1UWAqyReRftpv69SpMY-iCyjbyrVVEn_Yxf2FE9HJg2Oi3xMTm-eB1KwjYogsoWEbhwLTiqxmMJkn1ZBSX3BdQwMjx5LJ64AM84JIm44iNYUwPbrubXCe6xBMeiBUOuLWY33Qnjitxp9S8LhdzG4AYxb8kH4H30SQ8ovu6k.hZ3gOfd12sq_8bRoTaPE5bUuT3cZg3RDblmLBGeegF8&dib_tag=se&keywords=MacBook+Pro+M4+Max&qid=1774391079&sr=8-14
+                          - generic [ref=e1553]:
+                            - text: More buying choices
+                            - text: £949.00
+                            - link "(2 used & new offers)" [ref=e1555] [cursor=pointer]:
+                              - /url: /gp/offer-listing/B0CXJNHTXW/ref=sr_1_14_olp?keywords=MacBook+Pro+M4+Max&dib_tag=se&dib=eyJ2IjoiMSJ9.EXkLxpKHofoNFP6YKBzRSLtwQagMuNSp34cAi0pCXT64hym4h9bIu6JASnB_H9FJ5uhm1UWAqyReRftpv69SpMY-iCyjbyrVVEn_Yxf2FE9HJg2Oi3xMTm-eB1KwjYogsoWEbhwLTiqxmMJkn1ZBSX3BdQwMjx5LJ64AM84JIm44iNYUwPbrubXCe6xBMeiBUOuLWY33Qnjitxp9S8LhdzG4AYxb8kH4H30SQ8ovu6k.hZ3gOfd12sq_8bRoTaPE5bUuT3cZg3RDblmLBGeegF8&qid=1774391079&sr=8-14
+                        - generic [ref=e1559]:
+                          - generic [ref=e1561]:
+                            - text: Display Size
+                            - text: 16.2 inches
+                          - generic [ref=e1563]:
+                            - text: Hard disk description
+                            - text: SSD
+                          - generic [ref=e1565]:
+                            - text: CPU Model Speed
+                            - text: 3.2 GHz
+                          - generic [ref=e1567]:
+                            - text: Memory Size
+                            - text: 32 GB
+                - listitem [ref=e1568]:
+                  - generic [ref=e1574]:
+                    - link [ref=e1580] [cursor=pointer]:
+                      - /url: /Apple-MacBook-14-inch-14%E2%80%91core-512GB/dp/B0B9KG779B/ref=sr_1_15?dib=eyJ2IjoiMSJ9.EXkLxpKHofoNFP6YKBzRSLtwQagMuNSp34cAi0pCXT64hym4h9bIu6JASnB_H9FJ5uhm1UWAqyReRftpv69SpMY-iCyjbyrVVEn_Yxf2FE9HJg2Oi3xMTm-eB1KwjYogsoWEbhwLTiqxmMJkn1ZBSX3BdQwMjx5LJ64AM84JIm44iNYUwPbrubXCe6xBMeiBUOuLWY33Qnjitxp9S8LhdzG4AYxb8kH4H30SQ8ovu6k.hZ3gOfd12sq_8bRoTaPE5bUuT3cZg3RDblmLBGeegF8&dib_tag=se&keywords=MacBook+Pro+M4+Max&qid=1774391079&sr=8-15
+                      - img [ref=e1582]
+                    - generic [ref=e1585]:
+                      - link "2021 Apple MacBook Pro with Apple M1 Pro chip (14-inch, 16GB RAM, 512GB SSD) (QWERTY English) Space Grey (Renewed)" [ref=e1587] [cursor=pointer]:
+                        - /url: /Apple-MacBook-14-inch-14%E2%80%91core-512GB/dp/B0B9KG779B/ref=sr_1_15?dib=eyJ2IjoiMSJ9.EXkLxpKHofoNFP6YKBzRSLtwQagMuNSp34cAi0pCXT64hym4h9bIu6JASnB_H9FJ5uhm1UWAqyReRftpv69SpMY-iCyjbyrVVEn_Yxf2FE9HJg2Oi3xMTm-eB1KwjYogsoWEbhwLTiqxmMJkn1ZBSX3BdQwMjx5LJ64AM84JIm44iNYUwPbrubXCe6xBMeiBUOuLWY33Qnjitxp9S8LhdzG4AYxb8kH4H30SQ8ovu6k.hZ3gOfd12sq_8bRoTaPE5bUuT3cZg3RDblmLBGeegF8&dib_tag=se&keywords=MacBook+Pro+M4+Max&qid=1774391079&sr=8-15
+                        - heading "2021 Apple MacBook Pro with Apple M1 Pro chip (14-inch, 16GB RAM, 512GB SSD) (QWERTY English) Space Grey (Renewed)" [level=2] [ref=e1588]
+                      - generic [ref=e1590]:
+                        - text: "4.1"
+                        - button "4.1 out of 5 stars, rating details" [ref=e1592] [cursor=pointer]:
+                          - generic [ref=e1594]: 4.1 out of 5 stars
+                        - link "71 ratings" [ref=e1596] [cursor=pointer]:
+                          - /url: /Apple-MacBook-14-inch-14%E2%80%91core-512GB/dp/B0B9KG779B/ref=sr_1_15?dib=eyJ2IjoiMSJ9.EXkLxpKHofoNFP6YKBzRSLtwQagMuNSp34cAi0pCXT64hym4h9bIu6JASnB_H9FJ5uhm1UWAqyReRftpv69SpMY-iCyjbyrVVEn_Yxf2FE9HJg2Oi3xMTm-eB1KwjYogsoWEbhwLTiqxmMJkn1ZBSX3BdQwMjx5LJ64AM84JIm44iNYUwPbrubXCe6xBMeiBUOuLWY33Qnjitxp9S8LhdzG4AYxb8kH4H30SQ8ovu6k.hZ3gOfd12sq_8bRoTaPE5bUuT3cZg3RDblmLBGeegF8&dib_tag=se&keywords=MacBook+Pro+M4+Max&qid=1774391079&sr=8-15#customerReviews
+                          - text: (71)
+                      - generic [ref=e1597]:
+                        - generic [ref=e1599]:
+                          - generic [ref=e1602]:
+                            - generic [ref=e1603]: Price, product page
+                            - 'link "£679.00 Was: £712.00 Was: £712.00" [ref=e1604] [cursor=pointer]':
+                              - /url: /Apple-MacBook-14-inch-14%E2%80%91core-512GB/dp/B0B9KG779B/ref=sr_1_15?dib=eyJ2IjoiMSJ9.EXkLxpKHofoNFP6YKBzRSLtwQagMuNSp34cAi0pCXT64hym4h9bIu6JASnB_H9FJ5uhm1UWAqyReRftpv69SpMY-iCyjbyrVVEn_Yxf2FE9HJg2Oi3xMTm-eB1KwjYogsoWEbhwLTiqxmMJkn1ZBSX3BdQwMjx5LJ64AM84JIm44iNYUwPbrubXCe6xBMeiBUOuLWY33Qnjitxp9S8LhdzG4AYxb8kH4H30SQ8ovu6k.hZ3gOfd12sq_8bRoTaPE5bUuT3cZg3RDblmLBGeegF8&dib_tag=se&keywords=MacBook+Pro+M4+Max&qid=1774391079&sr=8-15
+                              - generic [ref=e1605]:
+                                - generic [ref=e1606]: £679.00
+                                - generic [ref=e1607]:
+                                  - text: £
+                                  - generic [ref=e1608]:
+                                    - text: "679"
+                                    - generic [ref=e1609]: .
+                                  - text: "00"
+                              - generic [ref=e1610]: "Was: £712.00"
+                              - generic [ref=e1611]:
+                                - text: "Was:"
+                                - generic [ref=e1612]:
+                                  - generic [ref=e1613]: £712.00
+                                  - text: £712.00
+                          - generic [ref=e1614]:
+                            - generic [ref=e1620]: FREE delivery Thu 26 Mar
+                            - generic "Only 4 left in stock." [ref=e1622]
+                          - link "See options" [ref=e1628] [cursor=pointer]:
+                            - /url: /Apple-MacBook-14-inch-14%E2%80%91core-512GB/dp/B0B9KG779B/ref=sr_1_15_so_NOTEBOOK_COMPUTER?dib=eyJ2IjoiMSJ9.EXkLxpKHofoNFP6YKBzRSLtwQagMuNSp34cAi0pCXT64hym4h9bIu6JASnB_H9FJ5uhm1UWAqyReRftpv69SpMY-iCyjbyrVVEn_Yxf2FE9HJg2Oi3xMTm-eB1KwjYogsoWEbhwLTiqxmMJkn1ZBSX3BdQwMjx5LJ64AM84JIm44iNYUwPbrubXCe6xBMeiBUOuLWY33Qnjitxp9S8LhdzG4AYxb8kH4H30SQ8ovu6k.hZ3gOfd12sq_8bRoTaPE5bUuT3cZg3RDblmLBGeegF8&dib_tag=se&keywords=MacBook+Pro+M4+Max&qid=1774391079&sr=8-15
+                          - group "colours available" [ref=e1630]:
+                            - list [ref=e1631]:
+                              - generic [ref=e1632]:
+                                - listitem:
+                                  - link "Space Gray":
+                                    - /url: /Apple-MacBook-14-inch-14%E2%80%91core-512GB/dp/B0B9KG779B/ref=cs_sr_dp_1?dib=eyJ2IjoiMSJ9.EXkLxpKHofoNFP6YKBzRSLtwQagMuNSp34cAi0pCXT64hym4h9bIu6JASnB_H9FJ5uhm1UWAqyReRftpv69SpMY-iCyjbyrVVEn_Yxf2FE9HJg2Oi3xMTm-eB1KwjYogsoWEbhwLTiqxmMJkn1ZBSX3BdQwMjx5LJ64AM84JIm44iNYUwPbrubXCe6xBMeiBUOuLWY33Qnjitxp9S8LhdzG4AYxb8kH4H30SQ8ovu6k.hZ3gOfd12sq_8bRoTaPE5bUuT3cZg3RDblmLBGeegF8&dib_tag=se&keywords=MacBook+Pro+M4+Max&qid=1774391079&sr=8-15
+                              - generic [ref=e1635]:
+                                - listitem:
+                                  - link "Silver":
+                                    - /url: /Apple-MacBook-14-inch-14%E2%80%91core-512GB/dp/B0CJCN9QQY/ref=cs_sr_dp_2?dib=eyJ2IjoiMSJ9.EXkLxpKHofoNFP6YKBzRSLtwQagMuNSp34cAi0pCXT64hym4h9bIu6JASnB_H9FJ5uhm1UWAqyReRftpv69SpMY-iCyjbyrVVEn_Yxf2FE9HJg2Oi3xMTm-eB1KwjYogsoWEbhwLTiqxmMJkn1ZBSX3BdQwMjx5LJ64AM84JIm44iNYUwPbrubXCe6xBMeiBUOuLWY33Qnjitxp9S8LhdzG4AYxb8kH4H30SQ8ovu6k.hZ3gOfd12sq_8bRoTaPE5bUuT3cZg3RDblmLBGeegF8&dib_tag=se&keywords=MacBook+Pro+M4+Max&qid=1774391079&sr=8-15
+                        - generic [ref=e1641]:
+                          - generic [ref=e1643]:
+                            - text: Display Size
+                            - text: 14 inches
+                          - generic [ref=e1645]:
+                            - text: Hard disk description
+                            - text: SSD
+                          - generic [ref=e1647]:
+                            - text: CPU Model Speed
+                            - text: 3.1 GHz
+                          - generic [ref=e1649]:
+                            - text: Memory Size
+                            - text: 16 GB
+                - listitem [ref=e1650]:
+                  - generic [ref=e1656]:
+                    - link [ref=e1662] [cursor=pointer]:
+                      - /url: /Apple-MacBook-laptop-11%E2%80%91core-14%E2%80%91core/dp/B0CM615CW2/ref=sr_1_16?dib=eyJ2IjoiMSJ9.EXkLxpKHofoNFP6YKBzRSLtwQagMuNSp34cAi0pCXT64hym4h9bIu6JASnB_H9FJ5uhm1UWAqyReRftpv69SpMY-iCyjbyrVVEn_Yxf2FE9HJg2Oi3xMTm-eB1KwjYogsoWEbhwLTiqxmMJkn1ZBSX3BdQwMjx5LJ64AM84JIm44iNYUwPbrubXCe6xBMeiBUOuLWY33Qnjitxp9S8LhdzG4AYxb8kH4H30SQ8ovu6k.hZ3gOfd12sq_8bRoTaPE5bUuT3cZg3RDblmLBGeegF8&dib_tag=se&keywords=MacBook+Pro+M4+Max&qid=1774391079&sr=8-16
+                      - img [ref=e1664]
+                    - generic [ref=e1667]:
+                      - 'link "Apple 2023 MacBook Pro laptop M3 Pro chip with 11‑core CPU, 14‑core GPU: 14.2-inch Liquid Retina XDR display, 18GB unified memory, 512GB SSD storage. Works with iPhone/iPad; Silver" [ref=e1669] [cursor=pointer]':
+                        - /url: /Apple-MacBook-laptop-11%E2%80%91core-14%E2%80%91core/dp/B0CM615CW2/ref=sr_1_16?dib=eyJ2IjoiMSJ9.EXkLxpKHofoNFP6YKBzRSLtwQagMuNSp34cAi0pCXT64hym4h9bIu6JASnB_H9FJ5uhm1UWAqyReRftpv69SpMY-iCyjbyrVVEn_Yxf2FE9HJg2Oi3xMTm-eB1KwjYogsoWEbhwLTiqxmMJkn1ZBSX3BdQwMjx5LJ64AM84JIm44iNYUwPbrubXCe6xBMeiBUOuLWY33Qnjitxp9S8LhdzG4AYxb8kH4H30SQ8ovu6k.hZ3gOfd12sq_8bRoTaPE5bUuT3cZg3RDblmLBGeegF8&dib_tag=se&keywords=MacBook+Pro+M4+Max&qid=1774391079&sr=8-16
+                        - 'heading "Apple 2023 MacBook Pro laptop M3 Pro chip with 11‑core CPU, 14‑core GPU: 14.2-inch Liquid Retina XDR display, 18GB unified memory, 512GB SSD storage. Works with iPhone/iPad; Silver" [level=2] [ref=e1670]'
+                      - generic [ref=e1673]:
+                        - generic [ref=e1674]: "Options:"
+                        - 'link "Options: 2 capacities" [ref=e1675] [cursor=pointer]':
+                          - /url: /Apple-MacBook-laptop-11%E2%80%91core-14%E2%80%91core/dp/B0CM615CW2/ref=vo_sr_l_dp?dib=eyJ2IjoiMSJ9.EXkLxpKHofoNFP6YKBzRSLtwQagMuNSp34cAi0pCXT64hym4h9bIu6JASnB_H9FJ5uhm1UWAqyReRftpv69SpMY-iCyjbyrVVEn_Yxf2FE9HJg2Oi3xMTm-eB1KwjYogsoWEbhwLTiqxmMJkn1ZBSX3BdQwMjx5LJ64AM84JIm44iNYUwPbrubXCe6xBMeiBUOuLWY33Qnjitxp9S8LhdzG4AYxb8kH4H30SQ8ovu6k.hZ3gOfd12sq_8bRoTaPE5bUuT3cZg3RDblmLBGeegF8&dib_tag=se&keywords=MacBook+Pro+M4+Max&qid=1774391079&sr=8-16
+                          - generic [ref=e1676]:
+                            - generic [ref=e1677]: 2 capacities
+                            - generic [ref=e1678]: 2 capacities
+                      - generic [ref=e1680]:
+                        - text: "4.7"
+                        - button "4.7 out of 5 stars, rating details" [ref=e1682] [cursor=pointer]:
+                          - generic [ref=e1684]: 4.7 out of 5 stars
+                        - link "187 ratings" [ref=e1686] [cursor=pointer]:
+                          - /url: /Apple-MacBook-laptop-11%E2%80%91core-14%E2%80%91core/dp/B0CM615CW2/ref=sr_1_16?dib=eyJ2IjoiMSJ9.EXkLxpKHofoNFP6YKBzRSLtwQagMuNSp34cAi0pCXT64hym4h9bIu6JASnB_H9FJ5uhm1UWAqyReRftpv69SpMY-iCyjbyrVVEn_Yxf2FE9HJg2Oi3xMTm-eB1KwjYogsoWEbhwLTiqxmMJkn1ZBSX3BdQwMjx5LJ64AM84JIm44iNYUwPbrubXCe6xBMeiBUOuLWY33Qnjitxp9S8LhdzG4AYxb8kH4H30SQ8ovu6k.hZ3gOfd12sq_8bRoTaPE5bUuT3cZg3RDblmLBGeegF8&dib_tag=se&keywords=MacBook+Pro+M4+Max&qid=1774391079&sr=8-16#customerReviews
+                          - text: (187)
+                      - generic [ref=e1687]:
+                        - generic [ref=e1689]:
+                          - generic [ref=e1692]:
+                            - generic [ref=e1693]: Price, product page
+                            - link "£1,899.00" [ref=e1694] [cursor=pointer]:
+                              - /url: /Apple-MacBook-laptop-11%E2%80%91core-14%E2%80%91core/dp/B0CM615CW2/ref=sr_1_16?dib=eyJ2IjoiMSJ9.EXkLxpKHofoNFP6YKBzRSLtwQagMuNSp34cAi0pCXT64hym4h9bIu6JASnB_H9FJ5uhm1UWAqyReRftpv69SpMY-iCyjbyrVVEn_Yxf2FE9HJg2Oi3xMTm-eB1KwjYogsoWEbhwLTiqxmMJkn1ZBSX3BdQwMjx5LJ64AM84JIm44iNYUwPbrubXCe6xBMeiBUOuLWY33Qnjitxp9S8LhdzG4AYxb8kH4H30SQ8ovu6k.hZ3gOfd12sq_8bRoTaPE5bUuT3cZg3RDblmLBGeegF8&dib_tag=se&keywords=MacBook+Pro+M4+Max&qid=1774391079&sr=8-16
+                              - generic [ref=e1695]:
+                                - generic [ref=e1696]: £1,899.00
+                                - generic [ref=e1697]:
+                                  - text: £
+                                  - generic [ref=e1698]:
+                                    - text: 1,899
+                                    - generic [ref=e1699]: .
+                                  - text: "00"
+                          - generic [ref=e1700]:
+                            - generic [ref=e1702]:
+                              - generic [ref=e1706]: FREE delivery Sat 28 Mar
+                              - generic [ref=e1708]: Or fastest delivery Thu 26 Mar
+                            - generic "Only 8 left in stock." [ref=e1710]
+                          - button "Add to basket" [ref=e1724] [cursor=pointer]
+                          - group "colours available" [ref=e1726]:
+                            - list [ref=e1727]:
+                              - generic [ref=e1728]:
+                                - listitem:
+                                  - link "Silver":
+                                    - /url: /Apple-MacBook-laptop-11%E2%80%91core-14%E2%80%91core/dp/B0CM615CW2/ref=cs_sr_dp_1?dib=eyJ2IjoiMSJ9.EXkLxpKHofoNFP6YKBzRSLtwQagMuNSp34cAi0pCXT64hym4h9bIu6JASnB_H9FJ5uhm1UWAqyReRftpv69SpMY-iCyjbyrVVEn_Yxf2FE9HJg2Oi3xMTm-eB1KwjYogsoWEbhwLTiqxmMJkn1ZBSX3BdQwMjx5LJ64AM84JIm44iNYUwPbrubXCe6xBMeiBUOuLWY33Qnjitxp9S8LhdzG4AYxb8kH4H30SQ8ovu6k.hZ3gOfd12sq_8bRoTaPE5bUuT3cZg3RDblmLBGeegF8&dib_tag=se&keywords=MacBook+Pro+M4+Max&qid=1774391079&sr=8-16
+                              - generic [ref=e1731]:
+                                - listitem:
+                                  - link "Space Black":
+                                    - /url: /Apple-MacBook-laptop-11%E2%80%91core-14%E2%80%91core/dp/B0CM5VSBBG/ref=cs_sr_dp_2?dib=eyJ2IjoiMSJ9.EXkLxpKHofoNFP6YKBzRSLtwQagMuNSp34cAi0pCXT64hym4h9bIu6JASnB_H9FJ5uhm1UWAqyReRftpv69SpMY-iCyjbyrVVEn_Yxf2FE9HJg2Oi3xMTm-eB1KwjYogsoWEbhwLTiqxmMJkn1ZBSX3BdQwMjx5LJ64AM84JIm44iNYUwPbrubXCe6xBMeiBUOuLWY33Qnjitxp9S8LhdzG4AYxb8kH4H30SQ8ovu6k.hZ3gOfd12sq_8bRoTaPE5bUuT3cZg3RDblmLBGeegF8&dib_tag=se&keywords=MacBook+Pro+M4+Max&qid=1774391079&sr=8-16
+                        - generic [ref=e1737]:
+                          - generic [ref=e1739]:
+                            - text: Display Size
+                            - text: 14 inches
+                          - generic [ref=e1741]:
+                            - text: Hard disk description
+                            - text: SSD
+                          - generic [ref=e1743]:
+                            - text: CPU Model Speed
+                            - text: "-"
+                          - generic [ref=e1745]:
+                            - text: Memory Size
+                            - text: "8"
+          - navigation "pagination" [ref=e1748]:
+            - list [ref=e1750]:
+              - listitem [ref=e1751]:
+                - button "Previous" [disabled] [ref=e1753]:
+                  - img [ref=e1754]
+                  - text: Previous
+              - listitem [ref=e1756]:
+                - button "Page 1" [ref=e1758]: "1"
+              - listitem [ref=e1759]:
+                - button "Go to page 2" [ref=e1761] [cursor=pointer]: "2"
+              - listitem [ref=e1762]:
+                - button "Go to page 3" [ref=e1764] [cursor=pointer]: "3"
+              - button [disabled] [ref=e1765]:
+                - img [ref=e1766]: ...
+              - button "20" [disabled] [ref=e1768]
+              - listitem [ref=e1769]:
+                - button "Go to next page, page 2" [ref=e1771] [cursor=pointer]:
+                  - text: Next
+                  - img [ref=e1772]
+          - generic [ref=e1779]:
+            - heading "Do you need help?" [level=2] [ref=e1782]
+            - generic [ref=e1783]:
+              - link "Visit the help section" [ref=e1784] [cursor=pointer]:
+                - /url: /gp/help/customer/display.html?nodeId=492860
+              - text: or
+              - link "contact us" [ref=e1785] [cursor=pointer]:
+                - /url: /gp/help/customer/contact-us
+        - link "Go back to the filtering menu" [ref=e1786] [cursor=pointer]:
+          - /url: "#s-skipLinkTargetForFilterOptions"
+      - dialog "Filters" [ref=e1787]:
+        - generic [ref=e1788]:
+          - link "Skip to main search results" [ref=e1789] [cursor=pointer]:
+            - /url: "#s-skipLinkTargetForMainSearchResults"
+          - generic [ref=e1795]:
+            - group [ref=e1796]:
+              - heading "Popular Shopping Ideas" [level=2] [ref=e1797]
+              - list [ref=e1798]:
+                - listitem [ref=e1799]:
+                  - link "16-inch" [ref=e1801] [cursor=pointer]:
+                    - /url: /s?k=macbook+pro+m4+max+16+inch&ref=sr_nr_p_rag_integrated_qb_0
+                - listitem [ref=e1802]:
+                  - link "14-inch" [ref=e1804] [cursor=pointer]:
+                    - /url: /s?k=macbook+pro+m4+max+14+inch&ref=sr_nr_p_rag_integrated_qb_1
+                - listitem [ref=e1805]:
+                  - link "2024" [ref=e1807] [cursor=pointer]:
+                    - /url: /s?k=macbook+pro+m4+max+2024&ref=sr_nr_p_rag_integrated_qb_2
+                - listitem [ref=e1808]:
+                  - link "Silver" [ref=e1810] [cursor=pointer]:
+                    - /url: /s?k=macbook+pro+m4+max+silver&ref=sr_nr_p_rag_integrated_qb_3
+            - separator [ref=e1811]
+            - group "Eligible for free delivery" [ref=e1812]:
+              - heading "Eligible for free delivery" [level=2] [ref=e1813]
+              - list "Eligible for free delivery" [ref=e1814]:
+                - listitem "Popular Shopping Ideas" [ref=e1815]:
+                  - link "Apply the filter Free UK Delivery by Amazon to narrow results" [ref=e1817] [cursor=pointer]:
+                    - /url: /s?k=MacBook+Pro+M4+Max&rh=n%3A22619864031%2Cp_n_free_shipping_eligible%3A20930951031&dc&qid=1774391079&rnid=20930950031&ref=sr_nr_p_n_free_shipping_eligible_1&ds=v1%3AXTG6O6meLvjl4eZXy8K0hpbbeS8F5%2BEsh8y1yLnHTu4
+                    - checkbox [ref=e1820]
+                    - text: Free UK Delivery by Amazon
+                    - generic [ref=e1822]: Get FREE delivery on eligible orders dispatched by Amazon
+            - group "RAM Size" [ref=e1823]:
+              - heading "RAM Size" [level=2] [ref=e1824]
+              - list "RAM Size" [ref=e1825]:
+                - listitem "Popular Shopping Ideas" [ref=e1826]:
+                  - link "Apply the filter 32 GB to narrow results" [ref=e1828] [cursor=pointer]:
+                    - /url: /s?k=MacBook+Pro+M4+Max&rh=n%3A22619864031%2Cp_n_g-1003119721111%3A27399090031&dc&qid=1774391079&rnid=27399084031&ref=sr_nr_p_n_g-1003119721111_1&ds=v1%3A8SHiKt89qQtZqDOlSxttwE3ixePSFW1FnD5ZJu7cSZc
+                    - checkbox [ref=e1831]
+                    - text: 32 GB
+                - listitem "Popular Shopping Ideas" [ref=e1833]:
+                  - link "Apply the filter 16 GB to narrow results" [ref=e1835] [cursor=pointer]:
+                    - /url: /s?k=MacBook+Pro+M4+Max&rh=n%3A22619864031%2Cp_n_g-1003119721111%3A27399086031&dc&qid=1774391079&rnid=27399084031&ref=sr_nr_p_n_g-1003119721111_2&ds=v1%3A1PaCYheGztf8cMPWVjNxh52QjuQ2MkL8fa2G2TBGQ1g
+                    - checkbox [ref=e1838]
+                    - text: 16 GB
+            - group "Brands" [ref=e1840]:
+              - heading "Brands" [level=2] [ref=e1841]
+              - list "Brands" [ref=e1842]:
+                - listitem "Popular Shopping Ideas" [ref=e1843]:
+                  - link "Apply the filter Apple to narrow results" [ref=e1845] [cursor=pointer]:
+                    - /url: /s?k=MacBook+Pro+M4+Max&rh=n%3A22619864031%2Cp_123%3A110955&dc&qid=1774391079&rnid=91049098031&ref=sr_nr_p_123_1&ds=v1%3Aqx6OwPCcvHhbwDNfIewmrtR%2F4B7qM2wbWqwQcVzi19k
+                    - checkbox [ref=e1848]
+                    - text: Apple
+            - group "Screen Size" [ref=e1850]:
+              - heading "Screen Size" [level=2] [ref=e1851]
+              - list "Screen Size" [ref=e1852]:
+                - listitem "Popular Shopping Ideas" [ref=e1853]:
+                  - link "Apply the filter Up to 13.9 in to narrow results" [ref=e1855] [cursor=pointer]:
+                    - /url: /s?k=MacBook+Pro+M4+Max&rh=n%3A22619864031%2Cp_n_feature_two_browse-bin%3A212653881031&dc&qid=1774391079&rnid=212653876031&ref=sr_nr_p_n_feature_two_browse-bin_1&ds=v1%3AhT7T8M4kiNAE6iNf3bXqB73lPu5%2BjyahN3PRasAlP5U
+                    - checkbox [ref=e1858]
+                    - text: Up to 13.9 in
+                - listitem "Popular Shopping Ideas" [ref=e1860]:
+                  - link "Apply the filter 14 to 14.9 in to narrow results" [ref=e1862] [cursor=pointer]:
+                    - /url: /s?k=MacBook+Pro+M4+Max&rh=n%3A22619864031%2Cp_n_feature_two_browse-bin%3A212653877031&dc&qid=1774391079&rnid=212653876031&ref=sr_nr_p_n_feature_two_browse-bin_2&ds=v1%3APrXcZc7BB149txN55PVY4fB3yx82eqt0RHGb1q0dQh8
+                    - checkbox [ref=e1865]
+                    - text: 14 to 14.9 in
+                - listitem "Popular Shopping Ideas" [ref=e1867]:
+                  - link "Apply the filter 15 to 15.9 in to narrow results" [ref=e1869] [cursor=pointer]:
+                    - /url: /s?k=MacBook+Pro+M4+Max&rh=n%3A22619864031%2Cp_n_feature_two_browse-bin%3A212653883031&dc&qid=1774391079&rnid=212653876031&ref=sr_nr_p_n_feature_two_browse-bin_3&ds=v1%3AwUfHSuUoMZdqm40%2BT%2By9%2F2jRjJVQRk33O%2FGFTWPBmT0
+                    - checkbox [ref=e1872]
+                    - text: 15 to 15.9 in
+                - listitem "Popular Shopping Ideas" [ref=e1874]:
+                  - link "Apply the filter 16 in & above to narrow results" [ref=e1876] [cursor=pointer]:
+                    - /url: /s?k=MacBook+Pro+M4+Max&rh=n%3A22619864031%2Cp_n_feature_two_browse-bin%3A212653879031&dc&qid=1774391079&rnid=212653876031&ref=sr_nr_p_n_feature_two_browse-bin_4&ds=v1%3A5enJa6ewEzyQsKrWrAG74b%2BKzOgIHWA%2F8BoZZdsbGWc
+                    - checkbox [ref=e1879]
+                    - text: 16 in & above
+            - group "HDD Capacity" [ref=e1881]:
+              - heading "HDD Capacity" [level=2] [ref=e1882]
+              - list "HDD Capacity" [ref=e1883]:
+                - listitem "Popular Shopping Ideas" [ref=e1884]:
+                  - link "Apply the filter Up to 159 GB to narrow results" [ref=e1886] [cursor=pointer]:
+                    - /url: /s?k=MacBook+Pro+M4+Max&rh=n%3A22619864031%2Cp_n_pattern_browse-bin%3A213553031&dc&qid=1774391079&rnid=182755031&ref=sr_nr_p_n_pattern_browse-bin_1&ds=v1%3AE9zTxifW2%2BENeSzfHdqEAr9U5jPM7Mv8WXdGeAQayeA
+                    - checkbox [ref=e1889]
+                    - text: Up to 159 GB
+                - listitem "Popular Shopping Ideas" [ref=e1891]:
+                  - generic [ref=e1892]:
+                    - checkbox [disabled] [ref=e1895]
+                    - text: 160 to 249 GB
+                - listitem "Popular Shopping Ideas" [ref=e1897]:
+                  - generic [ref=e1898]:
+                    - checkbox [disabled] [ref=e1901]
+                    - text: 250 to 499 GB
+                - listitem "Popular Shopping Ideas" [ref=e1903]:
+                  - link "Apply the filter 500 to 999 GB to narrow results" [ref=e1905] [cursor=pointer]:
+                    - /url: /s?k=MacBook+Pro+M4+Max&rh=n%3A22619864031%2Cp_n_pattern_browse-bin%3A182765031&dc&qid=1774391079&rnid=182755031&ref=sr_nr_p_n_pattern_browse-bin_4&ds=v1%3AVVMeZhkiXLZYJTqOYu2bUH8xkTjF1vBpiKxk9f360UI
+                    - checkbox [ref=e1908]
+                    - text: 500 to 999 GB
+                - listitem "Popular Shopping Ideas" [ref=e1910]:
+                  - link "Apply the filter 1 TB & above to narrow results" [ref=e1912] [cursor=pointer]:
+                    - /url: /s?k=MacBook+Pro+M4+Max&rh=n%3A22619864031%2Cp_n_pattern_browse-bin%3A937175031&dc&qid=1774391079&rnid=182755031&ref=sr_nr_p_n_pattern_browse-bin_5&ds=v1%3A6VAGAMsGn%2Bolz6Hnh%2FmrgDMIBNI7km97b4C0CeVFHuQ
+                    - checkbox [ref=e1915]
+                    - text: 1 TB & above
+            - group "Condition" [ref=e1917]:
+              - heading "Condition" [level=2] [ref=e1918]
+              - list "Condition" [ref=e1919]:
+                - listitem "Popular Shopping Ideas" [ref=e1920]:
+                  - link "Apply the filter New to narrow results" [ref=e1922] [cursor=pointer]:
+                    - /url: /s?k=MacBook+Pro+M4+Max&rh=n%3A22619864031%2Cp_n_condition-type%3A12319067031&dc&qid=1774391079&rnid=12319066031&ref=sr_nr_p_n_condition-type_1&ds=v1%3ANaXoDVcCRxpFvyFx3L9QAwG28MWCS7r1zmH7UAJ6s%2Fc
+                    - checkbox [ref=e1925]
+                    - text: New
+                - listitem "Popular Shopping Ideas" [ref=e1927]:
+                  - link "Apply the filter Renewed to narrow results" [ref=e1929] [cursor=pointer]:
+                    - /url: /s?k=MacBook+Pro+M4+Max&rh=n%3A22619864031%2Cp_n_condition-type%3A13736824031&dc&qid=1774391079&rnid=12319066031&ref=sr_nr_p_n_condition-type_2&ds=v1%3ALT6kJ1%2F7v%2FoceSoOd2vzd9aPbPzWznQv6G7aatMljpA
+                    - checkbox [ref=e1932]
+                    - text: Renewed
+                - listitem "Popular Shopping Ideas" [ref=e1934]:
+                  - link "Apply the filter Used to narrow results" [ref=e1936] [cursor=pointer]:
+                    - /url: /s?k=MacBook+Pro+M4+Max&rh=n%3A22619864031%2Cp_n_condition-type%3A12319068031&dc&qid=1774391079&rnid=12319066031&ref=sr_nr_p_n_condition-type_3&ds=v1%3Ap4F9w0q9B5v3lZxHM0Qs1%2B6bnHRoNmTMHU2dpv4R3BE
+                    - checkbox [ref=e1939]
+                    - text: Used
+            - group "CPU Manufacturer" [ref=e1941]:
+              - heading "CPU Manufacturer" [level=2] [ref=e1942]
+              - list "CPU Manufacturer" [ref=e1943]:
+                - listitem "Popular Shopping Ideas" [ref=e1944]:
+                  - link "Apply the filter AMD to narrow results" [ref=e1946] [cursor=pointer]:
+                    - /url: /s?k=MacBook+Pro+M4+Max&rh=n%3A22619864031%2Cp_n_g-1003123814111%3A27387843031&dc&qid=1774391079&rnid=27387795031&ref=sr_nr_p_n_g-1003123814111_1&ds=v1%3AuAZdREW4e1jtomNT8grIW1yTitFGx49iK0dduyspeWI
+                    - checkbox [ref=e1949]
+                    - text: AMD
+                - listitem "Popular Shopping Ideas" [ref=e1951]:
+                  - link "Apply the filter Apple to narrow results" [ref=e1953] [cursor=pointer]:
+                    - /url: /s?k=MacBook+Pro+M4+Max&rh=n%3A22619864031%2Cp_n_g-1003123814111%3A27387844031&dc&qid=1774391079&rnid=27387795031&ref=sr_nr_p_n_g-1003123814111_2&ds=v1%3AVWXeOc43uconCFI1RRrSba08AU6qy7CAyHmW93PvMA0
+                    - checkbox [ref=e1956]
+                    - text: Apple
+                - listitem "Popular Shopping Ideas" [ref=e1958]:
+                  - link "Apply the filter Intel to narrow results" [ref=e1960] [cursor=pointer]:
+                    - /url: /s?k=MacBook+Pro+M4+Max&rh=n%3A22619864031%2Cp_n_g-1003123814111%3A27387850031&dc&qid=1774391079&rnid=27387795031&ref=sr_nr_p_n_g-1003123814111_3&ds=v1%3Ap1VBg%2BtNqeoOyLW%2B5d2%2BVGhP%2By9xmkuTwgELCQGnpTY
+                    - checkbox [ref=e1963]
+                    - text: Intel
+            - group [ref=e1965]:
+              - generic [ref=e1966]:
+                - generic [ref=e1967]: Price
+                - generic [ref=e1970]:
+                  - generic [ref=e1971]:
+                    - generic [ref=e1972]: £480
+                    - generic [ref=e1973]: –
+                    - generic [ref=e1974]: £3,300+
+                  - generic [ref=e1976]:
+                    - generic:
+                      - slider "Minimum price": "0"
+                    - generic [ref=e1977]:
+                      - slider "Maximum price": "91"
+              - list [ref=e1978]:
+                - listitem [ref=e1979]:
+                  - link "Up to £800" [ref=e1981] [cursor=pointer]:
+                    - /url: /s?k=MacBook+Pro+M4+Max&rh=p_36%3A-80000&dc&qid=1774391079&rnid=9708204031&ref=sr_nr_p_36_1&ds=v1%3Amuh8tizQP1U2niZ4Kjpbud8Om7NOS3RQOH5R0X%2Fc9sk
+                - listitem [ref=e1982]:
+                  - link "£800 to £1,000" [ref=e1984] [cursor=pointer]:
+                    - /url: /s?k=MacBook+Pro+M4+Max&rh=p_36%3A80000-100000&dc&qid=1774391079&rnid=9708204031&ref=sr_nr_p_36_2&ds=v1%3Acdml8tpHhcBBnAGvJMacoQQ4dW9zcFcLUwM4oF%2B2W7s
+                - listitem [ref=e1985]:
+                  - link "£1,000 to £2,500" [ref=e1987] [cursor=pointer]:
+                    - /url: /s?k=MacBook+Pro+M4+Max&rh=p_36%3A100000-250000&dc&qid=1774391079&rnid=9708204031&ref=sr_nr_p_36_3&ds=v1%3AveVYPHUqRdgodHFjqN7LNsgVUABXpL4YMHO%2B2C5jjBE
+                - listitem [ref=e1988]:
+                  - link "£2,500 & above" [ref=e1990] [cursor=pointer]:
+                    - /url: /s?k=MacBook+Pro+M4+Max&rh=p_36%3A250000-&dc&qid=1774391079&rnid=9708204031&ref=sr_nr_p_36_4&ds=v1%3AvwioPYPaYpGXVAEr4ibGa1WOg7Zi8NgKOm3oc8%2B9V0w
+              - heading "Deals & Discounts" [level=2] [ref=e1991]
+              - list "Deals & Discounts" [ref=e1992]:
+                - listitem [ref=e1993]:
+                  - link "All Discounts" [ref=e1995] [cursor=pointer]:
+                    - /url: /s?k=MacBook+Pro+M4+Max&rh=n%3A22619864031%2Cp_n_deal_type%3A26901100031&dc&qid=1774391079&rnid=26901097031&ref=sr_nr_p_n_deal_type_1&ds=v1%3Alzx6fQcml5dIHr7w28X0%2Fyd%2BmOVepynkk0jvdoPucnA
+                - listitem [ref=e1996]:
+                  - link "Today's Deals" [ref=e1998] [cursor=pointer]:
+                    - /url: /s?k=MacBook+Pro+M4+Max&rh=n%3A22619864031%2Cp_n_deal_type%3A26901098031&dc&qid=1774391079&rnid=26901097031&ref=sr_nr_p_n_deal_type_2&ds=v1%3AuHsddixQnlEMSbN3v%2F5FWhdNImhIEQkTb0tt3hm2RP8
+            - group "Customer Review" [ref=e1999]:
+              - heading "Customer Review" [level=2] [ref=e2000]
+              - list "Customer Review" [ref=e2001]:
+                - listitem [ref=e2002]:
+                  - link "Apply the filter 4 Stars & Up to narrow results" [ref=e2005] [cursor=pointer]:
+                    - /url: /s?k=MacBook+Pro+M4+Max&rh=n%3A22619864031%2Cp_72%3A419153031&dc&qid=1774391079&rnid=419152031&ref=sr_nr_p_72_1&ds=v1%3Ak%2Flvs%2F12CJ6zCT9u8mlm%2FNG0EKL2jR5mu44Hpn56eDI
+                    - generic [ref=e2007]: 4 Stars
+                    - text: "& Up"
+            - group "Operating System" [ref=e2008]:
+              - heading "Operating System" [level=2] [ref=e2009]
+              - list "Operating System" [ref=e2010]:
+                - listitem "Popular Shopping Ideas" [ref=e2011]:
+                  - link "Apply the filter Windows 11 Home to narrow results" [ref=e2013] [cursor=pointer]:
+                    - /url: /s?k=MacBook+Pro+M4+Max&rh=n%3A22619864031%2Cp_n_g-1004198069091%3A27413272031&dc&qid=1774391079&rnid=182766031&ref=sr_nr_p_n_g-1004198069091_1&ds=v1%3AOQy0UuHThQnaOB7ljM0OxDEJ%2BL9l96TRE2qS9jDnUxo
+                    - checkbox [ref=e2016]
+                    - text: Windows 11 Home
+                - listitem "Popular Shopping Ideas" [ref=e2018]:
+                  - link "Apply the filter Windows 11 Pro to narrow results" [ref=e2020] [cursor=pointer]:
+                    - /url: /s?k=MacBook+Pro+M4+Max&rh=n%3A22619864031%2Cp_n_g-1004198069091%3A27413271031&dc&qid=1774391079&rnid=182766031&ref=sr_nr_p_n_g-1004198069091_2&ds=v1%3Ag435WPeEvVybGhTPa%2F8Mj%2By0oboxyg9xjS7srt6mHNc
+                    - checkbox [ref=e2023]
+                    - text: Windows 11 Pro
+                - listitem "Popular Shopping Ideas" [ref=e2025]:
+                  - link "Apply the filter DOS to narrow results" [ref=e2027] [cursor=pointer]:
+                    - /url: /s?k=MacBook+Pro+M4+Max&rh=n%3A22619864031%2Cp_n_g-1004198069091%3A182779031&dc&qid=1774391079&rnid=182766031&ref=sr_nr_p_n_g-1004198069091_3&ds=v1%3A0iL1UEX5DMhVI3tMq48PbYyRnbv6XWo2QiycpvYjtLs
+                    - checkbox [ref=e2030]
+                    - text: DOS
+            - group "SSD Capacity" [ref=e2032]:
+              - heading "SSD Capacity" [level=2] [ref=e2033]
+              - list "SSD Capacity" [ref=e2034]:
+                - listitem "Popular Shopping Ideas" [ref=e2035]:
+                  - link "Apply the filter Up to 119 GB to narrow results" [ref=e2037] [cursor=pointer]:
+                    - /url: /s?k=MacBook+Pro+M4+Max&rh=n%3A22619864031%2Cp_n_feature_thirty-nine_browse-bin%3A8322537031&dc&qid=1774391079&rnid=8322536031&ref=sr_nr_p_n_feature_thirty-nine_browse-bin_1&ds=v1%3AJXjGw8qo4f5dwRRuWnklROf%2FkSzY1Ik2Z8lvp1Sdjr0
+                    - checkbox [ref=e2040]
+                    - text: Up to 119 GB
+                - listitem "Popular Shopping Ideas" [ref=e2042]:
+                  - link "Apply the filter 500 GB & above to narrow results" [ref=e2044] [cursor=pointer]:
+                    - /url: /s?k=MacBook+Pro+M4+Max&rh=n%3A22619864031%2Cp_n_feature_thirty-nine_browse-bin%3A8322540031&dc&qid=1774391079&rnid=8322536031&ref=sr_nr_p_n_feature_thirty-nine_browse-bin_2&ds=v1%3A4V4ZDLnzNLluYtqG6gPNjWpxSgOE0FmhmFhX3KFcdZY
+                    - checkbox [ref=e2047]
+                    - text: 500 GB & above
+            - group "Seller" [ref=e2049]:
+              - heading "Seller" [level=2] [ref=e2050]
+              - list "Seller" [ref=e2051]:
+                - listitem "Popular Shopping Ideas" [ref=e2052]:
+                  - link "Apply the filter Amazon.co.uk to narrow results" [ref=e2054] [cursor=pointer]:
+                    - /url: /s?k=MacBook+Pro+M4+Max&rh=n%3A22619864031%2Cp_6%3AA3P5ROKL5A1OLE&dc&qid=1774391079&rnid=419151031&ref=sr_nr_p_6_1&ds=v1%3A8uUmud7Gqw875tGOcpcEoIU%2BGIlDfPvud89ksgrpBlI
+                    - checkbox [ref=e2057]
+                    - text: Amazon.co.uk
+                - listitem "Popular Shopping Ideas" [ref=e2059]:
+                  - link "Apply the filter Express Gadgets to narrow results" [ref=e2061] [cursor=pointer]:
+                    - /url: /s?k=MacBook+Pro+M4+Max&rh=n%3A22619864031%2Cp_6%3AA1WB9VUHI09I8M&dc&qid=1774391079&rnid=419151031&ref=sr_nr_p_6_2&ds=v1%3AAE2yWo1o6zIvIh4stTpmn%2BwVk9akywGPVsb34FtO018
+                    - checkbox [ref=e2064]
+                    - text: Express Gadgets
+                - listitem [ref=e2066]:
+                  - button "See more, Seller" [ref=e2069] [cursor=pointer]: See more
+            - group "Hard Drive Type" [ref=e2071]:
+              - heading "Hard Drive Type" [level=2] [ref=e2072]
+              - list "Hard Drive Type" [ref=e2073]:
+                - listitem "Popular Shopping Ideas" [ref=e2074]:
+                  - link "Apply the filter SSD to narrow results" [ref=e2076] [cursor=pointer]:
+                    - /url: /s?k=MacBook+Pro+M4+Max&rh=n%3A22619864031%2Cp_n_g-101014849667111%3A88228992031&dc&qid=1774391079&rnid=88228884031&ref=sr_nr_p_n_g-101014849667111_1&ds=v1%3AJGwXIdpJg5nnBfwBrkL0cqOpdWqsw8jfMBIR7Eejg3U
+                    - checkbox [ref=e2079]
+                    - text: SSD
+            - group "Processor Speed" [ref=e2081]:
+              - heading "Processor Speed" [level=2] [ref=e2082]
+              - list "Processor Speed" [ref=e2083]:
+                - listitem "Popular Shopping Ideas" [ref=e2084]:
+                  - link "Apply the filter 1 to 1.59 GHz to narrow results" [ref=e2086] [cursor=pointer]:
+                    - /url: /s?k=MacBook+Pro+M4+Max&rh=n%3A22619864031%2Cp_n_g-1001660211111%3A49894984031&dc&qid=1774391079&rnid=49894979031&ref=sr_nr_p_n_g-1001660211111_1&ds=v1%3A%2FajDQbBQhA5v%2FBi0b%2F%2Bx6aiZ0qH3hefb5R8JAWk7iGU
+                    - checkbox [ref=e2089]
+                    - text: 1 to 1.59 GHz
+                - listitem "Popular Shopping Ideas" [ref=e2091]:
+                  - generic [ref=e2092]:
+                    - checkbox [disabled] [ref=e2095]
+                    - text: 1.60 to 1.79 GHz
+                - listitem "Popular Shopping Ideas" [ref=e2097]:
+                  - generic [ref=e2098]:
+                    - checkbox [disabled] [ref=e2101]
+                    - text: 1.80 to 1.99 GHz
+                - listitem "Popular Shopping Ideas" [ref=e2103]:
+                  - link "Apply the filter 2.00 to 2.49 GHz to narrow results" [ref=e2105] [cursor=pointer]:
+                    - /url: /s?k=MacBook+Pro+M4+Max&rh=n%3A22619864031%2Cp_n_g-1001660211111%3A49894982031&dc&qid=1774391079&rnid=49894979031&ref=sr_nr_p_n_g-1001660211111_4&ds=v1%3AqYNbyraBwtvHAcZugwW8qGL%2F9xriPg%2B3sZi0X2jdBck
+                    - checkbox [ref=e2108]
+                    - text: 2.00 to 2.49 GHz
+                - listitem "Popular Shopping Ideas" [ref=e2110]:
+                  - link "Apply the filter 2.50 to 2.99 GHz to narrow results" [ref=e2112] [cursor=pointer]:
+                    - /url: /s?k=MacBook+Pro+M4+Max&rh=n%3A22619864031%2Cp_n_g-1001660211111%3A49894987031&dc&qid=1774391079&rnid=49894979031&ref=sr_nr_p_n_g-1001660211111_5&ds=v1%3AiNQKtkF1fAXFxAhNFeglsDN4XOo5O3rnj7U0R3QyPno
+                    - checkbox [ref=e2115]
+                    - text: 2.50 to 2.99 GHz
+                - listitem "Popular Shopping Ideas" [ref=e2117]:
+                  - generic [ref=e2118]:
+                    - checkbox [disabled] [ref=e2121]
+                    - text: 3.00 to 3.49 GHz
+                - listitem "Popular Shopping Ideas" [ref=e2123]:
+                  - link "Apply the filter 3.50 to 3.99 GHz to narrow results" [ref=e2125] [cursor=pointer]:
+                    - /url: /s?k=MacBook+Pro+M4+Max&rh=n%3A22619864031%2Cp_n_g-1001660211111%3A49894981031&dc&qid=1774391079&rnid=49894979031&ref=sr_nr_p_n_g-1001660211111_7&ds=v1%3AoYj2njEotGS9WH919T1OJ9UD26bvPUYfVLAHsDle3oA
+                    - checkbox [ref=e2128]
+                    - text: 3.50 to 3.99 GHz
+                - listitem "Popular Shopping Ideas" [ref=e2130]:
+                  - link "Apply the filter 4.0 GHz & Above to narrow results" [ref=e2132] [cursor=pointer]:
+                    - /url: /s?k=MacBook+Pro+M4+Max&rh=n%3A22619864031%2Cp_n_g-1001660211111%3A49894985031&dc&qid=1774391079&rnid=49894979031&ref=sr_nr_p_n_g-1001660211111_8&ds=v1%3AmWJHHNZVWBReUB16c1izxE%2Bzbuh92UATGtTndwo8R3M
+                    - checkbox [ref=e2135]
+                    - text: 4.0 GHz & Above
+            - group "Graphics Memory" [ref=e2137]:
+              - heading "Graphics Memory" [level=2] [ref=e2138]
+              - list "Graphics Memory" [ref=e2139]:
+                - listitem "Popular Shopping Ideas" [ref=e2140]:
+                  - link "Apply the filter 8 GB & Above to narrow results" [ref=e2142] [cursor=pointer]:
+                    - /url: /s?k=MacBook+Pro+M4+Max&rh=n%3A22619864031%2Cp_n_g-1003119464111%3A27387799031&dc&qid=1774391079&rnid=27387793031&ref=sr_nr_p_n_g-1003119464111_1&ds=v1%3AEOhusgqnnBhCPhiEjFzc0TlSMNIh9zRfwMYIJS2g0Eg
+                    - checkbox [ref=e2145]
+                    - text: 8 GB & Above
+                - listitem "Popular Shopping Ideas" [ref=e2147]:
+                  - link "Apply the filter 6 to 7 GB to narrow results" [ref=e2149] [cursor=pointer]:
+                    - /url: /s?k=MacBook+Pro+M4+Max&rh=n%3A22619864031%2Cp_n_g-1003119464111%3A27387800031&dc&qid=1774391079&rnid=27387793031&ref=sr_nr_p_n_g-1003119464111_2&ds=v1%3Azv404BWfZ4sgdtaYCx7f6ZuTLGqgwIHLp%2F5oXy3xaBA
+                    - checkbox [ref=e2152]
+                    - text: 6 to 7 GB
+            - group "Processor Count" [ref=e2154]:
+              - heading "Processor Count" [level=2] [ref=e2155]
+              - list "Processor Count" [ref=e2156]:
+                - listitem "Popular Shopping Ideas" [ref=e2157]:
+                  - link "Apply the filter 24 to narrow results" [ref=e2159] [cursor=pointer]:
+                    - /url: /s?k=MacBook+Pro+M4+Max&rh=n%3A22619864031%2Cp_n_g-1003513532111%3A50870099031&dc&qid=1774391079&rnid=50870090031&ref=sr_nr_p_n_g-1003513532111_1&ds=v1%3A9CuJx3%2BqqpQr7dXEt3apaGTyfsvbORcMUg94iy7CkUU
+                    - checkbox [ref=e2162]
+                    - text: "24"
+                - listitem "Popular Shopping Ideas" [ref=e2164]:
+                  - link "Apply the filter 16 to narrow results" [ref=e2166] [cursor=pointer]:
+                    - /url: /s?k=MacBook+Pro+M4+Max&rh=n%3A22619864031%2Cp_n_g-1003513532111%3A50870105031&dc&qid=1774391079&rnid=50870090031&ref=sr_nr_p_n_g-1003513532111_2&ds=v1%3AuxfKLI5Wg%2B4DCiMAJBOIhvMHEaounZZ1fcWc%2BATYPp8
+                    - checkbox [ref=e2169]
+                    - text: "16"
+                - listitem "Popular Shopping Ideas" [ref=e2171]:
+                  - link "Apply the filter 12 to narrow results" [ref=e2173] [cursor=pointer]:
+                    - /url: /s?k=MacBook+Pro+M4+Max&rh=n%3A22619864031%2Cp_n_g-1003513532111%3A50870093031&dc&qid=1774391079&rnid=50870090031&ref=sr_nr_p_n_g-1003513532111_3&ds=v1%3A0eTHYTR0GKXMQRpeHVZaNkeVC0UywCmysmctkvUqpmU
+                    - checkbox [ref=e2176]
+                    - text: "12"
+                - listitem "Popular Shopping Ideas" [ref=e2178]:
+                  - link "Apply the filter 8 to narrow results" [ref=e2180] [cursor=pointer]:
+                    - /url: /s?k=MacBook+Pro+M4+Max&rh=n%3A22619864031%2Cp_n_g-1003513532111%3A50870096031&dc&qid=1774391079&rnid=50870090031&ref=sr_nr_p_n_g-1003513532111_4&ds=v1%3AAMes2ZZrjOXn%2FBUoQ3PT7dfnbpRneR7zRjhe4C6duWM
+                    - checkbox [ref=e2183]
+                    - text: "8"
+            - group "Input" [ref=e2185]:
+              - heading "Input" [level=2] [ref=e2186]
+              - list "Input" [ref=e2187]:
+                - listitem "Popular Shopping Ideas" [ref=e2188]:
+                  - link "Apply the filter Touch Pad to narrow results" [ref=e2190] [cursor=pointer]:
+                    - /url: /s?k=MacBook+Pro+M4+Max&rh=n%3A22619864031%2Cp_n_g-1002980457111%3A91610902031&dc&qid=1774391079&rnid=27023487031&ref=sr_nr_p_n_g-1002980457111_1&ds=v1%3AYfYQjrDPnXWeSXp%2Fl2LCo5F9oLLhKJ3IJra4jsRAifs
+                    - checkbox [ref=e2193]
+                    - text: Touch Pad
+                - listitem "Popular Shopping Ideas" [ref=e2195]:
+                  - link "Apply the filter Touchscreen to narrow results" [ref=e2197] [cursor=pointer]:
+                    - /url: /s?k=MacBook+Pro+M4+Max&rh=n%3A22619864031%2Cp_n_g-1002980457111%3A27023493031&dc&qid=1774391079&rnid=27023487031&ref=sr_nr_p_n_g-1002980457111_2&ds=v1%3AAp49nOM%2BRS9zj8oV24PzIY%2BsBJXJket%2FfQg%2FBajkogM
+                    - checkbox [ref=e2200]
+                    - text: Touchscreen
+            - group "Premium Brands" [ref=e2202]:
+              - heading "Premium Brands" [level=2] [ref=e2203]
+              - list "Premium Brands" [ref=e2204]:
+                - listitem "Popular Shopping Ideas" [ref=e2205]:
+                  - link "Apply the filter Premium Brands to narrow results" [ref=e2207] [cursor=pointer]:
+                    - /url: /s?k=MacBook+Pro+M4+Max&rh=n%3A22619864031%2Cp_n_g-101015887018111%3A207300318031&dc&qid=1774391079&rnid=207300317031&ref=sr_nr_p_n_g-101015887018111_1&ds=v1%3AvVnnnMjtIfdMpCmIQStAJhB1wVMSkjYtzCiOa6XqWmw
+                    - checkbox [ref=e2210]
+                    - text: Premium Brands
+            - group "Camera Description" [ref=e2212]:
+              - heading "Camera Description" [level=2] [ref=e2213]
+              - list "Camera Description" [ref=e2214]:
+                - listitem "Popular Shopping Ideas" [ref=e2215]:
+                  - link "Apply the filter Front to narrow results" [ref=e2217] [cursor=pointer]:
+                    - /url: /s?k=MacBook+Pro+M4+Max&rh=n%3A22619864031%2Cp_n_g-1002980520111%3A27045341031&dc&qid=1774391079&rnid=27045340031&ref=sr_nr_p_n_g-1002980520111_1&ds=v1%3AXyXfbDPuOPWPBWQxvZHLkBBGxT2%2FDlQl8JHLdaV4NIg
+                    - checkbox [ref=e2220]
+                    - text: Front
+            - group "Display Resolution" [ref=e2222]:
+              - heading "Display Resolution" [level=2] [ref=e2223]
+              - list "Display Resolution" [ref=e2224]:
+                - listitem "Popular Shopping Ideas" [ref=e2225]:
+                  - link "Apply the filter 1080p to narrow results" [ref=e2227] [cursor=pointer]:
+                    - /url: /s?k=MacBook+Pro+M4+Max&rh=n%3A22619864031%2Cp_n_g-1003409261111%3A29613074031&dc&qid=1774391079&rnid=29613026031&ref=sr_nr_p_n_g-1003409261111_1&ds=v1%3AUPAzIgw2vp2CyQ8eMR2KdkZ0aZ5w687SebSkfHo93Kg
+                    - checkbox [ref=e2230]
+                    - text: 1080p
+            - group "Cell Composition" [ref=e2232]:
+              - heading "Cell Composition" [level=2] [ref=e2233]
+              - list "Cell Composition" [ref=e2234]:
+                - listitem "Popular Shopping Ideas" [ref=e2235]:
+                  - link "Apply the filter Lithium Ion to narrow results" [ref=e2237] [cursor=pointer]:
+                    - /url: /s?k=MacBook+Pro+M4+Max&rh=n%3A22619864031%2Cp_n_g-101015499352111%3A100425984031&dc&qid=1774391079&rnid=100425943031&ref=sr_nr_p_n_g-101015499352111_1&ds=v1%3AoK8Etja7S7FEEBpzrbDe5AZMI3vjZnRG8CCZMxz26ek
+                    - checkbox [ref=e2240]
+                    - text: Lithium Ion
+                - listitem "Popular Shopping Ideas" [ref=e2242]:
+                  - link "Apply the filter Lithium Polymer to narrow results" [ref=e2244] [cursor=pointer]:
+                    - /url: /s?k=MacBook+Pro+M4+Max&rh=n%3A22619864031%2Cp_n_g-101015499352111%3A100425973031&dc&qid=1774391079&rnid=100425943031&ref=sr_nr_p_n_g-101015499352111_2&ds=v1%3AH4uvXAshy6hXqBK3wX65nGUrejJrhbDWlIm9NRRTP0c
+                    - checkbox [ref=e2247]
+                    - text: Lithium Polymer
+            - group "Battery Life" [ref=e2249]:
+              - heading "Battery Life" [level=2] [ref=e2250]
+              - list "Battery Life" [ref=e2251]:
+                - listitem "Popular Shopping Ideas" [ref=e2252]:
+                  - link "Apply the filter 9 h & above to narrow results" [ref=e2254] [cursor=pointer]:
+                    - /url: /s?k=MacBook+Pro+M4+Max&rh=n%3A22619864031%2Cp_n_feature_browse-bin%3A211747910031&dc&qid=1774391079&rnid=211747907031&ref=sr_nr_p_n_feature_browse-bin_1&ds=v1%3AodqXypvfFNk4RictUUb0iui%2BDqX3QmAxnjPTl9CLL6k
+                    - checkbox [ref=e2257]
+                    - text: 9 h & above
+            - group "Connectivity" [ref=e2259]:
+              - heading "Connectivity" [level=2] [ref=e2260]
+              - list "Connectivity" [ref=e2261]:
+                - listitem "Popular Shopping Ideas" [ref=e2262]:
+                  - link "Apply the filter USB to narrow results" [ref=e2264] [cursor=pointer]:
+                    - /url: /s?k=MacBook+Pro+M4+Max&rh=n%3A22619864031%2Cp_n_g-1003127918111%3A27391037031&dc&qid=1774391079&rnid=27391034031&ref=sr_nr_p_n_g-1003127918111_1&ds=v1%3Ad%2B20Uf7LKog09SJiY3ewgBwSWJ9dCU1WL8p5JpJ1KA0
+                    - checkbox [ref=e2267]
+                    - text: USB
+                - listitem "Popular Shopping Ideas" [ref=e2269]:
+                  - link "Apply the filter HDMI to narrow results" [ref=e2271] [cursor=pointer]:
+                    - /url: /s?k=MacBook+Pro+M4+Max&rh=n%3A22619864031%2Cp_n_g-1003127918111%3A27391036031&dc&qid=1774391079&rnid=27391034031&ref=sr_nr_p_n_g-1003127918111_2&ds=v1%3A1sjeTytC839GEBsvlkXM8lFymxHTOOcOhZ5iYjT57qE
+                    - checkbox [ref=e2274]
+                    - text: HDMI
+                - listitem "Popular Shopping Ideas" [ref=e2276]:
+                  - link "Apply the filter Wi-Fi to narrow results" [ref=e2278] [cursor=pointer]:
+                    - /url: /s?k=MacBook+Pro+M4+Max&rh=n%3A22619864031%2Cp_n_g-1003127918111%3A60046730031&dc&qid=1774391079&rnid=27391034031&ref=sr_nr_p_n_g-1003127918111_3&ds=v1%3AELUwdRwjRqoeb44UtHgDYOHsM8XB3EoZN%2FFm6c2CVw8
+                    - checkbox [ref=e2281]
+                    - text: Wi-Fi
+                - listitem "Popular Shopping Ideas" [ref=e2283]:
+                  - link "Apply the filter Bluetooth to narrow results" [ref=e2285] [cursor=pointer]:
+                    - /url: /s?k=MacBook+Pro+M4+Max&rh=n%3A22619864031%2Cp_n_g-1003127918111%3A56370615031&dc&qid=1774391079&rnid=27391034031&ref=sr_nr_p_n_g-1003127918111_4&ds=v1%3Ak63qopltjTF0pvAIrPtZJ1zu0mVA1%2BQhMtCkY1LRz1A
+                    - checkbox [ref=e2288]
+                    - text: Bluetooth
+                - listitem "Popular Shopping Ideas" [ref=e2290]:
+                  - link "Apply the filter Ethernet to narrow results" [ref=e2292] [cursor=pointer]:
+                    - /url: /s?k=MacBook+Pro+M4+Max&rh=n%3A22619864031%2Cp_n_g-1003127918111%3A27391035031&dc&qid=1774391079&rnid=27391034031&ref=sr_nr_p_n_g-1003127918111_5&ds=v1%3A4%2BNU5Zsn%2FfJtnHsmn1RmVShzFORmBpLrz6P7o2HXTHs
+                    - checkbox [ref=e2295]
+                    - text: Ethernet
+            - group "RAM Type" [ref=e2297]:
+              - heading "RAM Type" [level=2] [ref=e2298]
+              - list "RAM Type" [ref=e2299]:
+                - listitem "Popular Shopping Ideas" [ref=e2300]:
+                  - link "Apply the filter DDR4 SDRAM to narrow results" [ref=e2302] [cursor=pointer]:
+                    - /url: /s?k=MacBook+Pro+M4+Max&rh=n%3A22619864031%2Cp_n_g-101015495447111%3A100424392031&dc&qid=1774391079&rnid=100424380031&ref=sr_nr_p_n_g-101015495447111_1&ds=v1%3At2ycV9gTA7DC5hMHsOjQte8HUaT%2BFN9FnQope651C44
+                    - checkbox [ref=e2305]
+                    - text: DDR4 SDRAM
+                - listitem "Popular Shopping Ideas" [ref=e2307]:
+                  - link "Apply the filter DDR5 RAM to narrow results" [ref=e2309] [cursor=pointer]:
+                    - /url: /s?k=MacBook+Pro+M4+Max&rh=n%3A22619864031%2Cp_n_g-101015495447111%3A100424393031&dc&qid=1774391079&rnid=100424380031&ref=sr_nr_p_n_g-101015495447111_2&ds=v1%3AgBR%2B%2B%2FpHFm%2FWBBoQuE3aFKV1bRbpSB4cfG04N7pL1Qw
+                    - checkbox [ref=e2312]
+                    - text: DDR5 RAM
+            - group "RAM Technology" [ref=e2314]:
+              - heading "RAM Technology" [level=2] [ref=e2315]
+              - list "RAM Technology" [ref=e2316]:
+                - listitem "Popular Shopping Ideas" [ref=e2317]:
+                  - link "Apply the filter DDR5 to narrow results" [ref=e2319] [cursor=pointer]:
+                    - /url: /s?k=MacBook+Pro+M4+Max&rh=n%3A22619864031%2Cp_n_g-1003099804111%3A27355967031&dc&qid=1774391079&rnid=27355946031&ref=sr_nr_p_n_g-1003099804111_1&ds=v1%3AOKT7RsXojWeS4%2BNTqgmMpfQeUWneib9Gf0rLZHZMXf0
+                    - checkbox [ref=e2322]
+                    - text: DDR5
+                - listitem "Popular Shopping Ideas" [ref=e2324]:
+                  - link "Apply the filter LPDDR3 to narrow results" [ref=e2326] [cursor=pointer]:
+                    - /url: /s?k=MacBook+Pro+M4+Max&rh=n%3A22619864031%2Cp_n_g-1003099804111%3A27355965031&dc&qid=1774391079&rnid=27355946031&ref=sr_nr_p_n_g-1003099804111_2&ds=v1%3AVrMN69KDHbnqt3P1WsyyRucby1ACQ9T%2B3Y6pPA4fJGQ
+                    - checkbox [ref=e2329]
+                    - text: LPDDR3
+                - listitem "Popular Shopping Ideas" [ref=e2331]:
+                  - link "Apply the filter LPDDR4 to narrow results" [ref=e2333] [cursor=pointer]:
+                    - /url: /s?k=MacBook+Pro+M4+Max&rh=n%3A22619864031%2Cp_n_g-1003099804111%3A27355964031&dc&qid=1774391079&rnid=27355946031&ref=sr_nr_p_n_g-1003099804111_3&ds=v1%3Ap6pcAKYPhTNqcrX7hS44CEGqiCknrMqW1QvKNllmE50
+                    - checkbox [ref=e2336]
+                    - text: LPDDR4
+                - listitem "Popular Shopping Ideas" [ref=e2338]:
+                  - link "Apply the filter LPDDR4X to narrow results" [ref=e2340] [cursor=pointer]:
+                    - /url: /s?k=MacBook+Pro+M4+Max&rh=n%3A22619864031%2Cp_n_g-1003099804111%3A27355962031&dc&qid=1774391079&rnid=27355946031&ref=sr_nr_p_n_g-1003099804111_4&ds=v1%3Ah7tH7URjC2%2Bj5hD%2FxqWIz0Vq8%2B27nYWhsHzets36YtI
+                    - checkbox [ref=e2343]
+                    - text: LPDDR4X
+                - listitem "Popular Shopping Ideas" [ref=e2345]:
+                  - link "Apply the filter LPDDR5 to narrow results" [ref=e2347] [cursor=pointer]:
+                    - /url: /s?k=MacBook+Pro+M4+Max&rh=n%3A22619864031%2Cp_n_g-1003099804111%3A28220673031&dc&qid=1774391079&rnid=27355946031&ref=sr_nr_p_n_g-1003099804111_5&ds=v1%3Aa%2FLw7bkTbe%2FcjtTRO4sagaxn%2B8Cy2lyWAESE%2FxK1ZuE
+                    - checkbox [ref=e2350]
+                    - text: LPDDR5
+            - group "Layout" [ref=e2352]:
+              - heading "Layout" [level=2] [ref=e2353]
+              - list "Layout" [ref=e2354]:
+                - listitem "Popular Shopping Ideas" [ref=e2355]:
+                  - link "Apply the filter QWERTY to narrow results" [ref=e2357] [cursor=pointer]:
+                    - /url: /s?k=MacBook+Pro+M4+Max&rh=n%3A22619864031%2Cp_n_g-1002980480111%3A27088231031&dc&qid=1774391079&rnid=27088218031&ref=sr_nr_p_n_g-1002980480111_1&ds=v1%3AWLV8s1ehcGnX%2FqX2wcdp21Z0OTEBEVH2AsqTbyFJTMI
+                    - checkbox [ref=e2360]
+                    - text: QWERTY
+            - group "Hardware Interface" [ref=e2362]:
+              - heading "Hardware Interface" [level=2] [ref=e2363]
+              - list "Hardware Interface" [ref=e2364]:
+                - listitem "Popular Shopping Ideas" [ref=e2365]:
+                  - link "Apply the filter USB to narrow results" [ref=e2367] [cursor=pointer]:
+                    - /url: /s?k=MacBook+Pro+M4+Max&rh=n%3A22619864031%2Cp_n_g-1003119736111%3A27402516031&dc&qid=1774391079&rnid=27402515031&ref=sr_nr_p_n_g-1003119736111_1&ds=v1%3Afn1JMWDzQIdlsSPof485xHBI7wppxn%2BanY4Jmbs23kw
+                    - checkbox [ref=e2370]
+                    - text: USB
+                - listitem "Popular Shopping Ideas" [ref=e2372]:
+                  - link "Apply the filter Bluetooth to narrow results" [ref=e2374] [cursor=pointer]:
+                    - /url: /s?k=MacBook+Pro+M4+Max&rh=n%3A22619864031%2Cp_n_g-1003119736111%3A30107246031&dc&qid=1774391079&rnid=27402515031&ref=sr_nr_p_n_g-1003119736111_2&ds=v1%3AVTnMh8eUGok2k%2FMvXCzO8NEz8upMDHGxYRD7x7ebQBg
+                    - checkbox [ref=e2377]
+                    - text: Bluetooth
+                - listitem "Popular Shopping Ideas" [ref=e2379]:
+                  - link "Apply the filter Ethernet to narrow results" [ref=e2381] [cursor=pointer]:
+                    - /url: /s?k=MacBook+Pro+M4+Max&rh=n%3A22619864031%2Cp_n_g-1003119736111%3A27402519031&dc&qid=1774391079&rnid=27402515031&ref=sr_nr_p_n_g-1003119736111_3&ds=v1%3A6uJAC9FJ7xVbb7EaJLzi04yDTobCiMRlvExg5es38vM
+                    - checkbox [ref=e2384]
+                    - text: Ethernet
+                - listitem "Popular Shopping Ideas" [ref=e2386]:
+                  - link "Apply the filter Headphone to narrow results" [ref=e2388] [cursor=pointer]:
+                    - /url: /s?k=MacBook+Pro+M4+Max&rh=n%3A22619864031%2Cp_n_g-1003119736111%3A30107165031&dc&qid=1774391079&rnid=27402515031&ref=sr_nr_p_n_g-1003119736111_4&ds=v1%3Azl5O6HARo9bWbS3UoOLSbOCucA1msuAovGHOAR9onm8
+                    - checkbox [ref=e2391]
+                    - text: Headphone
+                - listitem "Popular Shopping Ideas" [ref=e2393]:
+                  - link "Apply the filter HDMI to narrow results" [ref=e2395] [cursor=pointer]:
+                    - /url: /s?k=MacBook+Pro+M4+Max&rh=n%3A22619864031%2Cp_n_g-1003119736111%3A27402521031&dc&qid=1774391079&rnid=27402515031&ref=sr_nr_p_n_g-1003119736111_5&ds=v1%3AHSkDxvYJRBmyWZiEwFNBfrKBGwA76zrk6I%2B84JGQg9k
+                    - checkbox [ref=e2398]
+                    - text: HDMI
+                - listitem "Popular Shopping Ideas" [ref=e2400]:
+                  - link "Apply the filter Thunderbolt to narrow results" [ref=e2402] [cursor=pointer]:
+                    - /url: /s?k=MacBook+Pro+M4+Max&rh=n%3A22619864031%2Cp_n_g-1003119736111%3A27402520031&dc&qid=1774391079&rnid=27402515031&ref=sr_nr_p_n_g-1003119736111_6&ds=v1%3Auu6dD6mfkFJ5M49o8FZK8sF6JhEDmfGrSTielACyYNk
+                    - checkbox [ref=e2405]
+                    - text: Thunderbolt
+                - listitem "Popular Shopping Ideas" [ref=e2407]:
+                  - link "Apply the filter Thunderbolt 4 to narrow results" [ref=e2409] [cursor=pointer]:
+                    - /url: /s?k=MacBook+Pro+M4+Max&rh=n%3A22619864031%2Cp_n_g-1003119736111%3A30107189031&dc&qid=1774391079&rnid=27402515031&ref=sr_nr_p_n_g-1003119736111_7&ds=v1%3Atz%2FrOVtAaRX5yAKkl4LKIcW0XOfoLbsVHMAT96XZ8Ac
+                    - checkbox [ref=e2412]
+                    - text: Thunderbolt 4
+                - listitem [ref=e2414]:
+                  - button "See more, Hardware Interface" [ref=e2417] [cursor=pointer]: See more
+            - group "Audio Output Type" [ref=e2419]:
+              - heading "Audio Output Type" [level=2] [ref=e2420]
+              - list "Audio Output Type" [ref=e2421]:
+                - listitem "Popular Shopping Ideas" [ref=e2422]:
+                  - link "Apply the filter Speakers to narrow results" [ref=e2424] [cursor=pointer]:
+                    - /url: /s?k=MacBook+Pro+M4+Max&rh=n%3A22619864031%2Cp_n_g-101015499305111%3A100425991031&dc&qid=1774391079&rnid=100425945031&ref=sr_nr_p_n_g-101015499305111_1&ds=v1%3A0jdsixOLxvfGeZCuxzgOVFv%2BxLI%2Fpy2Jkpft35InnXE
+                    - checkbox [ref=e2427]
+                    - text: Speakers
+            - group "Hard Disk Interface" [ref=e2429]:
+              - heading "Hard Disk Interface" [level=2] [ref=e2430]
+              - list "Hard Disk Interface" [ref=e2431]:
+                - listitem "Popular Shopping Ideas" [ref=e2432]:
+                  - link "Apply the filter Solid State to narrow results" [ref=e2434] [cursor=pointer]:
+                    - /url: /s?k=MacBook+Pro+M4+Max&rh=n%3A22619864031%2Cp_n_g-101015495806111%3A100438050031&dc&qid=1774391079&rnid=100437983031&ref=sr_nr_p_n_g-101015495806111_1&ds=v1%3A1nniseWK0Sg2rljI0Rno31jBmoMJwgfza%2BHXWu2cmcU
+                    - checkbox [ref=e2437]
+                    - text: Solid State
+                - listitem "Popular Shopping Ideas" [ref=e2439]:
+                  - link "Apply the filter PCIE x 4 to narrow results" [ref=e2441] [cursor=pointer]:
+                    - /url: /s?k=MacBook+Pro+M4+Max&rh=n%3A22619864031%2Cp_n_g-101015495806111%3A100438040031&dc&qid=1774391079&rnid=100437983031&ref=sr_nr_p_n_g-101015495806111_2&ds=v1%3A23eTVpdOW0fSv%2FhO0JUepEFMQQBsNgc0iz1Lc2QugbI
+                    - checkbox [ref=e2444]
+                    - text: PCIE x 4
+            - group "Special Features" [ref=e2446]:
+              - heading "Special Features" [level=2] [ref=e2447]
+              - list "Special Features" [ref=e2448]:
+                - listitem "Popular Shopping Ideas" [ref=e2449]:
+                  - link "Apply the filter Backlit Keyboard to narrow results" [ref=e2451] [cursor=pointer]:
+                    - /url: /s?k=MacBook+Pro+M4+Max&rh=n%3A22619864031%2Cp_n_g-101013586527111%3A65990419031&dc&qid=1774391079&rnid=65990412031&ref=sr_nr_p_n_g-101013586527111_1&ds=v1%3AMl2yG6HqLbX8ZPGais2jvpzjsXDeZvN71lr9byRVwjY
+                    - checkbox [ref=e2454]
+                    - text: Backlit Keyboard
+                - listitem "Popular Shopping Ideas" [ref=e2456]:
+                  - link "Apply the filter Numeric Keypad to narrow results" [ref=e2458] [cursor=pointer]:
+                    - /url: /s?k=MacBook+Pro+M4+Max&rh=n%3A22619864031%2Cp_n_g-101013586527111%3A65990420031&dc&qid=1774391079&rnid=65990412031&ref=sr_nr_p_n_g-101013586527111_2&ds=v1%3AHSwTn%2Byu%2Br0%2BvpWsfOAaZ7q%2FJnyF5VzTD9ktnBrcB10
+                    - checkbox [ref=e2461]
+                    - text: Numeric Keypad
+            - group "GPU Manufacturer" [ref=e2463]:
+              - heading "GPU Manufacturer" [level=2] [ref=e2464]
+              - list "GPU Manufacturer" [ref=e2465]:
+                - listitem "Popular Shopping Ideas" [ref=e2466]:
+                  - link "Apply the filter AMD to narrow results" [ref=e2468] [cursor=pointer]:
+                    - /url: /s?k=MacBook+Pro+M4+Max&rh=n%3A22619864031%2Cp_n_g-101015495581111%3A100438089031&dc&qid=1774391079&rnid=100437986031&ref=sr_nr_p_n_g-101015495581111_1&ds=v1%3A3%2FcYdWfnIe7uLZFAJhc0nHJwHVHJgCUM%2FMi6qFdvUV8
+                    - checkbox [ref=e2471]
+                    - text: AMD
+                - listitem "Popular Shopping Ideas" [ref=e2473]:
+                  - link "Apply the filter Apple to narrow results" [ref=e2475] [cursor=pointer]:
+                    - /url: /s?k=MacBook+Pro+M4+Max&rh=n%3A22619864031%2Cp_n_g-101015495581111%3A100438091031&dc&qid=1774391079&rnid=100437986031&ref=sr_nr_p_n_g-101015495581111_2&ds=v1%3AKb%2B6P%2FOFMCc%2B4XMV7CUjYOU9fw%2BClHK85LEVtX8LqRc
+                    - checkbox [ref=e2478]
+                    - text: Apple
+                - listitem "Popular Shopping Ideas" [ref=e2480]:
+                  - link "Apply the filter Intel to narrow results" [ref=e2482] [cursor=pointer]:
+                    - /url: /s?k=MacBook+Pro+M4+Max&rh=n%3A22619864031%2Cp_n_g-101015495581111%3A100438094031&dc&qid=1774391079&rnid=100437986031&ref=sr_nr_p_n_g-101015495581111_3&ds=v1%3AP9fMvmqaXY2bFBYZWx9xpazQMxejb5SwYWNEn2XnEXA
+                    - checkbox [ref=e2485]
+                    - text: Intel
+                - listitem "Popular Shopping Ideas" [ref=e2487]:
+                  - link "Apply the filter NVIDIA to narrow results" [ref=e2489] [cursor=pointer]:
+                    - /url: /s?k=MacBook+Pro+M4+Max&rh=n%3A22619864031%2Cp_n_g-101015495581111%3A100438087031&dc&qid=1774391079&rnid=100437986031&ref=sr_nr_p_n_g-101015495581111_4&ds=v1%3ANAzB1OWnYHLgcD5SeqVpHekthsvE%2FIGQ67U8cVgTwig
+                    - checkbox [ref=e2492]
+                    - text: NVIDIA
+            - group "Display Type" [ref=e2494]:
+              - heading "Display Type" [level=2] [ref=e2495]
+              - list "Display Type" [ref=e2496]:
+                - listitem "Popular Shopping Ideas" [ref=e2497]:
+                  - link "Apply the filter LCD to narrow results" [ref=e2499] [cursor=pointer]:
+                    - /url: /s?k=MacBook+Pro+M4+Max&rh=n%3A22619864031%2Cp_n_g-1003210526111%3A27969087031&dc&qid=1774391079&rnid=27969084031&ref=sr_nr_p_n_g-1003210526111_1&ds=v1%3A%2Bmbs7sxgPcBefmR9hWOe7QkvLOGKRsFqLP6HmkF%2Ftxc
+                    - checkbox [ref=e2502]
+                    - text: LCD
+                - listitem "Popular Shopping Ideas" [ref=e2504]:
+                  - link "Apply the filter LED to narrow results" [ref=e2506] [cursor=pointer]:
+                    - /url: /s?k=MacBook+Pro+M4+Max&rh=n%3A22619864031%2Cp_n_g-1003210526111%3A27969089031&dc&qid=1774391079&rnid=27969084031&ref=sr_nr_p_n_g-1003210526111_2&ds=v1%3AZvcv7BotrZpDZI%2BguH9oxrOTmvuR0Rl6PlbsE5X%2FwDE
+                    - checkbox [ref=e2509]
+                    - text: LED
+                - listitem "Popular Shopping Ideas" [ref=e2511]:
+                  - link "Apply the filter OLED to narrow results" [ref=e2513] [cursor=pointer]:
+                    - /url: /s?k=MacBook+Pro+M4+Max&rh=n%3A22619864031%2Cp_n_g-1003210526111%3A27969088031&dc&qid=1774391079&rnid=27969084031&ref=sr_nr_p_n_g-1003210526111_3&ds=v1%3ASg%2FcHcf7hxBN4ZGOt%2FHEWruTn8Vo12QUPiloIXJzJ9c
+                    - checkbox [ref=e2516]
+                    - text: OLED
+            - group "Weight" [ref=e2518]:
+              - heading "Weight" [level=2] [ref=e2519]
+              - list "Weight" [ref=e2520]:
+                - listitem "Popular Shopping Ideas" [ref=e2521]:
+                  - link "Apply the filter 1 to 1.4 kg to narrow results" [ref=e2523] [cursor=pointer]:
+                    - /url: /s?k=MacBook+Pro+M4+Max&rh=n%3A22619864031%2Cp_n_g-1004196842091%3A7472682031&dc&qid=1774391079&rnid=7472681031&ref=sr_nr_p_n_g-1004196842091_1&ds=v1%3AwVZ7zE6KKYhIN3wS52FV0PzdwE1N%2FVb067SCkAFr3YQ
+                    - checkbox [ref=e2526]
+                    - text: 1 to 1.4 kg
+                - listitem "Popular Shopping Ideas" [ref=e2528]:
+                  - link "Apply the filter 1.5 to 1.9 kg to narrow results" [ref=e2530] [cursor=pointer]:
+                    - /url: /s?k=MacBook+Pro+M4+Max&rh=n%3A22619864031%2Cp_n_g-1004196842091%3A7472683031&dc&qid=1774391079&rnid=7472681031&ref=sr_nr_p_n_g-1004196842091_2&ds=v1%3AWoWAqHI3522bZljBIyRNbUaPwTFHGfgALoPkpkQJVRU
+                    - checkbox [ref=e2533]
+                    - text: 1.5 to 1.9 kg
+                - listitem "Popular Shopping Ideas" [ref=e2535]:
+                  - link "Apply the filter 2.5 kg & above to narrow results" [ref=e2537] [cursor=pointer]:
+                    - /url: /s?k=MacBook+Pro+M4+Max&rh=n%3A22619864031%2Cp_n_g-1004196842091%3A7472685031&dc&qid=1774391079&rnid=7472681031&ref=sr_nr_p_n_g-1004196842091_3&ds=v1%3AXQob3Y62efCyExXERK2Ej0iPB9bJWenkPH499P%2FZ96U
+                    - checkbox [ref=e2540]
+                    - text: 2.5 kg & above
+            - group "Display Refresh Rate in Hertz" [ref=e2542]:
+              - heading "Display Refresh Rate in Hertz" [level=2] [ref=e2543]
+              - list "Display Refresh Rate in Hertz" [ref=e2544]:
+                - listitem "Popular Shopping Ideas" [ref=e2545]:
+                  - link "Apply the filter 90 to narrow results" [ref=e2547] [cursor=pointer]:
+                    - /url: /s?k=MacBook+Pro+M4+Max&rh=n%3A22619864031%2Cp_n_g-101017397117111%3A214853361031&dc&qid=1774391079&rnid=214853358031&ref=sr_nr_p_n_g-101017397117111_1&ds=v1%3Ad%2BiJ601mKcrXViUhaximhv7xsUvuS2ewcwCKrnbgjfE
+                    - checkbox [ref=e2550]
+                    - text: "90"
+                - listitem "Popular Shopping Ideas" [ref=e2552]:
+                  - link "Apply the filter 120 to narrow results" [ref=e2554] [cursor=pointer]:
+                    - /url: /s?k=MacBook+Pro+M4+Max&rh=n%3A22619864031%2Cp_n_g-101017397117111%3A214853364031&dc&qid=1774391079&rnid=214853358031&ref=sr_nr_p_n_g-101017397117111_2&ds=v1%3AqmOyiJ5gQH%2BwYjEYmO%2B3Mz7o9VsisnSTAZNJW7R%2BIr4
+                    - checkbox [ref=e2557]
+                    - text: "120"
+            - group "Memory Slots" [ref=e2559]:
+              - heading "Memory Slots" [level=2] [ref=e2560]
+              - list "Memory Slots" [ref=e2561]:
+                - listitem "Popular Shopping Ideas" [ref=e2562]:
+                  - link "Apply the filter 1 to narrow results" [ref=e2564] [cursor=pointer]:
+                    - /url: /s?k=MacBook+Pro+M4+Max&rh=n%3A22619864031%2Cp_n_g-101015496484111%3A100438082031&dc&qid=1774391079&rnid=100437985031&ref=sr_nr_p_n_g-101015496484111_1&ds=v1%3ADi%2FDrTD7E3kVFPPtqSIgYIbJDhEEioIf%2BlrXNhExyUs
+                    - checkbox [ref=e2567]
+                    - text: "1"
+                - listitem "Popular Shopping Ideas" [ref=e2569]:
+                  - link "Apply the filter 2 to narrow results" [ref=e2571] [cursor=pointer]:
+                    - /url: /s?k=MacBook+Pro+M4+Max&rh=n%3A22619864031%2Cp_n_g-101015496484111%3A100438072031&dc&qid=1774391079&rnid=100437985031&ref=sr_nr_p_n_g-101015496484111_2&ds=v1%3AegsY6lQfnVtiyTT215MTQD%2F5i1XxCVHugbYybG%2BQlbA
+                    - checkbox [ref=e2574]
+                    - text: "2"
+            - group "Display Maximum Resolution" [ref=e2576]:
+              - heading "Display Maximum Resolution" [level=2] [ref=e2577]
+              - list "Display Maximum Resolution" [ref=e2578]:
+                - listitem "Popular Shopping Ideas" [ref=e2579]:
+                  - link "Apply the filter 1920 x 1080 to narrow results" [ref=e2581] [cursor=pointer]:
+                    - /url: /s?k=MacBook+Pro+M4+Max&rh=n%3A22619864031%2Cp_n_g-101017122450111%3A213418343031&dc&qid=1774391079&rnid=213418336031&ref=sr_nr_p_n_g-101017122450111_1&ds=v1%3AWso7tOp2pQqjmhw8oUs2UlYp%2BEArnn4QDrY5D9bc2%2FM
+                    - checkbox [ref=e2584]
+                    - text: 1920 x 1080
+                - listitem "Popular Shopping Ideas" [ref=e2586]:
+                  - link "Apply the filter 2560 x 1600 to narrow results" [ref=e2588] [cursor=pointer]:
+                    - /url: /s?k=MacBook+Pro+M4+Max&rh=n%3A22619864031%2Cp_n_g-101017122450111%3A213418338031&dc&qid=1774391079&rnid=213418336031&ref=sr_nr_p_n_g-101017122450111_2&ds=v1%3A9Sju4xjWtvkm0iT7146uECc44wngEPVyyv3fPCTFuqY
+                    - checkbox [ref=e2591]
+                    - text: 2560 x 1600
+            - group "Max Resolution" [ref=e2593]:
+              - heading "Max Resolution" [level=2] [ref=e2594]
+              - list "Max Resolution" [ref=e2595]:
+                - listitem "Popular Shopping Ideas" [ref=e2596]:
+                  - link "Apply the filter 2880x1800 to narrow results" [ref=e2598] [cursor=pointer]:
+                    - /url: /s?k=MacBook+Pro+M4+Max&rh=n%3A22619864031%2Cp_n_g-101015423266111%3A100140133031&dc&qid=1774391079&rnid=100140103031&ref=sr_nr_p_n_g-101015423266111_1&ds=v1%3AXqpKReGVpiWVcn3ztfNUDy%2F49zInRng5f7VHT6azaVY
+                    - checkbox [ref=e2601]
+                    - text: 2880x1800
+            - group "Keyboard Type" [ref=e2603]:
+              - heading "Keyboard Type" [level=2] [ref=e2604]
+              - list "Keyboard Type" [ref=e2605]:
+                - listitem "Popular Shopping Ideas" [ref=e2606]:
+                  - link "Apply the filter Backlit to narrow results" [ref=e2608] [cursor=pointer]:
+                    - /url: /s?k=MacBook+Pro+M4+Max&rh=n%3A22619864031%2Cp_n_g-101015496308111%3A100438067031&dc&qid=1774391079&rnid=100437984031&ref=sr_nr_p_n_g-101015496308111_1&ds=v1%3AKGrwMSaHr2Q5rEzynmerOaxcHvXS8mu17Uqpd0HkZew
+                    - checkbox [ref=e2611]
+                    - text: Backlit
+                - listitem "Popular Shopping Ideas" [ref=e2613]:
+                  - link "Apply the filter Chiclet to narrow results" [ref=e2615] [cursor=pointer]:
+                    - /url: /s?k=MacBook+Pro+M4+Max&rh=n%3A22619864031%2Cp_n_g-101015496308111%3A100438069031&dc&qid=1774391079&rnid=100437984031&ref=sr_nr_p_n_g-101015496308111_2&ds=v1%3AaptkILDJl%2BC3rIv20jofUbxedVchircHU8dir8qNmpo
+                    - checkbox [ref=e2618]
+                    - text: Chiclet
+                - listitem "Popular Shopping Ideas" [ref=e2620]:
+                  - link "Apply the filter Ergonomic to narrow results" [ref=e2622] [cursor=pointer]:
+                    - /url: /s?k=MacBook+Pro+M4+Max&rh=n%3A22619864031%2Cp_n_g-101015496308111%3A100438068031&dc&qid=1774391079&rnid=100437984031&ref=sr_nr_p_n_g-101015496308111_3&ds=v1%3AO66WjG%2BCBt0Z%2FfNnq%2BX0O57b1RFouH2HZfRJnWk5FAQ
+                    - checkbox [ref=e2625]
+                    - text: Ergonomic
+                - listitem "Popular Shopping Ideas" [ref=e2627]:
+                  - link "Apply the filter Gaming to narrow results" [ref=e2629] [cursor=pointer]:
+                    - /url: /s?k=MacBook+Pro+M4+Max&rh=n%3A22619864031%2Cp_n_g-101015496308111%3A100438066031&dc&qid=1774391079&rnid=100437984031&ref=sr_nr_p_n_g-101015496308111_4&ds=v1%3AL73NiUssNmh7bCqOfqD7NwqOZQDwknV8igfGipElg6c
+                    - checkbox [ref=e2632]
+                    - text: Gaming
+            - group "Sustainability Features" [ref=e2634]:
+              - heading "Sustainability Features" [level=2] [ref=e2635]
+              - list "Sustainability Features" [ref=e2636]:
+                - listitem [ref=e2637]:
+                  - link "Any Feature" [ref=e2639] [cursor=pointer]:
+                    - /url: /s?k=MacBook+Pro+M4+Max&rh=n%3A22619864031%2Cp_n_cpf_labels%3A94784168031&dc&qid=1774391079&rnid=94088700031&ref=sr_nr_p_n_cpf_labels_1&ds=v1%3Aw8JMUPSCVHtHySpsl4pQ8bTCfNWfUFLs7%2Fhz8CBAa0g
+                - listitem [ref=e2640]:
+                  - link "Energy Efficiency" [ref=e2642] [cursor=pointer]:
+                    - /url: /s?k=MacBook+Pro+M4+Max&rh=n%3A22619864031%2Cp_n_cpf_labels%3A94088704031&dc&qid=1774391079&rnid=94088700031&ref=sr_nr_p_n_cpf_labels_2&ds=v1%3AxhVJVhJ5o6%2F3M9pKOvBxH%2FoiyZLj6j2uTAbBnPBcLqM
+                - listitem [ref=e2643]:
+                  - button "See more, Sustainability Features" [ref=e2646] [cursor=pointer]: See more
+  - complementary "Your recently viewed items and featured recommendations"
+  - generic [ref=e2648]:
+    - button "Back to top" [ref=e2649] [cursor=pointer]:
+      - generic [ref=e2650]: Back to top
+    - generic [ref=e2651]:
+      - generic [ref=e2652]:
+        - heading "Get to Know Us" [level=6] [ref=e2653]
+        - list [ref=e2654]:
+          - listitem [ref=e2655]:
+            - link "Careers" [ref=e2656] [cursor=pointer]:
+              - /url: https://www.amazon.jobs/en-gb
+          - listitem [ref=e2657]:
+            - link "About Us" [ref=e2658] [cursor=pointer]:
+              - /url: https://www.aboutamazon.co.uk/?utm_source=gateway&utm_medium=footer
+          - listitem [ref=e2659]:
+            - link "UK Modern Slavery Statement" [ref=e2660] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=202151760&ref_=help_search_1
+          - listitem [ref=e2661]:
+            - link "Sustainability" [ref=e2662] [cursor=pointer]:
+              - /url: https://sustainability.aboutamazon.co.uk/?utm_source=gateway&utm_medium=footer&ref_=susty_footer
+          - listitem [ref=e2663]:
+            - link "Amazon Science" [ref=e2664] [cursor=pointer]:
+              - /url: https://www.amazon.science
+      - generic [ref=e2666]:
+        - heading "Make Money with Us" [level=6] [ref=e2667]
+        - list [ref=e2668]:
+          - listitem [ref=e2669]:
+            - link "Sell on Amazon" [ref=e2670] [cursor=pointer]:
+              - /url: " https://services.amazon.co.uk/sell.html?ld=AZUKSOAFooter&ref_=sduk_soa"
+          - listitem [ref=e2671]:
+            - link "Sell on Amazon Business" [ref=e2672] [cursor=pointer]:
+              - /url: https://services.amazon.co.uk/services/reach-business-customers/features-and-benefits.htm?ld=AZUKB2BRetailFooter
+          - listitem [ref=e2673]:
+            - link "Sell on Amazon Handmade" [ref=e2674] [cursor=pointer]:
+              - /url: https://services.amazon.co.uk/handmade.htm?ld=AZUKHNDFOOTER
+          - listitem [ref=e2675]:
+            - link "Sell on Amazon Launchpad" [ref=e2676] [cursor=pointer]:
+              - /url: https://services.amazon.co.uk/services/launchpad.html?ld=AZUKALPLGN22_Footer
+          - listitem [ref=e2677]:
+            - link "Supply to Amazon" [ref=e2678] [cursor=pointer]:
+              - /url: https://supply.amazon.co.uk?ref_=footer_sta&lang=en-GB
+          - listitem [ref=e2679]:
+            - link "Brand Registry and New Seller Incentives" [ref=e2680] [cursor=pointer]:
+              - /url: https://sell.amazon.co.uk/brand-registry/?ref_=AOUKABRLGNRFOOT&ld=AZUKBrandRegFooter
+          - listitem [ref=e2681]:
+            - link "Sell Globally with Amazon" [ref=e2682] [cursor=pointer]:
+              - /url: https://sell.amazon.co.uk/global-selling?ld=AZUKSOA_globalsellingfooter
+          - listitem [ref=e2683]:
+            - link "Associates Programme" [ref=e2684] [cursor=pointer]:
+              - /url: https://affiliate-program.amazon.co.uk
+          - listitem [ref=e2685]:
+            - link "Fulfilment by Amazon" [ref=e2686] [cursor=pointer]:
+              - /url: https://services.amazon.co.uk/services/fulfilment-by-amazon/features-benefits/?ld=AZUKFBAFooter
+          - listitem [ref=e2687]:
+            - link "Seller Fulfilled Prime" [ref=e2688] [cursor=pointer]:
+              - /url: https://services.amazon.co.uk/services/seller-fulfilled-prime/features-benefits.html?ld=AZUKSFPFooter
+          - listitem [ref=e2689]:
+            - link "Advertise Your Products" [ref=e2690] [cursor=pointer]:
+              - /url: https://advertising.amazon.co.uk/products-self-serve?_ref=ext_amzn_ftr
+          - listitem [ref=e2691]:
+            - link "Independently Publish with Us" [ref=e2692] [cursor=pointer]:
+              - /url: https://kdp.amazon.com/?language=en_US
+          - listitem [ref=e2693]:
+            - link "Amazon Pay" [ref=e2694] [cursor=pointer]:
+              - /url: https://pay.amazon.com/uk?ld=AWREUKAPAFooter
+          - listitem [ref=e2695]:
+            - link "Host an Amazon Hub" [ref=e2696] [cursor=pointer]:
+              - /url: https://www.amazon.co.uk/b?ie=UTF8&node=16721554031
+          - listitem [ref=e2697]:
+            - text: ›
+            - link "See More Make Money with Us" [ref=e2698] [cursor=pointer]:
+              - /url: https://services.amazon.co.uk/services.html?ld=AZUKALLFooter
+      - generic [ref=e2700]:
+        - heading "Amazon Payment Methods" [level=6] [ref=e2701]
+        - list [ref=e2702]:
+          - listitem [ref=e2703]:
+            - link "Barclays Instalments" [ref=e2704] [cursor=pointer]:
+              - /url: /dp/B094DFWTMC?pr=ukGIL&plattr=footer&place=camp&ie=UTF-8&ref_=NAV_instalments_footer
+          - listitem [ref=e2705]:
+            - link "The Amazon Barclaycard" [ref=e2706] [cursor=pointer]:
+              - /url: /dp/B0BH98211K?pr=ukccbarc&plattr=BXXCN100&place=camp&ie=UTF-8&ref_=BXXCN100
+          - listitem [ref=e2707]:
+            - link "Gift Cards" [ref=e2708] [cursor=pointer]:
+              - /url: /gp/browse.html?node=1571304031&ref_=footer_giftcards
+          - listitem [ref=e2709]:
+            - link "Amazon Currency Converter" [ref=e2710] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=201895380&ref_=footer_tfx
+          - listitem [ref=e2711]:
+            - link "Payment Methods Help" [ref=e2712] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=201894900&ref_=footer_payment
+          - listitem [ref=e2713]:
+            - link "Shop with Points" [ref=e2714] [cursor=pointer]:
+              - /url: /gp/browse.html?node=21868612031&ref_=footer_AmExSWP
+          - listitem [ref=e2715]:
+            - link "Top Up Your Account" [ref=e2716] [cursor=pointer]:
+              - /url: /gp/browse.html?node=13958953031&ref_=footer_topup_uk
+          - listitem [ref=e2717]:
+            - link "Top Up Your Account in Store" [ref=e2718] [cursor=pointer]:
+              - /url: /gp/browse.html?node=13829821031&ref_=footer_purchase_code
+      - generic [ref=e2720]:
+        - heading "Let Us Help You" [level=6] [ref=e2721]
+        - list [ref=e2722]:
+          - listitem [ref=e2723]:
+            - link "COVID-19 and Amazon" [ref=e2724] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=GDFU3JS5AL6SYHRD&ref_=footer_covid
+          - listitem [ref=e2725]:
+            - link "Track Packages or View Orders" [ref=e2726] [cursor=pointer]:
+              - /url: /gp/css/order-history?ref_=footer_hp_ss_comp_tmp
+          - listitem [ref=e2727]:
+            - link "Delivery Rates & Policies" [ref=e2728] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=201910060&ref_=footer_shiprates
+          - listitem [ref=e2729]:
+            - link "Amazon Prime" [ref=e2730] [cursor=pointer]:
+              - /url: /gp/subs/primeclub/signup/main.html?ref_=footer_prime
+          - listitem [ref=e2731]:
+            - link "Returns & Replacements" [ref=e2732] [cursor=pointer]:
+              - /url: /gp/css/returns/homepage.html?ref_=footer_hy_f_4
+          - listitem [ref=e2733]:
+            - link "Recycling" [ref=e2734] [cursor=pointer]:
+              - /url: /gp/browse.html?node=22246474031&ref_=footer_disposal
+          - listitem [ref=e2735]:
+            - link "Manage Your Content and Devices" [ref=e2736] [cursor=pointer]:
+              - /url: /hz/mycd/myx?ref_=footer_myk
+          - listitem [ref=e2737]:
+            - link "Recalls and Product Safety Alerts" [ref=e2738] [cursor=pointer]:
+              - /url: https://www.amazon.co.uk/your-product-safety-alerts?ref_=footer_bsx_ypsa
+          - listitem [ref=e2739]:
+            - link "Amazon Mobile App" [ref=e2740] [cursor=pointer]:
+              - /url: /gp/browse.html?node=4816518031&ref_=footer_mobapp
+          - listitem [ref=e2741]:
+            - link "Customer Service" [ref=e2742] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=508510&ref_=footer_gw_m_b_cs
+          - listitem [ref=e2743]:
+            - link "Accessibility" [ref=e2744] [cursor=pointer]:
+              - /url: https://www.amazon.co.uk/gp/help/customer/display.html?nodeId=GUUVBZ8WGVFP8R8X&ref_=nav_foot_accessibility
+          - listitem [ref=e2745]:
+            - link "Lists and Gifting" [ref=e2746] [cursor=pointer]:
+              - /url: /registries?ref_=nav_footer_registry_giftlist_desktop
+          - listitem [ref=e2747]:
+            - link "Report illegal content" [ref=e2748] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=TLtMJsPGBmJPpN3hvy&ref_=footer_report_illegal_content
+    - generic [ref=e2750]:
+      - link "Amazon UK Home" [ref=e2753] [cursor=pointer]:
+        - /url: /ref=footer_logo
+      - generic [ref=e2756]:
+        - link "£ GBP - Pounds" [ref=e2757] [cursor=pointer]:
+          - /url: /customer-preferences/edit?ie=UTF8&ref_=footer_cop&preferencesReturnUrl=%2Fs%2Fref%3Dnb_sb_noss
+          - generic [ref=e2758]: £
+          - generic [ref=e2759]: GBP - Pounds
+        - button "Choose a country/region for shopping. The current selection is United Kingdom." [ref=e2760] [cursor=pointer]:
+          - generic [ref=e2762]: United Kingdom
+    - generic "More on Amazon" [ref=e2763]:
+      - generic "More on Amazon" [ref=e2764]:
+        - list [ref=e2765]:
+          - listitem [ref=e2766]:
+            - link "Amazon Music Stream millions of songs" [ref=e2767] [cursor=pointer]:
+              - /url: https://music.amazon.co.uk?ref=dm_aff_amz_couk
+              - heading "Amazon Music" [level=5] [ref=e2768]
+              - generic [ref=e2769]:
+                - text: Stream millions
+                - text: of songs
+          - listitem [ref=e2770]
+          - listitem [ref=e2771]:
+            - link "AbeBooks Books, art & collectables" [ref=e2772] [cursor=pointer]:
+              - /url: https://www.abebooks.co.uk/
+              - heading "AbeBooks" [level=5] [ref=e2773]
+              - generic [ref=e2774]:
+                - text: Books, art
+                - text: "& collectables"
+          - listitem [ref=e2775]
+          - listitem [ref=e2776]:
+            - link "ACX Audiobook Publishing Made Easy" [ref=e2777] [cursor=pointer]:
+              - /url: https://www.acx.com/
+              - heading "ACX" [level=5] [ref=e2778]
+              - generic [ref=e2779]:
+                - text: Audiobook Publishing
+                - text: Made Easy
+          - listitem [ref=e2780]
+          - listitem [ref=e2781]:
+            - link "Veeqo Shipping Software Inventory Management" [ref=e2782] [cursor=pointer]:
+              - /url: https://www.veeqo.com/gb?utm_source=amazon&utm_medium=website&utm_campaign=footer
+              - heading "Veeqo" [level=5] [ref=e2783]
+              - generic [ref=e2784]:
+                - text: Shipping Software
+                - text: Inventory Management
+        - list [ref=e2785]:
+          - listitem [ref=e2786]:
+            - link "Amazon Web Services Scalable Cloud Computing Services" [ref=e2787] [cursor=pointer]:
+              - /url: https://aws.amazon.com/what-is-cloud-computing/?sc_channel=EL&sc_campaign=UK_amazonfooter
+              - heading "Amazon Web Services" [level=5] [ref=e2788]
+              - generic [ref=e2789]:
+                - text: Scalable Cloud
+                - text: Computing Services
+          - listitem [ref=e2790]
+          - listitem [ref=e2791]:
+            - link "Audible Download Audiobooks" [ref=e2792] [cursor=pointer]:
+              - /url: https://www.audible.co.uk/
+              - heading "Audible" [level=5] [ref=e2793]
+              - generic [ref=e2794]: Download Audiobooks
+          - listitem [ref=e2795]
+          - listitem [ref=e2796]:
+            - link "Goodreads Book reviews & recommendations" [ref=e2797] [cursor=pointer]:
+              - /url: https://www.goodreads.com/
+              - heading "Goodreads" [level=5] [ref=e2798]
+              - generic [ref=e2799]:
+                - text: Book reviews
+                - text: "& recommendations"
+          - listitem [ref=e2800]
+          - listitem [ref=e2801]:
+            - link "Amazon Home Services Experienced pros Happiness Guarantee" [ref=e2802] [cursor=pointer]:
+              - /url: /services?ref_=footer_services
+              - heading "Amazon Home Services" [level=5] [ref=e2803]
+              - generic [ref=e2804]:
+                - text: Experienced pros
+                - text: Happiness Guarantee
+        - list [ref=e2805]:
+          - listitem [ref=e2806]:
+            - link "IMDb Movies, TV & Celebrities" [ref=e2807] [cursor=pointer]:
+              - /url: https://www.imdb.com/
+              - heading "IMDb" [level=5] [ref=e2808]
+              - generic [ref=e2809]:
+                - text: Movies, TV
+                - text: "& Celebrities"
+          - listitem [ref=e2810]
+          - listitem [ref=e2811]:
+            - link "Kindle Direct Publishing Indie Digital & Print Publishing Made Easy" [ref=e2812] [cursor=pointer]:
+              - /url: https://kdp.amazon.com/
+              - heading "Kindle Direct Publishing" [level=5] [ref=e2813]
+              - generic [ref=e2814]:
+                - text: Indie Digital & Print Publishing
+                - text: Made Easy
+          - listitem [ref=e2815]
+          - listitem [ref=e2816]:
+            - link "Shopbop Designer Fashion Brands" [ref=e2817] [cursor=pointer]:
+              - /url: https://www.shopbop.com/uk/welcome
+              - heading "Shopbop" [level=5] [ref=e2818]
+              - generic [ref=e2819]:
+                - text: Designer
+                - text: Fashion Brands
+          - listitem [ref=e2820]
+          - listitem [ref=e2821]:
+            - link "Amazon Resale Great Deals on Quality Used Products" [ref=e2822] [cursor=pointer]:
+              - /url: /gp/browse.html?node=3581866031&ref_=footer_wrhsdls
+              - heading "Amazon Resale" [level=5] [ref=e2823]
+              - generic [ref=e2824]:
+                - text: Great Deals on
+                - text: Quality Used Products
+        - list [ref=e2825]:
+          - listitem [ref=e2826]
+          - listitem [ref=e2827]
+          - listitem [ref=e2828]:
+            - link "Amazon Business Service for business customers" [ref=e2829] [cursor=pointer]:
+              - /url: /gp/browse.html?node=14332913031&ref_=nav_footer_business
+              - heading "Amazon Business" [level=5] [ref=e2830]
+              - generic [ref=e2831]:
+                - text: Service for
+                - text: business customers
+          - listitem [ref=e2832]
+          - listitem [ref=e2833]
+          - listitem [ref=e2834]
+          - listitem [ref=e2835]
+    - generic [ref=e2836]:
+      - list [ref=e2837]:
+        - listitem [ref=e2838]:
+          - link "Conditions of Use & Sale" [ref=e2839] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=201909000&ref_=footer_cou
+        - listitem [ref=e2840]:
+          - link "Privacy Notice" [ref=e2841] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=201909010&ref_=footer_privacy
+        - listitem [ref=e2842]:
+          - link "Cookies Notice" [ref=e2843] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=201890250&ref_=footer_cookies_notice
+        - listitem [ref=e2844]:
+          - link "Interest-Based Ads Notice" [ref=e2845] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=201909150&ref_=footer_Interest_Based_Ads_Notice
+      - generic [ref=e2846]: © 1996-2026, Amazon.com, Inc. or its affiliates
+```
