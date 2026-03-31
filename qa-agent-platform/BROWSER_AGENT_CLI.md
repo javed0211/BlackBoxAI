@@ -18,14 +18,27 @@ The Browser Agent operates within a **LangGraph** state machine. At its core, it
 ## 🛠️ Step-by-Step CLI Execution (Developer Workflow)
 
 ### 1. Environment Setup & Initialization
-Ensure you have the development environment correctly linked and the system dependencies (Playwright) installed.
+Ensure you have the development environment correctly isolated and dependencies installed. **Note: Execute all setup commands from the project root directory.**
 
 ```bash
-# Clone and install in editable mode
+# 1. Create a Python 3.9+ virtual environment
+python3 -m venv .venv
+
+# 2. Activate the environment
+# On macOS/Linux:
+source .venv/bin/activate
+# On Windows:
+# .\.venv\Scripts\activate
+
+# 3. Install the platform in editable mode
+pip install --upgrade pip
 pip install -e .
-# Install Playwright browser binaries
+
+# 4. Install Playwright browser binaries
 playwright install chromium
 ```
+
+**Developer Insight**: Using a virtual environment and running in editable mode (`-e`) is critical for agent development. This ensures that any changes you make to the tools, system prompts, or core logic are immediately reflected in the `qa-agent` CLI without needing a full re-install.
 
 ### 2. High-Precision Direct Mission Execution
 Use the `browser test` command for targeted UI interaction. This bypasses the global orchestrator and focuses entirely on the browser's reasoning loop.

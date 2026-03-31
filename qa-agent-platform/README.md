@@ -22,7 +22,13 @@ The Browser Agent is the core of our web automation engine. It understands seman
 ## 🛠️ Quick Start
 
 ### Installation
+Execute from the project root:
 ```bash
+# 1. Setup virtual environment
+python3 -m venv .venv
+source .venv/bin/activate
+
+# 2. Install dependencies
 pip install -e .
 playwright install
 ```
